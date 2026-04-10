@@ -2,6 +2,7 @@ import Toybox.Lang;
 import Toybox.System;
 import Toybox.Time;
 import Toybox.WatchUi;
+import Toybox.Activity;
 
 class MountainWatchfaceView extends WatchUi.WatchFace {
     function initialize() {
@@ -42,11 +43,12 @@ class MountainWatchfaceView extends WatchUi.WatchFace {
         }
 
         var currentDate = Time.Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
-        var monthText = normalizeMonthCase(Lang.format("$1$", [currentDate.month]));
-        var dayText = Lang.format("$1$", [currentDate.day]);
+        var monthText = normalizeMonthCase(currentDate.month.toString());
+        var dayText = currentDate.day.toString();
         var dateText = monthText + " " + dayText;
-        var heartRateText = "00";
-        var notificationCountText = "00";
+        var activityInfo = Activity.getActivityInfo();
+        var heartRateText = activityInfo.currentHeartRate != null ? activityInfo.currentHeartRate.toString() : "--";
+        var notificationCountText = System.getDeviceSettings().notificationCount.toString();
 
         hourLabel.setText(hourText);
         minuteLabel.setText(minuteText);
