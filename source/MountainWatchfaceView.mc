@@ -43,7 +43,7 @@ class MountainWatchfaceView extends WatchUi.WatchFace {
         var currentDate = Time.Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
         var monthText = Lang.format("$1$", [currentDate.month]);
         var dayText = Lang.format("$1$", [currentDate.day]);
-        var dateText = monthText + "/" + dayText;
+        var dateText = monthText + " " + dayText;
 
         hourLabel.setText(hourText);
         minuteLabel.setText(minuteText);
