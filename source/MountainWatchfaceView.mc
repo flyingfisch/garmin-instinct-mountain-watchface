@@ -42,7 +42,7 @@ class MountainWatchfaceView extends WatchUi.WatchFace {
         }
 
         var currentDate = Time.Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
-        var monthText = Lang.format("$1$", [currentDate.month]);
+        var monthText = normalizeMonthCase(Lang.format("$1$", [currentDate.month]));
         var dayText = Lang.format("$1$", [currentDate.day]);
         var dateText = monthText + " " + dayText;
         var heartRateText = "00";
@@ -55,5 +55,17 @@ class MountainWatchfaceView extends WatchUi.WatchFace {
         notificationCountLabel.setText(notificationCountText);
 
         View.onUpdate(dc);
+    }
+
+    function normalizeMonthCase(monthText) {
+        if ((monthText == null) || (monthText.length() == 0)) {
+            return "";
+        }
+
+        if (monthText.length() == 1) {
+            return monthText;
+        }
+
+        return monthText.substring(0, 1).toUpper() + monthText.substring(1, monthText.length()).toLower();
     }
 }
