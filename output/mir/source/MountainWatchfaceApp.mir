@@ -1,0 +1,39 @@
+[ @file = "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceApp.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Application,1,14,25]; ]
+import Toybox.Application;
+[ @file = "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceApp.mc"; @line = 3; @symbol_classdef = [MountainWatchfaceApp,3,6,26]; @symbol_extends<0> = [Application,3,35,46]; @symbol_extends<1> = [AppBase,3,47,54]; ]
+class MountainWatchfaceApp extends Application.AppBase {
+    [ @file = "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceApp.mc"; @line = 3; ]
+    <init> {
+    }
+    [ @file = "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceApp.mc"; @line = 3; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceApp.mc"; @line = 5; @symbol_functiondef = [initialize,5,13,23]; ]
+    function initialize() as Void {
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceApp_mc_5_26_7_4_start:
+[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceApp.mc" 6 8 ]
+        symbol [ AppBase %tmp.2 6 8 15 ];
+        %tmp.2 = getv ? :AppBase;
+        symbol [ initialize %tmp.3 6 16 26 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceApp_mc_5_26_7_4_stop:
+    }
+    [ @file = "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceApp.mc"; @line = 9; @symbol_functiondef = [getInitialView,9,13,27]; ]
+    function getInitialView() {
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceApp_mc_9_30_11_4_start:
+[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceApp.mc" 10 8 ]
+        %tmp.1 = newa 1;
+        symbol [ MountainWatchfaceView %tmp.5 10 21 42 ];
+        %tmp.5 = getv ? :MountainWatchfaceView;
+        %tmp.2 = newc %tmp.5 ();
+        %tmp.6 = dup %tmp.1;
+        %tmp.7 = aputv %tmp.6 0 %tmp.2;
+        ret %tmp.7;
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceApp_mc_9_30_11_4_stop:
+    }
+}
+[ @file = "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceApp.mc"; @line = 1; ]
+<init> {
+}

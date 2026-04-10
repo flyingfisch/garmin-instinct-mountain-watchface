@@ -4,7 +4,6 @@ import Toybox.Time;
 import Toybox.WatchUi;
 
 class MountainWatchfaceView extends WatchUi.WatchFace {
-
     function initialize() {
         WatchFace.initialize();
     }
@@ -21,6 +20,8 @@ class MountainWatchfaceView extends WatchUi.WatchFace {
         var hourLabel = View.findDrawableById("HourLabel") as WatchUi.Text;
         var minuteLabel = View.findDrawableById("MinuteLabel") as WatchUi.Text;
         var dateLabel = View.findDrawableById("DateLabel") as WatchUi.Text;
+        var heartRateLabel = View.findDrawableById("HeartRateLabel") as WatchUi.Text;
+        var notificationCountLabel = View.findDrawableById("NotificationCountLabel") as WatchUi.Text;
 
         if (!(deviceSettings.is24Hour)) {
             displayHour = displayHour % 12;
@@ -44,10 +45,14 @@ class MountainWatchfaceView extends WatchUi.WatchFace {
         var monthText = Lang.format("$1$", [currentDate.month]);
         var dayText = Lang.format("$1$", [currentDate.day]);
         var dateText = monthText + " " + dayText;
+        var heartRateText = "00";
+        var notificationCountText = "00";
 
         hourLabel.setText(hourText);
         minuteLabel.setText(minuteText);
         dateLabel.setText(dateText);
+        heartRateLabel.setText(heartRateText);
+        notificationCountLabel.setText(notificationCountText);
 
         View.onUpdate(dc);
     }

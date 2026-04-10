@@ -1,7 +1,15 @@
 <layout id="WatchFace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
-    <bitmap id="BackgroundImage" x="center" y="center" filename="../../images/mountain-watchface-stars-background.png" />
+    <bitmap id="BackgroundImage" x="center" y="center" filename="../../images/mountain-background-with-stars.png" />
+
+    <bitmap id="NotificationsIcon" x="122" y="15" filename="../../images/icons/notifications.png" />
+    <label id="NotificationCountLabel" x="140" y="9" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_WHITE" text="" />
+
+    <bitmap id="HeartIcon" x="122" y="35" filename="../../images/icons/heart.png" />
+    <label id="HeartRateLabel" x="140" y="32" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_WHITE" text="" />
+
     <label id="HourLabel" x="31" y="121" font="@Fonts.TimeDigits" justification="Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" text="" />
     <label id="ColonLabel" x="89" y="121" font="@Fonts.TimeDigits" justification="Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" text=":" />
     <label id="MinuteLabel" x="145" y="121" font="@Fonts.TimeDigits" justification="Graphics.TEXT_JUSTIFY_RIGHT | Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" text="" />
+
     <label id="DateLabel" x="88" y="155" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" text="" />
 </layout>

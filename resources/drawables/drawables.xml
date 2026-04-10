@@ -1,4 +1,6 @@
 <resources>
-    <bitmap id="LauncherIcon" filename="../../images/mountain-watchface-stars-background.png" />
-    <bitmap id="MountainBackground" filename="../../images/mountain-watchface-stars-background.png" />
+    <bitmap id="LauncherIcon" filename="../../images/launcher-icon.png" />
+    <bitmap id="MountainBackground" filename="../../images/mountain-background-with-stars.png" />
+    <bitmap id="HeartIcon" filename="../../images/icons/heart.png" />
+    <bitmap id="NotificationsIcon" filename="../../images/icons/notifications.png" />
 </resources>
