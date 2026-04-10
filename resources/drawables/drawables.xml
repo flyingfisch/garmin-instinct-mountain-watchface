@@ -1,0 +1,4 @@
+<resources>
+    <bitmap id="LauncherIcon" filename="../../images/mountain-watchface-stars-background.png" />
+    <bitmap id="MountainBackground" filename="../../images/mountain-watchface-stars-background.png" />
+</resources>

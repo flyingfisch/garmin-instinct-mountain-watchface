@@ -1,0 +1,9 @@
+bin/
+build/
+derived/
+tmp/
+*.iq
+*.prg
+*.dbg
+*.jungle
+!.monkey.jungle
