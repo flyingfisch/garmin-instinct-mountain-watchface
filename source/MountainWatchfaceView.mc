@@ -1,81 +1,85 @@
-using Toybox.Graphics;
-using Toybox.Lang;
-using Toybox.System;
-using Toybox.Time;
-using Toybox.WatchUi;
+import Toybox.Graphics;
+import Toybox.Lang;
+import Toybox.System;
+import Toybox.Time;
+import Toybox.WatchUi;
 
 class MountainWatchfaceView extends WatchUi.WatchFace {
-
-    var mBackground;
-    var mTimeFont;
+    var backgroundBitmap;
+    var timeFont;
 
     function initialize() {
         WatchFace.initialize();
 
-        mBackground = WatchUi.loadResource(Rez.Drawables.MountainBackground);
-        mTimeFont = WatchUi.loadResource(Rez.Fonts.TimeDigits);
+        backgroundBitmap = WatchUi.loadResource(Rez.Drawables.MountainBackground);
+        timeFont = WatchUi.loadResource(Rez.Fonts.TimeDigits);
     }
 
     function onUpdate(dc) {
-        var width = dc.getWidth();
-        var height = dc.getHeight();
+        var screenWidth = dc.getWidth();
+        var screenHeight = dc.getHeight();
 
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
         dc.clear();
 
-        drawBackground(dc, width, height);
-        drawTime(dc, width, height);
-        drawDate(dc, width, height);
+        drawBackground(dc, screenWidth, screenHeight);
+        drawTime(dc, screenWidth, screenHeight);
+        drawDate(dc, screenWidth, screenHeight);
     }
 
-    function drawBackground(dc, width, height) {
-        if (mBackground == null) {
+    function drawBackground(dc, screenWidth, screenHeight) {
+        if (backgroundBitmap == null) {
             return;
         }
 
-        var bgX = (width - mBackground.getWidth()) / 2;
-        var bgY = (height - mBackground.getHeight()) / 2;
-        dc.drawBitmap(bgX, bgY, mBackground);
+        var backgroundX = (screenWidth - backgroundBitmap.getWidth()) / 2;
+        var backgroundY = (screenHeight - backgroundBitmap.getHeight()) / 2;
+        dc.drawBitmap(backgroundX, backgroundY, backgroundBitmap);
     }
 
-    function drawTime(dc, width, height) {
+    function drawTime(dc, screenWidth, screenHeight) {
         var clockTime = System.getClockTime();
-        var hours = clockTime.hour;
-        var minutes = clockTime.min;
+        var displayHour = clockTime.hour;
+        var displayMinute = clockTime.min;
         var deviceSettings = System.getDeviceSettings();
 
         if (!(deviceSettings.is24Hour)) {
-            hours = hours % 12;
+            displayHour = displayHour % 12;
 
-            if (hours == 0) {
-                hours = 12;
+            if (displayHour == 0) {
+                displayHour = 12;
             }
         }
 
-        var hourString = Lang.format("$1$", [hours]);
-        if (hours < 10) {
-            hourString = "0" + hourString;
+        var hourText = Lang.format("$1$", [displayHour]);
+        if (displayHour < 10) {
+            hourText = "0" + hourText;
         }
 
-        var minuteString = Lang.format("$1$", [minutes]);
-        if (minutes < 10) {
-            minuteString = "0" + minuteString;
+        var minuteText = Lang.format("$1$", [displayMinute]);
+        if (displayMinute < 10) {
+            minuteText = "0" + minuteText;
         }
 
-        var timeText = hourString + ":" + minuteString;
-        var baselineY = height - 56;
+        var screenCenterX = screenWidth / 2;
+        var screenCenterY = screenHeight / 2;
+        var timeBaselineY = screenCenterY + 33;
 
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(width / 2, baselineY, mTimeFont, timeText, Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText(screenCenterX - 57, timeBaselineY, timeFont, hourText, Graphics.TEXT_JUSTIFY_LEFT);
+        dc.drawText(screenCenterX + 1, timeBaselineY, timeFont, ":", Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText(screenCenterX + 57, timeBaselineY, timeFont, minuteText, Graphics.TEXT_JUSTIFY_RIGHT);
     }
 
-    function drawDate(dc, width, height) {
-        var today = Time.Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
-        var monthString = Lang.format("$1$", [today.month]);
-        var dayString = Lang.format("$1$", [today.day]);
-        var dateText = monthString + "/" + dayString;
+    function drawDate(dc, screenWidth, screenHeight) {
+        var currentDate = Time.Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
+        var monthText = Lang.format("$1$", [currentDate.month]);
+        var dayText = Lang.format("$1$", [currentDate.day]);
+        var dateText = monthText + "/" + dayText;
+        var screenCenterX = screenWidth / 2;
+        var screenCenterY = screenHeight / 2;
 
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(width / 2, height - 20, Graphics.FONT_TINY, dateText, Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText(screenCenterX, screenCenterY + 67, Graphics.FONT_TINY, dateText, Graphics.TEXT_JUSTIFY_CENTER);
     }
 }
