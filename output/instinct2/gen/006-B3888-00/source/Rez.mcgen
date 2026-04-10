@@ -25,11 +25,11 @@ module Rez {
 
             var rez_cmp_local_bitmap_NotificationsIcon = new WatchUi.Bitmap({:identifier=>"NotificationsIcon", :rezId=>$.Rez.Drawables.NotificationsIcon, :locX=>122, :locY=>15});
 
-            var rez_cmp_local_text_NotificationCountLabel = new WatchUi.Text({:identifier=>"NotificationCountLabel", :color=>Graphics.COLOR_WHITE, :locX=>140, :locY=>9, :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_TINY});
+            var rez_cmp_local_text_NotificationCountLabel = new WatchUi.Text({:identifier=>"NotificationCountLabel", :color=>Graphics.COLOR_WHITE, :locX=>141, :locY=>9, :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_TINY});
 
             var rez_cmp_local_bitmap_HeartIcon = new WatchUi.Bitmap({:identifier=>"HeartIcon", :rezId=>$.Rez.Drawables.HeartIcon, :locX=>122, :locY=>35});
 
-            var rez_cmp_local_text_HeartRateLabel = new WatchUi.Text({:identifier=>"HeartRateLabel", :color=>Graphics.COLOR_WHITE, :locX=>140, :locY=>32, :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_TINY});
+            var rez_cmp_local_text_HeartRateLabel = new WatchUi.Text({:identifier=>"HeartRateLabel", :color=>Graphics.COLOR_WHITE, :locX=>141, :locY=>32, :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_TINY});
 
             var rez_cmp_local_text_HourLabel = new WatchUi.Text({:identifier=>"HourLabel", :color=>Graphics.COLOR_WHITE, :locX=>31, :locY=>121, :justification=>Graphics.TEXT_JUSTIFY_LEFT|Graphics.TEXT_JUSTIFY_VCENTER, :font=>local_Rez_Fonts_TimeDigits});
 

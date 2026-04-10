@@ -14,10 +14,12 @@ class MountainWatchfaceView extends WatchUi.WatchFace {
     }
 
     function onUpdate(dc) {
+        var deviceSettings = System.getDeviceSettings();
+
         var clockTime = System.getClockTime();
         var displayHour = clockTime.hour;
         var displayMinute = clockTime.min;
-        var deviceSettings = System.getDeviceSettings();
+
         var hourLabel = View.findDrawableById("HourLabel") as WatchUi.Text;
         var minuteLabel = View.findDrawableById("MinuteLabel") as WatchUi.Text;
         var dateLabel = View.findDrawableById("DateLabel") as WatchUi.Text;
@@ -46,6 +48,7 @@ class MountainWatchfaceView extends WatchUi.WatchFace {
         var monthText = normalizeMonthCase(currentDate.month.toString());
         var dayText = currentDate.day.toString();
         var dateText = monthText + " " + dayText;
+
         var activityInfo = Activity.getActivityInfo();
         var heartRateText = activityInfo.currentHeartRate != null ? activityInfo.currentHeartRate.toString() : "--";
         var notificationCountText = System.getDeviceSettings().notificationCount.toString();

@@ -205,7 +205,7 @@ c__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_output_instin
             %tmp.100 = aputv %tmp.99 %tmp.96 %tmp.98;
             %tmp.102 = const :locX;
             symbol [ locX %tmp.102 28 148 152 const ];
-            %tmp.103 = 140;
+            %tmp.103 = 141;
             %tmp.104 = dup %tmp.100;
             %tmp.105 = aputv %tmp.104 %tmp.102 %tmp.103;
             %tmp.107 = const :locY;
@@ -295,7 +295,7 @@ c__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_output_instin
             %tmp.166 = aputv %tmp.165 %tmp.162 %tmp.164;
             %tmp.168 = const :locX;
             symbol [ locX %tmp.168 32 132 136 const ];
-            %tmp.169 = 140;
+            %tmp.169 = 141;
             %tmp.170 = dup %tmp.166;
             %tmp.171 = aputv %tmp.170 %tmp.168 %tmp.169;
             %tmp.173 = const :locY;
