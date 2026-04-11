@@ -8,4 +8,5 @@ output/connectiq
 *.dbg
 *.jungle
 !.monkey.jungle
+*.local.md
 *~lock~
