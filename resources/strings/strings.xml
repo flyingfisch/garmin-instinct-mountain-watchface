@@ -11,11 +11,11 @@
     <string id="BackgroundModeAuto">Auto</string>
     <string id="DataFieldBelowTimeTitle">Data Field Below Time</string>
     <string id="DataFieldBelowTimeDate">Date</string>
+    <string id="DataFieldOptionAltitude">Altitude</string>
+    <string id="DataFieldOptionHeartRate">Heart Rate</string>
+    <string id="DataFieldOptionBattery">Battery</string>
+    <string id="DataFieldOptionSteps">Steps</string>
+    <string id="DataFieldOptionNotifications">Notifications</string>
     <string id="InsetDataField1Title">Inset Data Field 1</string>
     <string id="InsetDataField2Title">Inset Data Field 2</string>
-    <string id="InsetDataFieldAltitude">Altitude</string>
-    <string id="InsetDataFieldHeartRate">Heart Rate</string>
-    <string id="InsetDataFieldBattery">Battery</string>
-    <string id="InsetDataFieldSteps">Steps</string>
-    <string id="InsetDataFieldNotifications">Notifications</string>
 </resources>
