@@ -37,9 +37,13 @@ module Rez {
 
             var rez_cmp_local_text_MinuteLabel = new WatchUi.Text({:identifier=>"MinuteLabel", :color=>Graphics.COLOR_WHITE, :locX=>145, :locY=>121, :justification=>Graphics.TEXT_JUSTIFY_RIGHT|Graphics.TEXT_JUSTIFY_VCENTER, :font=>local_Rez_Fonts_TimeDigits});
 
+            var rez_cmp_local_text_SecondsLabel = new WatchUi.Text({:identifier=>"SecondsLabel", :color=>Graphics.COLOR_WHITE, :locX=>161, :locY=>95, :justification=>Graphics.TEXT_JUSTIFY_RIGHT, :font=>Graphics.FONT_TINY});
+
+            var rez_cmp_local_text_WeatherTemperatureLabel = new WatchUi.Text({:identifier=>"WeatherTemperatureLabel", :color=>Graphics.COLOR_WHITE, :locX=>60, :locY=>76, :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_TINY});
+
             var rez_cmp_local_text_DateLabel = new WatchUi.Text({:identifier=>"DateLabel", :color=>Graphics.COLOR_WHITE, :locX=>88, :locY=>155, :justification=>Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER, :font=>Graphics.FONT_TINY});
 
-            return [rez_cmp_local_bitmap_BackgroundImage, rez_cmp_local_bitmap_NotificationsIcon, rez_cmp_local_text_NotificationCountLabel, rez_cmp_local_bitmap_HeartIcon, rez_cmp_local_text_HeartRateLabel, rez_cmp_local_text_HourLabel, rez_cmp_local_text_ColonLabel, rez_cmp_local_text_MinuteLabel, rez_cmp_local_text_DateLabel] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_bitmap_BackgroundImage, rez_cmp_local_bitmap_NotificationsIcon, rez_cmp_local_text_NotificationCountLabel, rez_cmp_local_bitmap_HeartIcon, rez_cmp_local_text_HeartRateLabel, rez_cmp_local_text_HourLabel, rez_cmp_local_text_ColonLabel, rez_cmp_local_text_MinuteLabel, rez_cmp_local_text_SecondsLabel, rez_cmp_local_text_WeatherTemperatureLabel, rez_cmp_local_text_DateLabel] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 

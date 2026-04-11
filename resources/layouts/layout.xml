@@ -10,6 +10,9 @@
     <label id="HourLabel" x="31" y="121" font="@Fonts.TimeDigits" justification="Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" text="" />
     <label id="ColonLabel" x="89" y="121" font="@Fonts.TimeDigits" justification="Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" text=":" />
     <label id="MinuteLabel" x="145" y="121" font="@Fonts.TimeDigits" justification="Graphics.TEXT_JUSTIFY_RIGHT | Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" text="" />
+    <label id="SecondsLabel" x="161" y="95" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_RIGHT" color="Graphics.COLOR_WHITE" text="" />
+
+    <label id="WeatherTemperatureLabel" x="60" y="76" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_WHITE" text="" />
 
     <label id="DateLabel" x="88" y="155" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" text="" />
 </layout>

@@ -49,9 +49,9 @@ C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_Mounta
     }
     [ @file = "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc"; @line = 16; @symbol_functiondef = [onUpdate,16,13,21]; @symbol_param<0> = [dc,16,22,24]; ]
     function onUpdate(dc) {
-C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_63_4_start:
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_start:
 [ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 17 8 ]
-        [ "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_63_4_start" "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_63_4_stop" ]
+        [ "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_start" "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_stop" ]
         %deviceSettings.1 = local;
         symbol [ deviceSettings %deviceSettings.1 17 12 26 ];
         symbol [ System %tmp.1 17 29 35 ];
@@ -62,7 +62,7 @@ C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_Mounta
         lputv %deviceSettings.1 %tmp.3;
         symbol [ deviceSettings %deviceSettings.1 17 12 26 ];
 [ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 19 8 ]
-        [ "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_63_4_start" "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_63_4_stop" ]
+        [ "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_start" "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_stop" ]
         %clockTime.2 = local;
         symbol [ clockTime %clockTime.2 19 12 21 ];
         symbol [ System %tmp.4 19 24 30 ];
@@ -73,7 +73,7 @@ C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_Mounta
         lputv %clockTime.2 %tmp.6;
         symbol [ clockTime %clockTime.2 19 12 21 ];
 [ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 20 8 ]
-        [ "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_63_4_start" "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_63_4_stop" ]
+        [ "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_start" "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_stop" ]
         %displayHour.3 = local;
         symbol [ displayHour %displayHour.3 20 12 23 ];
         %tmp.7 = lgetv %clockTime.2;
@@ -83,7 +83,7 @@ C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_Mounta
         lputv %displayHour.3 %tmp.8;
         symbol [ displayHour %displayHour.3 20 12 23 ];
 [ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 21 8 ]
-        [ "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_63_4_start" "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_63_4_stop" ]
+        [ "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_start" "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_stop" ]
         %displayMinute.4 = local;
         symbol [ displayMinute %displayMinute.4 21 12 25 ];
         %tmp.9 = lgetv %clockTime.2;
@@ -92,435 +92,641 @@ C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_Mounta
         %tmp.10 = getv %tmp.9 :min;
         lputv %displayMinute.4 %tmp.10;
         symbol [ displayMinute %displayMinute.4 21 12 25 ];
-[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 23 8 ]
-        [ "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_63_4_start" "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_63_4_stop" ]
-        %hourLabel.5 = local;
-        symbol [ hourLabel %hourLabel.5 23 12 21 ];
-        symbol [ View %tmp.12 23 24 28 ];
-        %tmp.12 = getv ? :View;
-        symbol [ findDrawableById %tmp.13 23 29 45 ];
-        %tmp.13 = getv function %tmp.12 :findDrawableById;
-        %tmp.14 = "HourLabel";
-        %tmp.15 = invoke %tmp.12 %tmp.13(%tmp.14);
-        %tmp.16 = as %tmp.15 WatchUi.Text;
-        symbol [ WatchUi %tmp.16 23 62 69 ];
-        symbol [ Text %tmp.16 23 70 74 ];
-        lputv %hourLabel.5 %tmp.16;
-        symbol [ hourLabel %hourLabel.5 23 12 21 ];
+[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 22 8 ]
+        [ "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_start" "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_stop" ]
+        %displaySeconds.5 = local;
+        symbol [ displaySeconds %displaySeconds.5 22 12 26 ];
+        %tmp.11 = lgetv %clockTime.2;
+        symbol [ clockTime %tmp.11 22 29 38 ];
+        symbol [ sec %tmp.12 22 39 42 ];
+        %tmp.12 = getv %tmp.11 :sec;
+        lputv %displaySeconds.5 %tmp.12;
+        symbol [ displaySeconds %displaySeconds.5 22 12 26 ];
 [ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 24 8 ]
-        [ "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_63_4_start" "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_63_4_stop" ]
-        %minuteLabel.6 = local;
-        symbol [ minuteLabel %minuteLabel.6 24 12 23 ];
-        symbol [ View %tmp.18 24 26 30 ];
-        %tmp.18 = getv ? :View;
-        symbol [ findDrawableById %tmp.19 24 31 47 ];
-        %tmp.19 = getv function %tmp.18 :findDrawableById;
-        %tmp.20 = "MinuteLabel";
-        %tmp.21 = invoke %tmp.18 %tmp.19(%tmp.20);
-        %tmp.22 = as %tmp.21 WatchUi.Text;
-        symbol [ WatchUi %tmp.22 24 66 73 ];
-        symbol [ Text %tmp.22 24 74 78 ];
-        lputv %minuteLabel.6 %tmp.22;
-        symbol [ minuteLabel %minuteLabel.6 24 12 23 ];
+        [ "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_start" "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_stop" ]
+        %hourLabel.6 = local;
+        symbol [ hourLabel %hourLabel.6 24 12 21 ];
+        symbol [ View %tmp.14 24 24 28 ];
+        %tmp.14 = getv ? :View;
+        symbol [ findDrawableById %tmp.15 24 29 45 ];
+        %tmp.15 = getv function %tmp.14 :findDrawableById;
+        %tmp.16 = "HourLabel";
+        %tmp.17 = invoke %tmp.14 %tmp.15(%tmp.16);
+        %tmp.18 = as %tmp.17 WatchUi.Text;
+        symbol [ WatchUi %tmp.18 24 62 69 ];
+        symbol [ Text %tmp.18 24 70 74 ];
+        lputv %hourLabel.6 %tmp.18;
+        symbol [ hourLabel %hourLabel.6 24 12 21 ];
 [ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 25 8 ]
-        [ "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_63_4_start" "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_63_4_stop" ]
-        %dateLabel.7 = local;
-        symbol [ dateLabel %dateLabel.7 25 12 21 ];
-        symbol [ View %tmp.24 25 24 28 ];
-        %tmp.24 = getv ? :View;
-        symbol [ findDrawableById %tmp.25 25 29 45 ];
-        %tmp.25 = getv function %tmp.24 :findDrawableById;
-        %tmp.26 = "DateLabel";
-        %tmp.27 = invoke %tmp.24 %tmp.25(%tmp.26);
-        %tmp.28 = as %tmp.27 WatchUi.Text;
-        symbol [ WatchUi %tmp.28 25 62 69 ];
-        symbol [ Text %tmp.28 25 70 74 ];
-        lputv %dateLabel.7 %tmp.28;
-        symbol [ dateLabel %dateLabel.7 25 12 21 ];
+        [ "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_start" "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_stop" ]
+        %minuteLabel.7 = local;
+        symbol [ minuteLabel %minuteLabel.7 25 12 23 ];
+        symbol [ View %tmp.20 25 26 30 ];
+        %tmp.20 = getv ? :View;
+        symbol [ findDrawableById %tmp.21 25 31 47 ];
+        %tmp.21 = getv function %tmp.20 :findDrawableById;
+        %tmp.22 = "MinuteLabel";
+        %tmp.23 = invoke %tmp.20 %tmp.21(%tmp.22);
+        %tmp.24 = as %tmp.23 WatchUi.Text;
+        symbol [ WatchUi %tmp.24 25 66 73 ];
+        symbol [ Text %tmp.24 25 74 78 ];
+        lputv %minuteLabel.7 %tmp.24;
+        symbol [ minuteLabel %minuteLabel.7 25 12 23 ];
 [ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 26 8 ]
-        [ "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_63_4_start" "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_63_4_stop" ]
-        %heartRateLabel.8 = local;
-        symbol [ heartRateLabel %heartRateLabel.8 26 12 26 ];
-        symbol [ View %tmp.30 26 29 33 ];
-        %tmp.30 = getv ? :View;
-        symbol [ findDrawableById %tmp.31 26 34 50 ];
-        %tmp.31 = getv function %tmp.30 :findDrawableById;
-        %tmp.32 = "HeartRateLabel";
-        %tmp.33 = invoke %tmp.30 %tmp.31(%tmp.32);
-        %tmp.34 = as %tmp.33 WatchUi.Text;
-        symbol [ WatchUi %tmp.34 26 72 79 ];
-        symbol [ Text %tmp.34 26 80 84 ];
-        lputv %heartRateLabel.8 %tmp.34;
-        symbol [ heartRateLabel %heartRateLabel.8 26 12 26 ];
+        [ "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_start" "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_stop" ]
+        %secondsLabel.8 = local;
+        symbol [ secondsLabel %secondsLabel.8 26 12 24 ];
+        symbol [ View %tmp.26 26 27 31 ];
+        %tmp.26 = getv ? :View;
+        symbol [ findDrawableById %tmp.27 26 32 48 ];
+        %tmp.27 = getv function %tmp.26 :findDrawableById;
+        %tmp.28 = "SecondsLabel";
+        %tmp.29 = invoke %tmp.26 %tmp.27(%tmp.28);
+        %tmp.30 = as %tmp.29 WatchUi.Text;
+        symbol [ WatchUi %tmp.30 26 68 75 ];
+        symbol [ Text %tmp.30 26 76 80 ];
+        lputv %secondsLabel.8 %tmp.30;
+        symbol [ secondsLabel %secondsLabel.8 26 12 24 ];
 [ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 27 8 ]
-        [ "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_63_4_start" "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_63_4_stop" ]
-        %notificationCountLabel.9 = local;
-        symbol [ notificationCountLabel %notificationCountLabel.9 27 12 34 ];
-        symbol [ View %tmp.36 27 37 41 ];
-        %tmp.36 = getv ? :View;
-        symbol [ findDrawableById %tmp.37 27 42 58 ];
-        %tmp.37 = getv function %tmp.36 :findDrawableById;
-        %tmp.38 = "NotificationCountLabel";
-        %tmp.39 = invoke %tmp.36 %tmp.37(%tmp.38);
-        %tmp.40 = as %tmp.39 WatchUi.Text;
-        symbol [ WatchUi %tmp.40 27 88 95 ];
-        symbol [ Text %tmp.40 27 96 100 ];
-        lputv %notificationCountLabel.9 %tmp.40;
-        symbol [ notificationCountLabel %notificationCountLabel.9 27 12 34 ];
+        [ "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_start" "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_stop" ]
+        %dateLabel.9 = local;
+        symbol [ dateLabel %dateLabel.9 27 12 21 ];
+        symbol [ View %tmp.32 27 24 28 ];
+        %tmp.32 = getv ? :View;
+        symbol [ findDrawableById %tmp.33 27 29 45 ];
+        %tmp.33 = getv function %tmp.32 :findDrawableById;
+        %tmp.34 = "DateLabel";
+        %tmp.35 = invoke %tmp.32 %tmp.33(%tmp.34);
+        %tmp.36 = as %tmp.35 WatchUi.Text;
+        symbol [ WatchUi %tmp.36 27 62 69 ];
+        symbol [ Text %tmp.36 27 70 74 ];
+        lputv %dateLabel.9 %tmp.36;
+        symbol [ dateLabel %dateLabel.9 27 12 21 ];
+[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 28 8 ]
+        [ "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_start" "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_stop" ]
+        %weatherTemperatureLabel.10 = local;
+        symbol [ weatherTemperatureLabel %weatherTemperatureLabel.10 28 12 35 ];
+        symbol [ View %tmp.38 28 38 42 ];
+        %tmp.38 = getv ? :View;
+        symbol [ findDrawableById %tmp.39 28 43 59 ];
+        %tmp.39 = getv function %tmp.38 :findDrawableById;
+        %tmp.40 = "WeatherTemperatureLabel";
+        %tmp.41 = invoke %tmp.38 %tmp.39(%tmp.40);
+        %tmp.42 = as %tmp.41 WatchUi.Text;
+        symbol [ WatchUi %tmp.42 28 90 97 ];
+        symbol [ Text %tmp.42 28 98 102 ];
+        lputv %weatherTemperatureLabel.10 %tmp.42;
+        symbol [ weatherTemperatureLabel %weatherTemperatureLabel.10 28 12 35 ];
 [ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 29 8 ]
-C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_29_8_35_8_if_stmt:
-        %tmp.41 = lgetv %deviceSettings.1;
-        symbol [ deviceSettings %tmp.41 29 14 28 ];
-        symbol [ is24Hour %tmp.42 29 29 37 ];
-        %tmp.42 = getv %tmp.41 :is24Hour;
-        %tmp.43 = not %tmp.42;
-        bf %tmp.43 @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_29_8_35_8_if_end;
-C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_29_8_35_8_if_true:
-C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_29_40_35_8_start:
-[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 30 12 ]
-        %tmp.44 = lgetv %displayHour.3;
-        symbol [ displayHour %tmp.44 30 26 37 ];
-        %tmp.45 = 12;
-        %tmp.46 = mod %tmp.44 %tmp.45;
-        lputv %displayHour.3 %tmp.46;
-        symbol [ displayHour %displayHour.3 30 12 23 ];
-[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 32 12 ]
-C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_32_12_34_12_if_stmt:
-        %tmp.47 = lgetv %displayHour.3;
-        symbol [ displayHour %tmp.47 32 16 27 ];
-        %tmp.48 = 0;
-        %tmp.49 = eq %tmp.47 %tmp.48;
-        bf %tmp.49 @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_32_12_34_12_if_end;
-C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_32_12_34_12_if_true:
-C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_32_34_34_12_start:
-[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 33 16 ]
-        %tmp.50 = 12;
-        lputv %displayHour.3 %tmp.50;
-        symbol [ displayHour %displayHour.3 33 16 27 ];
-C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_32_34_34_12_stop:
-        goto @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_32_12_34_12_if_end;
-C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_32_12_34_12_if_end:
-C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_29_40_35_8_stop:
-        goto @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_29_8_35_8_if_end;
-C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_29_8_35_8_if_end:
-[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 37 8 ]
-        [ "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_63_4_start" "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_63_4_stop" ]
-        %hourText.10 = local;
-        symbol [ hourText %hourText.10 37 12 20 ];
-        symbol [ Lang %tmp.51 37 23 27 ];
-        %tmp.51 = getm $.Toybox.Lang;
-        symbol [ format %tmp.52 37 28 34 ];
-        %tmp.52 = getv function %tmp.51 :format;
-        %tmp.53 = "$1$";
-        %tmp.54 = newa 1;
-        %tmp.55 = lgetv %displayHour.3;
-        symbol [ displayHour %tmp.55 37 43 54 ];
-        %tmp.56 = dup %tmp.54;
-        %tmp.57 = aputv %tmp.56 0 %tmp.55;
-        %tmp.58 = invoke %tmp.51 %tmp.52(%tmp.53, %tmp.57);
-        lputv %hourText.10 %tmp.58;
-        symbol [ hourText %hourText.10 37 12 20 ];
-[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 38 8 ]
-C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_38_8_40_8_if_stmt:
-        %tmp.59 = lgetv %displayHour.3;
-        symbol [ displayHour %tmp.59 38 12 23 ];
-        %tmp.60 = 10;
-        %tmp.61 = lt %tmp.59 %tmp.60;
-        bf %tmp.61 @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_38_8_40_8_if_end;
-C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_38_8_40_8_if_true:
-C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_38_30_40_8_start:
-[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 39 12 ]
-        %tmp.62 = "0";
-        %tmp.63 = lgetv %hourText.10;
-        symbol [ hourText %tmp.63 39 29 37 ];
-        %tmp.64 = add %tmp.62 %tmp.63;
-        lputv %hourText.10 %tmp.64;
-        symbol [ hourText %hourText.10 39 12 20 ];
-C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_38_30_40_8_stop:
-        goto @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_38_8_40_8_if_end;
-C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_38_8_40_8_if_end:
-[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 42 8 ]
-        [ "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_63_4_start" "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_63_4_stop" ]
-        %minuteText.11 = local;
-        symbol [ minuteText %minuteText.11 42 12 22 ];
-        symbol [ Lang %tmp.65 42 25 29 ];
-        %tmp.65 = getm $.Toybox.Lang;
-        symbol [ format %tmp.66 42 30 36 ];
-        %tmp.66 = getv function %tmp.65 :format;
-        %tmp.67 = "$1$";
-        %tmp.68 = newa 1;
-        %tmp.69 = lgetv %displayMinute.4;
-        symbol [ displayMinute %tmp.69 42 45 58 ];
-        %tmp.70 = dup %tmp.68;
-        %tmp.71 = aputv %tmp.70 0 %tmp.69;
-        %tmp.72 = invoke %tmp.65 %tmp.66(%tmp.67, %tmp.71);
-        lputv %minuteText.11 %tmp.72;
-        symbol [ minuteText %minuteText.11 42 12 22 ];
-[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 43 8 ]
-C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_43_8_45_8_if_stmt:
-        %tmp.73 = lgetv %displayMinute.4;
-        symbol [ displayMinute %tmp.73 43 12 25 ];
-        %tmp.74 = 10;
-        %tmp.75 = lt %tmp.73 %tmp.74;
-        bf %tmp.75 @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_43_8_45_8_if_end;
-C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_43_8_45_8_if_true:
-C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_43_32_45_8_start:
-[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 44 12 ]
-        %tmp.76 = "0";
-        %tmp.77 = lgetv %minuteText.11;
-        symbol [ minuteText %tmp.77 44 31 41 ];
-        %tmp.78 = add %tmp.76 %tmp.77;
-        lputv %minuteText.11 %tmp.78;
-        symbol [ minuteText %minuteText.11 44 12 22 ];
-C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_43_32_45_8_stop:
-        goto @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_43_8_45_8_if_end;
-C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_43_8_45_8_if_end:
-[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 47 8 ]
-        [ "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_63_4_start" "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_63_4_stop" ]
-        %currentDate.12 = local;
-        symbol [ currentDate %currentDate.12 47 12 23 ];
-        symbol [ Time %tmp.79 47 26 30 ];
-        %tmp.79 = getm $.Toybox.Time;
-        symbol [ Gregorian %tmp.80 47 31 40 ];
-        %tmp.80 = getv %tmp.79 :Gregorian;
-        symbol [ info %tmp.81 47 41 45 ];
-        %tmp.81 = getv function %tmp.80 :info;
-        symbol [ Time %tmp.82 47 46 50 ];
-        %tmp.82 = getm $.Toybox.Time;
-        symbol [ now %tmp.83 47 51 54 ];
-        %tmp.83 = getv function %tmp.82 :now;
-        %tmp.84 = invoke %tmp.82 %tmp.83();
-        symbol [ Time %tmp.85 47 58 62 ];
-        %tmp.85 = getm $.Toybox.Time;
-        symbol [ FORMAT_LONG %tmp.86 47 63 74 ];
-        %tmp.86 = getv %tmp.85 :FORMAT_LONG;
-        %tmp.87 = invoke %tmp.80 %tmp.81(%tmp.84, %tmp.86);
-        lputv %currentDate.12 %tmp.87;
-        symbol [ currentDate %currentDate.12 47 12 23 ];
-[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 48 8 ]
-        [ "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_63_4_start" "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_63_4_stop" ]
-        %monthText.13 = local;
-        symbol [ monthText %monthText.13 48 12 21 ];
-        %tmp.88 = lgetv %currentDate.12;
-        symbol [ currentDate %tmp.88 48 24 35 ];
-        symbol [ month %tmp.89 48 36 41 ];
-        %tmp.89 = getv %tmp.88 :month;
-        symbol [ toString %tmp.90 48 42 50 ];
-        %tmp.90 = getv function %tmp.89 :toString;
-        %tmp.91 = invoke %tmp.89 %tmp.90();
-        lputv %monthText.13 %tmp.91;
-        symbol [ monthText %monthText.13 48 12 21 ];
-[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 49 8 ]
-        [ "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_63_4_start" "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_63_4_stop" ]
-        %dayText.14 = local;
-        symbol [ dayText %dayText.14 49 12 19 ];
-        %tmp.92 = lgetv %currentDate.12;
-        symbol [ currentDate %tmp.92 49 22 33 ];
-        symbol [ day %tmp.93 49 34 37 ];
-        %tmp.93 = getv %tmp.92 :day;
-        symbol [ toString %tmp.94 49 38 46 ];
-        %tmp.94 = getv function %tmp.93 :toString;
-        %tmp.95 = invoke %tmp.93 %tmp.94();
-        lputv %dayText.14 %tmp.95;
-        symbol [ dayText %dayText.14 49 12 19 ];
+        [ "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_start" "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_stop" ]
+        %heartRateLabel.11 = local;
+        symbol [ heartRateLabel %heartRateLabel.11 29 12 26 ];
+        symbol [ View %tmp.44 29 29 33 ];
+        %tmp.44 = getv ? :View;
+        symbol [ findDrawableById %tmp.45 29 34 50 ];
+        %tmp.45 = getv function %tmp.44 :findDrawableById;
+        %tmp.46 = "HeartRateLabel";
+        %tmp.47 = invoke %tmp.44 %tmp.45(%tmp.46);
+        %tmp.48 = as %tmp.47 WatchUi.Text;
+        symbol [ WatchUi %tmp.48 29 72 79 ];
+        symbol [ Text %tmp.48 29 80 84 ];
+        lputv %heartRateLabel.11 %tmp.48;
+        symbol [ heartRateLabel %heartRateLabel.11 29 12 26 ];
+[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 30 8 ]
+        [ "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_start" "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_stop" ]
+        %notificationCountLabel.12 = local;
+        symbol [ notificationCountLabel %notificationCountLabel.12 30 12 34 ];
+        symbol [ View %tmp.50 30 37 41 ];
+        %tmp.50 = getv ? :View;
+        symbol [ findDrawableById %tmp.51 30 42 58 ];
+        %tmp.51 = getv function %tmp.50 :findDrawableById;
+        %tmp.52 = "NotificationCountLabel";
+        %tmp.53 = invoke %tmp.50 %tmp.51(%tmp.52);
+        %tmp.54 = as %tmp.53 WatchUi.Text;
+        symbol [ WatchUi %tmp.54 30 88 95 ];
+        symbol [ Text %tmp.54 30 96 100 ];
+        lputv %notificationCountLabel.12 %tmp.54;
+        symbol [ notificationCountLabel %notificationCountLabel.12 30 12 34 ];
+[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 32 8 ]
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_32_8_38_8_if_stmt:
+        %tmp.55 = lgetv %deviceSettings.1;
+        symbol [ deviceSettings %tmp.55 32 14 28 ];
+        symbol [ is24Hour %tmp.56 32 29 37 ];
+        %tmp.56 = getv %tmp.55 :is24Hour;
+        %tmp.57 = not %tmp.56;
+        bf %tmp.57 @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_32_8_38_8_if_end;
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_32_8_38_8_if_true:
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_32_40_38_8_start:
+[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 33 12 ]
+        %tmp.58 = lgetv %displayHour.3;
+        symbol [ displayHour %tmp.58 33 26 37 ];
+        %tmp.59 = 12;
+        %tmp.60 = mod %tmp.58 %tmp.59;
+        lputv %displayHour.3 %tmp.60;
+        symbol [ displayHour %displayHour.3 33 12 23 ];
+[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 35 12 ]
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_35_12_37_12_if_stmt:
+        %tmp.61 = lgetv %displayHour.3;
+        symbol [ displayHour %tmp.61 35 16 27 ];
+        %tmp.62 = 0;
+        %tmp.63 = eq %tmp.61 %tmp.62;
+        bf %tmp.63 @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_35_12_37_12_if_end;
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_35_12_37_12_if_true:
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_35_34_37_12_start:
+[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 36 16 ]
+        %tmp.64 = 12;
+        lputv %displayHour.3 %tmp.64;
+        symbol [ displayHour %displayHour.3 36 16 27 ];
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_35_34_37_12_stop:
+        goto @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_35_12_37_12_if_end;
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_35_12_37_12_if_end:
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_32_40_38_8_stop:
+        goto @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_32_8_38_8_if_end;
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_32_8_38_8_if_end:
+[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 40 8 ]
+        [ "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_start" "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_stop" ]
+        %hourText.13 = local;
+        symbol [ hourText %hourText.13 40 12 20 ];
+        %tmp.65 = lgetv %displayHour.3;
+        symbol [ displayHour %tmp.65 40 23 34 ];
+        symbol [ toString %tmp.66 40 35 43 ];
+        %tmp.66 = getv function %tmp.65 :toString;
+        %tmp.67 = invoke %tmp.65 %tmp.66();
+        lputv %hourText.13 %tmp.67;
+        symbol [ hourText %hourText.13 40 12 20 ];
+[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 41 8 ]
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_41_8_43_8_if_stmt:
+        %tmp.68 = lgetv %displayHour.3;
+        symbol [ displayHour %tmp.68 41 12 23 ];
+        %tmp.69 = 10;
+        %tmp.70 = lt %tmp.68 %tmp.69;
+        bf %tmp.70 @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_41_8_43_8_if_end;
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_41_8_43_8_if_true:
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_41_30_43_8_start:
+[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 42 12 ]
+        %tmp.71 = "0";
+        %tmp.72 = lgetv %hourText.13;
+        symbol [ hourText %tmp.72 42 29 37 ];
+        %tmp.73 = add %tmp.71 %tmp.72;
+        lputv %hourText.13 %tmp.73;
+        symbol [ hourText %hourText.13 42 12 20 ];
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_41_30_43_8_stop:
+        goto @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_41_8_43_8_if_end;
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_41_8_43_8_if_end:
+[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 45 8 ]
+        [ "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_start" "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_stop" ]
+        %minuteText.14 = local;
+        symbol [ minuteText %minuteText.14 45 12 22 ];
+        %tmp.74 = lgetv %displayMinute.4;
+        symbol [ displayMinute %tmp.74 45 25 38 ];
+        symbol [ toString %tmp.75 45 39 47 ];
+        %tmp.75 = getv function %tmp.74 :toString;
+        %tmp.76 = invoke %tmp.74 %tmp.75();
+        lputv %minuteText.14 %tmp.76;
+        symbol [ minuteText %minuteText.14 45 12 22 ];
+[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 46 8 ]
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_46_8_48_8_if_stmt:
+        %tmp.77 = lgetv %displayMinute.4;
+        symbol [ displayMinute %tmp.77 46 12 25 ];
+        %tmp.78 = 10;
+        %tmp.79 = lt %tmp.77 %tmp.78;
+        bf %tmp.79 @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_46_8_48_8_if_end;
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_46_8_48_8_if_true:
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_46_32_48_8_start:
+[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 47 12 ]
+        %tmp.80 = "0";
+        %tmp.81 = lgetv %minuteText.14;
+        symbol [ minuteText %tmp.81 47 31 41 ];
+        %tmp.82 = add %tmp.80 %tmp.81;
+        lputv %minuteText.14 %tmp.82;
+        symbol [ minuteText %minuteText.14 47 12 22 ];
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_46_32_48_8_stop:
+        goto @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_46_8_48_8_if_end;
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_46_8_48_8_if_end:
 [ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 50 8 ]
-        [ "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_63_4_start" "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_63_4_stop" ]
-        %dateText.15 = local;
-        symbol [ dateText %dateText.15 50 12 20 ];
-        %tmp.96 = lgetv %monthText.13;
-        symbol [ monthText %tmp.96 50 23 32 ];
-        %tmp.97 = " ";
-        %tmp.98 = add %tmp.96 %tmp.97;
-        %tmp.99 = lgetv %dayText.14;
-        symbol [ dayText %tmp.99 50 41 48 ];
-        %tmp.100 = add %tmp.98 %tmp.99;
-        lputv %dateText.15 %tmp.100;
-        symbol [ dateText %dateText.15 50 12 20 ];
-[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 52 8 ]
-        [ "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_63_4_start" "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_63_4_stop" ]
-        %activityInfo.16 = local;
-        symbol [ activityInfo %activityInfo.16 52 12 24 ];
-        symbol [ Activity %tmp.101 52 27 35 ];
-        %tmp.101 = getm $.Toybox.Activity;
-        symbol [ getActivityInfo %tmp.102 52 36 51 ];
-        %tmp.102 = getv function %tmp.101 :getActivityInfo;
-        %tmp.103 = invoke %tmp.101 %tmp.102();
-        lputv %activityInfo.16 %tmp.103;
-        symbol [ activityInfo %activityInfo.16 52 12 24 ];
-[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 53 8 ]
-        [ "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_63_4_start" "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_63_4_stop" ]
-        %heartRateText.17 = local;
-        symbol [ heartRateText %heartRateText.17 53 12 25 ];
-C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_53_28_53_111_begin:
-        %tmp.104 = lgetv %activityInfo.16;
-        symbol [ activityInfo %tmp.104 53 28 40 ];
-        symbol [ currentHeartRate %tmp.105 53 41 57 ];
-        %tmp.105 = getv %tmp.104 :currentHeartRate;
-        %tmp.106 = null;
-        %tmp.107 = ne %tmp.105 %tmp.106;
-        bf %tmp.107 @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_53_28_53_111_else_false;
-C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_53_28_53_111_true:
-        %tmp.108 = lgetv %activityInfo.16;
-        symbol [ activityInfo %tmp.108 53 68 80 ];
-        symbol [ currentHeartRate %tmp.109 53 81 97 ];
-        %tmp.109 = getv %tmp.108 :currentHeartRate;
-        symbol [ toString %tmp.110 53 98 106 ];
+        [ "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_start" "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_stop" ]
+        %secondsText.15 = local;
+        symbol [ secondsText %secondsText.15 50 12 23 ];
+        %tmp.83 = lgetv %displaySeconds.5;
+        symbol [ displaySeconds %tmp.83 50 26 40 ];
+        symbol [ toString %tmp.84 50 41 49 ];
+        %tmp.84 = getv function %tmp.83 :toString;
+        %tmp.85 = invoke %tmp.83 %tmp.84();
+        lputv %secondsText.15 %tmp.85;
+        symbol [ secondsText %secondsText.15 50 12 23 ];
+[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 51 8 ]
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_51_8_53_8_if_stmt:
+        %tmp.86 = lgetv %displaySeconds.5;
+        symbol [ displaySeconds %tmp.86 51 12 26 ];
+        %tmp.87 = 10;
+        %tmp.88 = lt %tmp.86 %tmp.87;
+        bf %tmp.88 @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_51_8_53_8_if_end;
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_51_8_53_8_if_true:
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_51_33_53_8_start:
+[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 52 12 ]
+        %tmp.89 = "0";
+        %tmp.90 = lgetv %secondsText.15;
+        symbol [ secondsText %tmp.90 52 32 43 ];
+        %tmp.91 = add %tmp.89 %tmp.90;
+        lputv %secondsText.15 %tmp.91;
+        symbol [ secondsText %secondsText.15 52 12 23 ];
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_51_33_53_8_stop:
+        goto @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_51_8_53_8_if_end;
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_51_8_53_8_if_end:
+[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 55 8 ]
+        [ "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_start" "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_stop" ]
+        %currentDate.16 = local;
+        symbol [ currentDate %currentDate.16 55 12 23 ];
+        symbol [ Time %tmp.92 55 26 30 ];
+        %tmp.92 = getm $.Toybox.Time;
+        symbol [ Gregorian %tmp.93 55 31 40 ];
+        %tmp.93 = getv %tmp.92 :Gregorian;
+        symbol [ info %tmp.94 55 41 45 ];
+        %tmp.94 = getv function %tmp.93 :info;
+        symbol [ Time %tmp.95 55 46 50 ];
+        %tmp.95 = getm $.Toybox.Time;
+        symbol [ now %tmp.96 55 51 54 ];
+        %tmp.96 = getv function %tmp.95 :now;
+        %tmp.97 = invoke %tmp.95 %tmp.96();
+        symbol [ Time %tmp.98 55 58 62 ];
+        %tmp.98 = getm $.Toybox.Time;
+        symbol [ FORMAT_MEDIUM %tmp.99 55 63 76 ];
+        %tmp.99 = getv %tmp.98 :FORMAT_MEDIUM;
+        %tmp.100 = invoke %tmp.93 %tmp.94(%tmp.97, %tmp.99);
+        lputv %currentDate.16 %tmp.100;
+        symbol [ currentDate %currentDate.16 55 12 23 ];
+[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 56 8 ]
+        [ "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_start" "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_stop" ]
+        %monthText.17 = local;
+        symbol [ monthText %monthText.17 56 12 21 ];
+        %tmp.101 = self;
+        symbol [ normalizeMonthCase %tmp.102 56 24 42 ];
+        %tmp.102 = getv function %tmp.101 :normalizeMonthCase;
+        %tmp.103 = lgetv %currentDate.16;
+        symbol [ currentDate %tmp.103 56 43 54 ];
+        symbol [ month %tmp.104 56 55 60 ];
+        %tmp.104 = getv %tmp.103 :month;
+        symbol [ toString %tmp.105 56 61 69 ];
+        %tmp.105 = getv function %tmp.104 :toString;
+        %tmp.106 = invoke %tmp.104 %tmp.105();
+        %tmp.107 = invoke %tmp.101 %tmp.102(%tmp.106);
+        lputv %monthText.17 %tmp.107;
+        symbol [ monthText %monthText.17 56 12 21 ];
+[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 57 8 ]
+        [ "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_start" "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_stop" ]
+        %dayText.18 = local;
+        symbol [ dayText %dayText.18 57 12 19 ];
+        %tmp.108 = lgetv %currentDate.16;
+        symbol [ currentDate %tmp.108 57 22 33 ];
+        symbol [ day %tmp.109 57 34 37 ];
+        %tmp.109 = getv %tmp.108 :day;
+        symbol [ toString %tmp.110 57 38 46 ];
         %tmp.110 = getv function %tmp.109 :toString;
         %tmp.111 = invoke %tmp.109 %tmp.110();
-        push %tmp.111;
-        goto @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_53_28_53_111_end;
-C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_53_28_53_111_else_false:
-        %tmp.112 = "--";
-        push %tmp.112;
-C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_53_28_53_111_end:
-        %tmp.113 = phi [%tmp.107 @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_53_28_53_111_begin] [%tmp.111 @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_53_28_53_111_true] [%tmp.112 @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_53_28_53_111_else_false] [%tmp.113 @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_53_28_53_111_end];
-        lputv %heartRateText.17 %tmp.113;
-        symbol [ heartRateText %heartRateText.17 53 12 25 ];
-[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 54 8 ]
-        [ "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_63_4_start" "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_63_4_stop" ]
-        %notificationCountText.18 = local;
-        symbol [ notificationCountText %notificationCountText.18 54 12 33 ];
-        symbol [ System %tmp.114 54 36 42 ];
-        %tmp.114 = getm $.Toybox.System;
-        symbol [ getDeviceSettings %tmp.115 54 43 60 ];
-        %tmp.115 = getv function %tmp.114 :getDeviceSettings;
-        %tmp.116 = invoke %tmp.114 %tmp.115();
-        symbol [ notificationCount %tmp.117 54 63 80 ];
-        %tmp.117 = getv %tmp.116 :notificationCount;
-        symbol [ toString %tmp.118 54 81 89 ];
-        %tmp.118 = getv function %tmp.117 :toString;
-        %tmp.119 = invoke %tmp.117 %tmp.118();
-        lputv %notificationCountText.18 %tmp.119;
-        symbol [ notificationCountText %notificationCountText.18 54 12 33 ];
-[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 56 8 ]
-        %tmp.120 = lgetv %hourLabel.5;
-        symbol [ hourLabel %tmp.120 56 8 17 ];
-        symbol [ setText %tmp.121 56 18 25 ];
-        %tmp.121 = getv function %tmp.120 :setText;
-        %tmp.122 = lgetv %hourText.10;
-        symbol [ hourText %tmp.122 56 26 34 ];
-        invoke %tmp.120 %tmp.121(%tmp.122);
-[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 57 8 ]
-        %tmp.123 = lgetv %minuteLabel.6;
-        symbol [ minuteLabel %tmp.123 57 8 19 ];
-        symbol [ setText %tmp.124 57 20 27 ];
-        %tmp.124 = getv function %tmp.123 :setText;
-        %tmp.125 = lgetv %minuteText.11;
-        symbol [ minuteText %tmp.125 57 28 38 ];
-        invoke %tmp.123 %tmp.124(%tmp.125);
+        lputv %dayText.18 %tmp.111;
+        symbol [ dayText %dayText.18 57 12 19 ];
 [ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 58 8 ]
-        %tmp.126 = lgetv %dateLabel.7;
-        symbol [ dateLabel %tmp.126 58 8 17 ];
-        symbol [ setText %tmp.127 58 18 25 ];
-        %tmp.127 = getv function %tmp.126 :setText;
-        %tmp.128 = lgetv %dateText.15;
-        symbol [ dateText %tmp.128 58 26 34 ];
-        invoke %tmp.126 %tmp.127(%tmp.128);
-[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 59 8 ]
-        %tmp.129 = lgetv %heartRateLabel.8;
-        symbol [ heartRateLabel %tmp.129 59 8 22 ];
-        symbol [ setText %tmp.130 59 23 30 ];
-        %tmp.130 = getv function %tmp.129 :setText;
-        %tmp.131 = lgetv %heartRateText.17;
-        symbol [ heartRateText %tmp.131 59 31 44 ];
-        invoke %tmp.129 %tmp.130(%tmp.131);
+        [ "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_start" "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_stop" ]
+        %dateText.19 = local;
+        symbol [ dateText %dateText.19 58 12 20 ];
+        %tmp.112 = lgetv %monthText.17;
+        symbol [ monthText %tmp.112 58 23 32 ];
+        %tmp.113 = " ";
+        %tmp.114 = add %tmp.112 %tmp.113;
+        %tmp.115 = lgetv %dayText.18;
+        symbol [ dayText %tmp.115 58 41 48 ];
+        %tmp.116 = add %tmp.114 %tmp.115;
+        lputv %dateText.19 %tmp.116;
+        symbol [ dateText %dateText.19 58 12 20 ];
 [ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 60 8 ]
-        %tmp.132 = lgetv %notificationCountLabel.9;
-        symbol [ notificationCountLabel %tmp.132 60 8 30 ];
-        symbol [ setText %tmp.133 60 31 38 ];
-        %tmp.133 = getv function %tmp.132 :setText;
-        %tmp.134 = lgetv %notificationCountText.18;
-        symbol [ notificationCountText %tmp.134 60 39 60 ];
-        invoke %tmp.132 %tmp.133(%tmp.134);
-[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 62 8 ]
-        symbol [ View %tmp.136 62 8 12 ];
-        %tmp.136 = getv ? :View;
-        symbol [ onUpdate %tmp.137 62 13 21 ];
-        %tmp.137 = getv function %tmp.136 :onUpdate;
-        %tmp.138 = lgetv %dc;
-        symbol [ dc %tmp.138 62 22 24 ];
-        invoke %tmp.136 %tmp.137(%tmp.138);
-C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_63_4_stop:
-    }
-    [ @file = "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc"; @line = 65; @symbol_functiondef = [normalizeMonthCase,65,13,31]; @symbol_param<0> = [monthText,65,32,41]; ]
-    function normalizeMonthCase(monthText) {
-C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_65_43_75_4_start:
+        [ "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_start" "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_stop" ]
+        %activityInfo.20 = local;
+        symbol [ activityInfo %activityInfo.20 60 12 24 ];
+        symbol [ Activity %tmp.117 60 27 35 ];
+        %tmp.117 = getm $.Toybox.Activity;
+        symbol [ getActivityInfo %tmp.118 60 36 51 ];
+        %tmp.118 = getv function %tmp.117 :getActivityInfo;
+        %tmp.119 = invoke %tmp.117 %tmp.118();
+        lputv %activityInfo.20 %tmp.119;
+        symbol [ activityInfo %activityInfo.20 60 12 24 ];
+[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 61 8 ]
+        [ "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_start" "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_stop" ]
+        %heartRateText.21 = local;
+        symbol [ heartRateText %heartRateText.21 61 12 25 ];
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_61_28_61_111_begin:
+        %tmp.120 = lgetv %activityInfo.20;
+        symbol [ activityInfo %tmp.120 61 28 40 ];
+        symbol [ currentHeartRate %tmp.121 61 41 57 ];
+        %tmp.121 = getv %tmp.120 :currentHeartRate;
+        %tmp.122 = null;
+        %tmp.123 = ne %tmp.121 %tmp.122;
+        bf %tmp.123 @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_61_28_61_111_else_false;
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_61_28_61_111_true:
+        %tmp.124 = lgetv %activityInfo.20;
+        symbol [ activityInfo %tmp.124 61 68 80 ];
+        symbol [ currentHeartRate %tmp.125 61 81 97 ];
+        %tmp.125 = getv %tmp.124 :currentHeartRate;
+        symbol [ toString %tmp.126 61 98 106 ];
+        %tmp.126 = getv function %tmp.125 :toString;
+        %tmp.127 = invoke %tmp.125 %tmp.126();
+        push %tmp.127;
+        goto @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_61_28_61_111_end;
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_61_28_61_111_else_false:
+        %tmp.128 = "--";
+        push %tmp.128;
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_61_28_61_111_end:
+        %tmp.129 = phi [%tmp.123 @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_61_28_61_111_begin] [%tmp.127 @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_61_28_61_111_true] [%tmp.128 @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_61_28_61_111_else_false] [%tmp.129 @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_61_28_61_111_end];
+        lputv %heartRateText.21 %tmp.129;
+        symbol [ heartRateText %heartRateText.21 61 12 25 ];
+[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 63 8 ]
+        [ "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_start" "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_stop" ]
+        %notificationCountText.22 = local;
+        symbol [ notificationCountText %notificationCountText.22 63 12 33 ];
+        %tmp.130 = lgetv %deviceSettings.1;
+        symbol [ deviceSettings %tmp.130 63 36 50 ];
+        symbol [ notificationCount %tmp.131 63 51 68 ];
+        %tmp.131 = getv %tmp.130 :notificationCount;
+        symbol [ toString %tmp.132 63 69 77 ];
+        %tmp.132 = getv function %tmp.131 :toString;
+        %tmp.133 = invoke %tmp.131 %tmp.132();
+        lputv %notificationCountText.22 %tmp.133;
+        symbol [ notificationCountText %notificationCountText.22 63 12 33 ];
+[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 65 8 ]
+        [ "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_start" "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_stop" ]
+        %currentWeatherConditions.23 = local;
+        symbol [ currentWeatherConditions %currentWeatherConditions.23 65 12 36 ];
+        symbol [ Weather %tmp.135 65 39 46 ];
+        %tmp.135 = getv ? :Weather;
+        symbol [ getCurrentConditions %tmp.136 65 47 67 ];
+        %tmp.136 = getv function %tmp.135 :getCurrentConditions;
+        %tmp.137 = invoke %tmp.135 %tmp.136();
+        lputv %currentWeatherConditions.23 %tmp.137;
+        symbol [ currentWeatherConditions %currentWeatherConditions.23 65 12 36 ];
 [ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 66 8 ]
-C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_66_8_68_8_if_stmt:
-C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_66_12_66_59_begin:
+        [ "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_start" "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_stop" ]
+        %localizedTemperatureValue.24 = local;
+        symbol [ localizedTemperatureValue %localizedTemperatureValue.24 66 12 37 ];
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_66_40_66_194_begin:
+        %tmp.138 = lgetv %deviceSettings.1;
+        symbol [ deviceSettings %tmp.138 66 40 54 ];
+        symbol [ temperatureUnits %tmp.139 66 55 71 ];
+        %tmp.139 = getv %tmp.138 :temperatureUnits;
+        symbol [ System %tmp.140 66 75 81 ];
+        %tmp.140 = getm $.Toybox.System;
+        symbol [ UNIT_METRIC %tmp.141 66 82 93 ];
+        %tmp.141 = getv %tmp.140 :UNIT_METRIC;
+        %tmp.142 = eq %tmp.139 %tmp.141;
+        bf %tmp.142 @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_66_40_66_194_else_false;
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_66_40_66_194_true:
+        %tmp.143 = lgetv %currentWeatherConditions.23;
+        symbol [ currentWeatherConditions %tmp.143 66 96 120 ];
+        symbol [ temperature %tmp.144 66 121 132 ];
+        %tmp.144 = getv %tmp.143 :temperature;
+        push %tmp.144;
+        goto @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_66_40_66_194_end;
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_66_40_66_194_else_false:
+        %tmp.145 = self;
+        symbol [ temperatureToFarenheit %tmp.146 66 135 157 ];
+        %tmp.146 = getv function %tmp.145 :temperatureToFarenheit;
+        %tmp.147 = lgetv %currentWeatherConditions.23;
+        symbol [ currentWeatherConditions %tmp.147 66 158 182 ];
+        symbol [ temperature %tmp.148 66 183 194 ];
+        %tmp.148 = getv %tmp.147 :temperature;
+        %tmp.149 = invoke %tmp.145 %tmp.146(%tmp.148);
+        push %tmp.149;
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_66_40_66_194_end:
+        %tmp.150 = phi [%tmp.142 @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_66_40_66_194_begin] [%tmp.144 @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_66_40_66_194_true] [%tmp.149 @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_66_40_66_194_else_false] [%tmp.150 @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_66_40_66_194_end];
+        lputv %localizedTemperatureValue.24 %tmp.150;
+        symbol [ localizedTemperatureValue %localizedTemperatureValue.24 66 12 37 ];
+[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 67 8 ]
+        [ "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_start" "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_stop" ]
+        %weatherTemperatureText.25 = local;
+        symbol [ weatherTemperatureText %weatherTemperatureText.25 67 12 34 ];
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_67_37_67_126_begin:
+        %tmp.151 = lgetv %localizedTemperatureValue.24;
+        symbol [ localizedTemperatureValue %tmp.151 67 37 62 ];
+        %tmp.152 = null;
+        %tmp.153 = ne %tmp.151 %tmp.152;
+        bf %tmp.153 @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_67_37_67_126_else_false;
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_67_37_67_126_true:
+        %tmp.154 = self;
+        symbol [ formatTemperature %tmp.155 67 73 90 ];
+        %tmp.155 = getv function %tmp.154 :formatTemperature;
+        %tmp.156 = lgetv %localizedTemperatureValue.24;
+        symbol [ localizedTemperatureValue %tmp.156 67 91 116 ];
+        %tmp.157 = as %tmp.156 { (!Null) };
+        %tmp.158 = invoke %tmp.154 %tmp.155(%tmp.157);
+        %tmp.159 = "°";
+        %tmp.160 = add %tmp.158 %tmp.159;
+        push %tmp.160;
+        goto @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_67_37_67_126_end;
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_67_37_67_126_else_false:
+        %tmp.161 = "--°";
+        push %tmp.161;
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_67_37_67_126_end:
+        %tmp.162 = phi [%tmp.153 @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_67_37_67_126_begin] [%tmp.160 @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_67_37_67_126_true] [%tmp.161 @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_67_37_67_126_else_false] [%tmp.162 @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_67_37_67_126_end];
+        lputv %weatherTemperatureText.25 %tmp.162;
+        symbol [ weatherTemperatureText %weatherTemperatureText.25 67 12 34 ];
+[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 69 8 ]
+        %tmp.163 = lgetv %hourLabel.6;
+        symbol [ hourLabel %tmp.163 69 8 17 ];
+        symbol [ setText %tmp.164 69 18 25 ];
+        %tmp.164 = getv function %tmp.163 :setText;
+        %tmp.165 = lgetv %hourText.13;
+        symbol [ hourText %tmp.165 69 26 34 ];
+        invoke %tmp.163 %tmp.164(%tmp.165);
+[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 70 8 ]
+        %tmp.166 = lgetv %minuteLabel.7;
+        symbol [ minuteLabel %tmp.166 70 8 19 ];
+        symbol [ setText %tmp.167 70 20 27 ];
+        %tmp.167 = getv function %tmp.166 :setText;
+        %tmp.168 = lgetv %minuteText.14;
+        symbol [ minuteText %tmp.168 70 28 38 ];
+        invoke %tmp.166 %tmp.167(%tmp.168);
+[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 71 8 ]
+        %tmp.169 = lgetv %secondsLabel.8;
+        symbol [ secondsLabel %tmp.169 71 8 20 ];
+        symbol [ setText %tmp.170 71 21 28 ];
+        %tmp.170 = getv function %tmp.169 :setText;
+        %tmp.171 = lgetv %secondsText.15;
+        symbol [ secondsText %tmp.171 71 29 40 ];
+        invoke %tmp.169 %tmp.170(%tmp.171);
+[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 73 8 ]
+        %tmp.172 = lgetv %dateLabel.9;
+        symbol [ dateLabel %tmp.172 73 8 17 ];
+        symbol [ setText %tmp.173 73 18 25 ];
+        %tmp.173 = getv function %tmp.172 :setText;
+        %tmp.174 = lgetv %dateText.19;
+        symbol [ dateText %tmp.174 73 26 34 ];
+        invoke %tmp.172 %tmp.173(%tmp.174);
+[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 75 8 ]
+        %tmp.175 = lgetv %weatherTemperatureLabel.10;
+        symbol [ weatherTemperatureLabel %tmp.175 75 8 31 ];
+        symbol [ setText %tmp.176 75 32 39 ];
+        %tmp.176 = getv function %tmp.175 :setText;
+        %tmp.177 = lgetv %weatherTemperatureText.25;
+        symbol [ weatherTemperatureText %tmp.177 75 40 62 ];
+        invoke %tmp.175 %tmp.176(%tmp.177);
+[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 77 8 ]
+        %tmp.178 = lgetv %heartRateLabel.11;
+        symbol [ heartRateLabel %tmp.178 77 8 22 ];
+        symbol [ setText %tmp.179 77 23 30 ];
+        %tmp.179 = getv function %tmp.178 :setText;
+        %tmp.180 = lgetv %heartRateText.21;
+        symbol [ heartRateText %tmp.180 77 31 44 ];
+        invoke %tmp.178 %tmp.179(%tmp.180);
+[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 78 8 ]
+        %tmp.181 = lgetv %notificationCountLabel.12;
+        symbol [ notificationCountLabel %tmp.181 78 8 30 ];
+        symbol [ setText %tmp.182 78 31 38 ];
+        %tmp.182 = getv function %tmp.181 :setText;
+        %tmp.183 = lgetv %notificationCountText.22;
+        symbol [ notificationCountText %tmp.183 78 39 60 ];
+        invoke %tmp.181 %tmp.182(%tmp.183);
+[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 80 8 ]
+        symbol [ View %tmp.185 80 8 12 ];
+        %tmp.185 = getv ? :View;
+        symbol [ onUpdate %tmp.186 80 13 21 ];
+        %tmp.186 = getv function %tmp.185 :onUpdate;
+        %tmp.187 = lgetv %dc;
+        symbol [ dc %tmp.187 80 22 24 ];
+        invoke %tmp.185 %tmp.186(%tmp.187);
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_16_26_81_4_stop:
+    }
+    [ @file = "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc"; @line = 83; @symbol_functiondef = [normalizeMonthCase,83,13,31]; @symbol_param<0> = [monthText,83,32,41]; ]
+    function normalizeMonthCase(monthText) {
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_83_43_93_4_start:
+[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 84 8 ]
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_84_8_86_8_if_stmt:
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_84_12_84_59_begin:
         %tmp.1 = lgetv %monthText;
-        symbol [ monthText %tmp.1 66 13 22 ];
+        symbol [ monthText %tmp.1 84 13 22 ];
         %tmp.2 = null;
         %tmp.3 = eq %tmp.1 %tmp.2;
-        bt %tmp.3 @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_66_8_68_8_if_true;
-C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_66_35_66_59_false:
+        bt %tmp.3 @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_84_8_86_8_if_true;
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_84_35_84_59_false:
         %tmp.4 = lgetv %monthText;
-        symbol [ monthText %tmp.4 66 36 45 ];
+        symbol [ monthText %tmp.4 84 36 45 ];
         %tmp.5 = as %tmp.4 { (!Null) };
-        symbol [ length %tmp.6 66 46 52 ];
+        symbol [ length %tmp.6 84 46 52 ];
         %tmp.6 = getv function %tmp.5 :length;
         %tmp.7 = invoke %tmp.5 %tmp.6();
         %tmp.8 = 0;
         %tmp.9 = eq %tmp.7 %tmp.8;
         push %tmp.9;
-C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_66_35_66_59_end:
-        %tmp.10 = phi [%tmp.3 @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_66_12_66_59_begin] [%tmp.9 @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_66_35_66_59_false] [%tmp.10 @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_66_35_66_59_end];
-        bf %tmp.10 @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_66_8_68_8_if_end;
-C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_66_8_68_8_if_true:
-C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_66_62_68_8_start:
-[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 67 12 ]
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_84_35_84_59_end:
+        %tmp.10 = phi [%tmp.3 @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_84_12_84_59_begin] [%tmp.9 @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_84_35_84_59_false] [%tmp.10 @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_84_35_84_59_end];
+        bf %tmp.10 @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_84_8_86_8_if_end;
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_84_8_86_8_if_true:
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_84_62_86_8_start:
+[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 85 12 ]
         %tmp.11 = "";
         ret %tmp.11;
-C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_66_62_68_8_stop:
-        goto @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_66_8_68_8_if_end;
-C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_66_8_68_8_if_end:
-[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 70 8 ]
-C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_70_8_72_8_if_stmt:
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_84_62_86_8_stop:
+        goto @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_84_8_86_8_if_end;
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_84_8_86_8_if_end:
+[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 88 8 ]
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_88_8_90_8_if_stmt:
         %tmp.12 = lgetv %monthText;
-        symbol [ monthText %tmp.12 70 12 21 ];
-        symbol [ length %tmp.13 70 22 28 ];
+        symbol [ monthText %tmp.12 88 12 21 ];
+        symbol [ length %tmp.13 88 22 28 ];
         %tmp.13 = getv function %tmp.12 :length;
         %tmp.14 = invoke %tmp.12 %tmp.13();
         %tmp.15 = 1;
         %tmp.16 = eq %tmp.14 %tmp.15;
-        bf %tmp.16 @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_70_8_72_8_if_end;
-C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_70_8_72_8_if_true:
-C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_70_37_72_8_start:
-[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 71 12 ]
+        bf %tmp.16 @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_88_8_90_8_if_end;
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_88_8_90_8_if_true:
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_88_37_90_8_start:
+[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 89 12 ]
         %tmp.17 = lgetv %monthText;
-        symbol [ monthText %tmp.17 71 19 28 ];
+        symbol [ monthText %tmp.17 89 19 28 ];
         ret %tmp.17;
-C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_70_37_72_8_stop:
-        goto @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_70_8_72_8_if_end;
-C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_70_8_72_8_if_end:
-[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 74 8 ]
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_88_37_90_8_stop:
+        goto @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_88_8_90_8_if_end;
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_88_8_90_8_if_end:
+[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 92 8 ]
         %tmp.18 = lgetv %monthText;
-        symbol [ monthText %tmp.18 74 15 24 ];
-        symbol [ substring %tmp.19 74 25 34 ];
+        symbol [ monthText %tmp.18 92 15 24 ];
+        symbol [ substring %tmp.19 92 25 34 ];
         %tmp.19 = getv function %tmp.18 :substring;
         %tmp.20 = 0;
         %tmp.21 = 1;
         %tmp.22 = invoke %tmp.18 %tmp.19(%tmp.20, %tmp.21);
-        symbol [ toUpper %tmp.23 74 41 48 ];
+        symbol [ toUpper %tmp.23 92 41 48 ];
         %tmp.23 = getv function %tmp.22 :toUpper;
         %tmp.24 = invoke %tmp.22 %tmp.23();
         %tmp.25 = lgetv %monthText;
-        symbol [ monthText %tmp.25 74 53 62 ];
-        symbol [ substring %tmp.26 74 63 72 ];
+        symbol [ monthText %tmp.25 92 53 62 ];
+        symbol [ substring %tmp.26 92 63 72 ];
         %tmp.26 = getv function %tmp.25 :substring;
         %tmp.27 = 1;
         %tmp.28 = lgetv %monthText;
-        symbol [ monthText %tmp.28 74 76 85 ];
-        symbol [ length %tmp.29 74 86 92 ];
+        symbol [ monthText %tmp.28 92 76 85 ];
+        symbol [ length %tmp.29 92 86 92 ];
         %tmp.29 = getv function %tmp.28 :length;
         %tmp.30 = invoke %tmp.28 %tmp.29();
         %tmp.31 = invoke %tmp.25 %tmp.26(%tmp.27, %tmp.30);
-        symbol [ toLower %tmp.32 74 96 103 ];
+        symbol [ toLower %tmp.32 92 96 103 ];
         %tmp.32 = getv function %tmp.31 :toLower;
         %tmp.33 = invoke %tmp.31 %tmp.32();
         %tmp.34 = add %tmp.24 %tmp.33;
         ret %tmp.34;
-C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_65_43_75_4_stop:
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_83_43_93_4_stop:
+    }
+    [ @file = "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc"; @line = 95; @symbol_functiondef = [temperatureToFarenheit,95,13,35]; @symbol_param<0> = [temperatureC,95,36,48]; ]
+    function temperatureToFarenheit(temperatureC) {
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_95_50_97_4_start:
+[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 96 8 ]
+        %tmp.1 = lgetv %temperatureC;
+        symbol [ temperatureC %tmp.1 96 16 28 ];
+        symbol [ toFloat %tmp.2 96 29 36 ];
+        %tmp.2 = getv function %tmp.1 :toFloat;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        %tmp.4 = 9.0;
+        %tmp.5 = mul %tmp.3 %tmp.4;
+        %tmp.6 = 5.0;
+        %tmp.7 = div %tmp.5 %tmp.6;
+        %tmp.8 = 32.0;
+        %tmp.9 = add %tmp.7 %tmp.8;
+        ret %tmp.9;
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_95_50_97_4_stop:
+    }
+    [ @file = "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc"; @line = 99; @symbol_functiondef = [formatTemperature,99,13,30]; @symbol_param<0> = [temperature,99,31,42]; ]
+    function formatTemperature(temperature) {
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_99_44_102_4_start:
+[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 100 8 ]
+        [ "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_99_44_102_4_start" "C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_99_44_102_4_stop" ]
+        %sign.1 = local;
+        symbol [ sign %sign.1 100 12 16 ];
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_100_19_100_43_begin:
+        %tmp.1 = lgetv %temperature;
+        symbol [ temperature %tmp.1 100 19 30 ];
+        %tmp.2 = 0;
+        %tmp.3 = lt %tmp.1 %tmp.2;
+        bf %tmp.3 @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_100_19_100_43_else_false;
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_100_19_100_43_true:
+        %tmp.4 = "-";
+        push %tmp.4;
+        goto @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_100_19_100_43_end;
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_100_19_100_43_else_false:
+        %tmp.5 = "";
+        push %tmp.5;
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_100_19_100_43_end:
+        %tmp.6 = phi [%tmp.3 @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_100_19_100_43_begin] [%tmp.4 @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_100_19_100_43_true] [%tmp.5 @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_100_19_100_43_else_false] [%tmp.6 @C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_100_19_100_43_end];
+        lputv %sign.1 %tmp.6;
+        symbol [ sign %sign.1 100 12 16 ];
+[ "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc" 101 8 ]
+        %tmp.7 = lgetv %sign.1;
+        symbol [ sign %tmp.7 101 15 19 ];
+        %tmp.8 = lgetv %temperature;
+        symbol [ temperature %tmp.8 101 22 33 ];
+        symbol [ format %tmp.9 101 34 40 ];
+        %tmp.9 = getv function %tmp.8 :format;
+        %tmp.10 = "%i";
+        %tmp.11 = invoke %tmp.8 %tmp.9(%tmp.10);
+        %tmp.12 = add %tmp.7 %tmp.11;
+        ret %tmp.12;
+C__Users_flyin_Documents_GitHub_garmin_instinct_mountain_watchface_source_MountainWatchfaceView_mc_99_44_102_4_stop:
     }
 }
 [ @file = "C:\Users\flyin\Documents\GitHub\garmin-instinct-mountain-watchface\source\MountainWatchfaceView.mc"; @line = 1; ]
