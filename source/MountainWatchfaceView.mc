@@ -6,7 +6,7 @@ import Toybox.WatchUi;
 
 class MountainWatchfaceView extends WatchUi.WatchFace {
     const SECONDS_CLIP_X = 145;
-    const SECONDS_CLIP_Y = 88;
+    const SECONDS_CLIP_Y = 100;
     const SECONDS_CLIP_WIDTH = 20;
     const SECONDS_CLIP_HEIGHT = 16;
 
