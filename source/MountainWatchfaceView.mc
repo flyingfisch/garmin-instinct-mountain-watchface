@@ -1,10 +1,17 @@
+import Toybox.Activity;
+import Toybox.Application;
 import Toybox.Lang;
 import Toybox.System;
 import Toybox.Time;
 import Toybox.WatchUi;
-import Toybox.Activity;
 
 class MountainWatchfaceView extends WatchUi.WatchFace {
+    const SECONDS_MODE_OFF = 0;
+    const SECONDS_MODE_ON = 1;
+    const SECONDS_MODE_WRIST_TURN = 2;
+
+    var isAwake = true;
+
     function initialize() {
         WatchFace.initialize();
     }
@@ -15,11 +22,12 @@ class MountainWatchfaceView extends WatchUi.WatchFace {
 
     function onUpdate(dc) {
         var deviceSettings = System.getDeviceSettings();
-
         var clockTime = System.getClockTime();
         var displayHour = clockTime.hour;
         var displayMinute = clockTime.min;
         var displaySeconds = clockTime.sec;
+        var secondsMode = getSecondsMode();
+        var showLeadingHourZero = getShowLeadingHourZero();
 
         var hourLabel = View.findDrawableById("HourLabel") as WatchUi.Text;
         var minuteLabel = View.findDrawableById("MinuteLabel") as WatchUi.Text;
@@ -38,19 +46,12 @@ class MountainWatchfaceView extends WatchUi.WatchFace {
         }
 
         var hourText = displayHour.toString();
-        if (displayHour < 10) {
+        if (showLeadingHourZero && (displayHour < 10)) {
             hourText = "0" + hourText;
         }
 
-        var minuteText = displayMinute.toString();
-        if (displayMinute < 10) {
-            minuteText = "0" + minuteText;
-        }
-
-        var secondsText = displaySeconds.toString();
-        if (displaySeconds < 10) {
-            secondsText = "0" + secondsText;
-        }
+        var minuteText = displayMinute.format("%02d");
+        var secondsText = displaySeconds.format("%02d");
 
         var currentDate = Time.Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
         var monthText = normalizeMonthCase(currentDate.month.toString());
@@ -59,25 +60,60 @@ class MountainWatchfaceView extends WatchUi.WatchFace {
 
         var activityInfo = Activity.getActivityInfo();
         var heartRateText = activityInfo.currentHeartRate != null ? activityInfo.currentHeartRate.toString() : "--";
-
         var notificationCountText = deviceSettings.notificationCount.toString();
 
         var currentWeatherConditions = Weather.getCurrentConditions();
-        var localizedTemperatureValue = deviceSettings.temperatureUnits == System.UNIT_METRIC ? currentWeatherConditions.temperature : temperatureToFarenheit(currentWeatherConditions.temperature);
-        var weatherTemperatureText = localizedTemperatureValue != null ? formatTemperature(localizedTemperatureValue) + "°" : "--°";
+        var weatherTemperatureText = "--°";
+        if ((currentWeatherConditions != null) && (currentWeatherConditions.temperature != null)) {
+            var localizedTemperatureValue = deviceSettings.temperatureUnits == System.UNIT_METRIC ? currentWeatherConditions.temperature : temperatureToFahrenheit(currentWeatherConditions.temperature);
+            weatherTemperatureText = formatTemperature(localizedTemperatureValue) + "°";
+        }
 
         hourLabel.setText(hourText);
         minuteLabel.setText(minuteText);
         secondsLabel.setText(secondsText);
+        secondsLabel.setVisible(shouldShowSeconds(secondsMode));
 
         dateLabel.setText(dateText);
-
         weatherTemperatureLabel.setText(weatherTemperatureText);
-
         heartRateLabel.setText(heartRateText);
         notificationCountLabel.setText(notificationCountText);
 
         View.onUpdate(dc);
+    }
+
+    function onExitSleep() {
+        isAwake = true;
+        WatchUi.requestUpdate();
+    }
+
+    function onEnterSleep() {
+        isAwake = false;
+        WatchUi.requestUpdate();
+    }
+
+    function getSecondsMode() {
+        var secondsMode = Application.Properties.getValue("SecondsMode");
+
+        return secondsMode.toNumber();
+    }
+
+    function getShowLeadingHourZero() {
+        var showLeadingHourZero = Application.Properties.getValue("ShowLeadingHourZero");
+
+        return showLeadingHourZero as Lang.Boolean;
+    }
+
+    function shouldShowSeconds(secondsMode) {
+        if (secondsMode == SECONDS_MODE_ON) {
+            return true;
+        }
+
+        if (secondsMode == SECONDS_MODE_WRIST_TURN) {
+            return isAwake;
+        }
+
+        return false;
     }
 
     function normalizeMonthCase(monthText) {
@@ -92,12 +128,11 @@ class MountainWatchfaceView extends WatchUi.WatchFace {
         return monthText.substring(0, 1).toUpper() + monthText.substring(1, monthText.length()).toLower();
     }
 
-    function temperatureToFarenheit(temperatureC) {
+    function temperatureToFahrenheit(temperatureC) {
         return (temperatureC.toFloat() * 9.0 / 5.0) + 32.0;
     }
 
     function formatTemperature(temperature) {
-        var sign = temperature < 0 ? "-" : "";
-        return sign + temperature.format("%i");
+        return temperature.format("%i");
     }
 }

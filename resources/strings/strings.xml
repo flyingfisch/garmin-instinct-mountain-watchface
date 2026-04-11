@@ -1,3 +1,8 @@
 <resources>
     <string id="AppName">Mountain Watchface</string>
+    <string id="SecondsModeTitle">Show Seconds</string>
+    <string id="SecondsModeOff">Off</string>
+    <string id="SecondsModeOn">On</string>
+    <string id="SecondsModeWristTurn">Only On Wrist Turn</string>
+    <string id="ShowLeadingHourZeroTitle">Leading Zero For Hours</string>
 </resources>

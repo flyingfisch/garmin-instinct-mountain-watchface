@@ -1,0 +1,13 @@
+<settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <setting propertyKey="@Properties.SecondsMode" title="@Strings.SecondsModeTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.SecondsModeOff</listEntry>
+            <listEntry value="1">@Strings.SecondsModeOn</listEntry>
+            <listEntry value="2">@Strings.SecondsModeWristTurn</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.ShowLeadingHourZero" title="@Strings.ShowLeadingHourZeroTitle">
+        <settingConfig type="boolean" />
+    </setting>
+</settings>
