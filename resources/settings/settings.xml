@@ -15,6 +15,10 @@
         <settingConfig type="boolean" />
     </setting>
 
+    <setting propertyKey="@Properties.ShowSubtleNotificationsIndicator" title="@Strings.ShowSubtleNotificationsIndicatorTitle">
+        <settingConfig type="boolean" />
+    </setting>
+
     <setting propertyKey="@Properties.BackgroundMode" title="@Strings.BackgroundModeTitle">
         <settingConfig type="list">
             <listEntry value="0">@Strings.BackgroundModeDay</listEntry>

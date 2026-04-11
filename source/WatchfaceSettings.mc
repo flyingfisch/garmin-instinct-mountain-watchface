@@ -64,4 +64,10 @@ module WatchfaceSettings {
 
         return showSubtleBatteryIndicator as Lang.Boolean;
     }
+
+    function getShowSubtleNotificationsIndicator() {
+        var showSubtleNotificationsIndicator = Application.Properties.getValue("ShowSubtleNotificationsIndicator");
+
+        return showSubtleNotificationsIndicator as Lang.Boolean;
+    }
 }

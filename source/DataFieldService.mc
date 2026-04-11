@@ -141,10 +141,6 @@ module DataFieldService {
     }
 
     function formatNotificationCount(deviceSettings) {
-        if ((deviceSettings == null) || (deviceSettings.notificationCount == null)) {
-            return "--";
-        }
-
         return deviceSettings.notificationCount.toString();
     }
 

@@ -27,6 +27,7 @@ class MountainWatchfaceView extends WatchUi.WatchFace {
         var hourLabel = View.findDrawableById("HourLabel") as WatchUi.Text;
         var minuteLabel = View.findDrawableById("MinuteLabel") as WatchUi.Text;
         var secondsLabel = View.findDrawableById("SecondsLabel") as WatchUi.Text;
+        var subtleNotificationsIcon = View.findDrawableById("SubtleNotificationsIcon") as WatchUi.Bitmap;
         var dataFieldBelowTimeIcon = View.findDrawableById("DataFieldBelowTimeIcon") as WatchUi.Bitmap;
         var dataFieldBelowTimeLabel = View.findDrawableById("DataFieldBelowTimeLabel") as WatchUi.Text;
         var dateLabel = View.findDrawableById("DateLabel") as WatchUi.Text;
@@ -47,6 +48,7 @@ class MountainWatchfaceView extends WatchUi.WatchFace {
         minuteLabel.setText(minuteText);
         secondsLabel.setText(secondsText);
         secondsLabel.setVisible(WatchfaceFormatting.shouldShowSeconds(secondsMode, isAwake));
+        subtleNotificationsIcon.setVisible(shouldShowSubtleNotificationsIcon(deviceSettings));
 
         DataFieldService.updateDataFieldBelowTime(dataFieldBelowTimeIcon, dataFieldBelowTimeLabel, dateLabel, WatchfaceSettings.getDataFieldBelowTime(), deviceSettings, activityInfo, activityMonitorInfo);
         weatherTemperatureLabel.setText(WatchfaceFormatting.getWeatherTemperatureText(deviceSettings));
@@ -66,6 +68,11 @@ class MountainWatchfaceView extends WatchUi.WatchFace {
     function onEnterSleep() {
         isAwake = false;
         WatchUi.requestUpdate();
+    }
+
+    function shouldShowSubtleNotificationsIcon(deviceSettings) {
+        return WatchfaceSettings.getShowSubtleNotificationsIndicator()
+            && (deviceSettings.notificationCount > 0);
     }
 
     function drawSubtleBatteryIndicator(dc, systemStats, isVisible) {

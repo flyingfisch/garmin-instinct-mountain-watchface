@@ -6,6 +6,7 @@
     <string id="SecondsModeWristTurn">Only On Wrist Turn</string>
     <string id="ShowLeadingHourZeroTitle">Leading Zero For Hours</string>
     <string id="ShowSubtleBatteryIndicatorTitle">Subtle battery indicator</string>
+    <string id="ShowSubtleNotificationsIndicatorTitle">Subtle notifications indicator</string>
     <string id="BackgroundModeTitle">Background</string>
     <string id="BackgroundModeDay">Day</string>
     <string id="BackgroundModeNight">Night</string>
