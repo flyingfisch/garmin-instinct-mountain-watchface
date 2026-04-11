@@ -8,4 +8,4 @@ output/connectiq
 *.dbg
 *.jungle
 !.monkey.jungle
-*.afphoto~lock~
+*~lock~
