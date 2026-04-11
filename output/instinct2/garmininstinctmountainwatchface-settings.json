@@ -39,6 +39,39 @@
     "configMax" : null,
     "configMaxLength" : null
   }, {
+    "key" : "DataFieldBelowTime",
+    "valueType" : "number",
+    "defaultValue" : 0,
+    "configTitle" : "DataFieldBelowTimeTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "DataFieldBelowTimeDate",
+      "value" : 0
+    }, {
+      "display" : "InsetDataFieldAltitude",
+      "value" : 1
+    }, {
+      "display" : "InsetDataFieldHeartRate",
+      "value" : 2
+    }, {
+      "display" : "InsetDataFieldBattery",
+      "value" : 3
+    }, {
+      "display" : "InsetDataFieldSteps",
+      "value" : 4
+    }, {
+      "display" : "InsetDataFieldNotifications",
+      "value" : 5
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
     "key" : "InsetDataField1",
     "valueType" : "number",
     "defaultValue" : 2,
@@ -102,8 +135,10 @@
   "supportsLiveValidation" : false,
   "languages" : {
     "valyrian" : {
+      "DataFieldBelowTimeTitle" : "Data Field Below Time",
       "InsetDataField2Title" : "Inset Data Field 2",
       "SecondsModeOff" : "Off",
+      "DataFieldBelowTimeDate" : "Date",
       "SecondsModeWristTurn" : "Only On Wrist Turn",
       "InsetDataFieldAltitude" : "Altitude",
       "AppName" : "Instinct 2 Mountain Range Watchface",

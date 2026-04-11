@@ -18,6 +18,7 @@ module Rez {
         (:initialized) var BackgroundImage as ResourceId;
         (:initialized) var InsetDataField1Icon as ResourceId;
         (:initialized) var InsetDataField2Icon as ResourceId;
+        (:initialized) var DataFieldBelowTimeIcon as ResourceId;
         (:initialized) var LauncherIcon as ResourceId;
     } // Drawables
 
@@ -49,15 +50,21 @@ module Rez {
 
             var rez_cmp_local_text_WeatherTemperatureLabel = new WatchUi.Text({:identifier=>"WeatherTemperatureLabel", :color=>Graphics.COLOR_WHITE, :locX=>60, :locY=>76, :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_TINY});
 
+            var rez_cmp_local_bitmap_DataFieldBelowTimeIcon = new WatchUi.Bitmap({:identifier=>"DataFieldBelowTimeIcon", :rezId=>$.Rez.Drawables.DataFieldBelowTimeIcon, :locX=>69, :locY=>147});
+
+            var rez_cmp_local_text_DataFieldBelowTimeLabel = new WatchUi.Text({:identifier=>"DataFieldBelowTimeLabel", :color=>Graphics.COLOR_WHITE, :locX=>88, :locY=>155, :justification=>Graphics.TEXT_JUSTIFY_LEFT|Graphics.TEXT_JUSTIFY_VCENTER, :font=>Graphics.FONT_TINY});
+
             var rez_cmp_local_text_DateLabel = new WatchUi.Text({:identifier=>"DateLabel", :color=>Graphics.COLOR_WHITE, :locX=>88, :locY=>155, :justification=>Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER, :font=>Graphics.FONT_TINY});
 
-            return [rez_cmp_local_bitmap_BackgroundImage, rez_cmp_local_bitmap_InsetDataField1Icon, rez_cmp_local_text_InsetDataField1Label, rez_cmp_local_bitmap_InsetDataField2Icon, rez_cmp_local_text_InsetDataField2Label, rez_cmp_local_text_HourLabel, rez_cmp_local_text_ColonLabel, rez_cmp_local_text_MinuteLabel, rez_cmp_local_text_SecondsLabel, rez_cmp_local_text_WeatherTemperatureLabel, rez_cmp_local_text_DateLabel] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_bitmap_BackgroundImage, rez_cmp_local_bitmap_InsetDataField1Icon, rez_cmp_local_text_InsetDataField1Label, rez_cmp_local_bitmap_InsetDataField2Icon, rez_cmp_local_text_InsetDataField2Label, rez_cmp_local_text_HourLabel, rez_cmp_local_text_ColonLabel, rez_cmp_local_text_MinuteLabel, rez_cmp_local_text_SecondsLabel, rez_cmp_local_text_WeatherTemperatureLabel, rez_cmp_local_bitmap_DataFieldBelowTimeIcon, rez_cmp_local_text_DataFieldBelowTimeLabel, rez_cmp_local_text_DateLabel] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 
     module Strings {
+        (:initialized) var DataFieldBelowTimeTitle as ResourceId;
         (:initialized) var InsetDataField2Title as ResourceId;
         (:initialized) var SecondsModeOff as ResourceId;
+        (:initialized) var DataFieldBelowTimeDate as ResourceId;
         (:initialized) var SecondsModeWristTurn as ResourceId;
         (:initialized) var InsetDataFieldAltitude as ResourceId;
         (:initialized) var AppName as ResourceId;

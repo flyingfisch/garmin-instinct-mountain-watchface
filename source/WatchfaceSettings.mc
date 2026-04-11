@@ -6,6 +6,10 @@ module WatchfaceSettings {
     const SECONDS_MODE_ON = 1;
     const SECONDS_MODE_WRIST_TURN = 2;
 
+    const BACKGROUND_MODE_DAY = 0;
+    const BACKGROUND_MODE_NIGHT = 1;
+    const BACKGROUND_MODE_AUTO = 2;
+
     const BELOW_TIME_FIELD_DATE = 0;
     const BELOW_TIME_FIELD_ALTITUDE = 1;
     const BELOW_TIME_FIELD_HEART_RATE = 2;
@@ -29,6 +33,12 @@ module WatchfaceSettings {
         var showLeadingHourZero = Application.Properties.getValue("ShowLeadingHourZero");
 
         return showLeadingHourZero as Lang.Boolean;
+    }
+
+    function getBackgroundMode() {
+        var backgroundMode = Application.Properties.getValue("BackgroundMode");
+
+        return backgroundMode.toNumber();
     }
 
     function getInsetDataField1() {

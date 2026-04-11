@@ -7,3 +7,4 @@ tmp/
 *.dbg
 *.jungle
 !.monkey.jungle
+*.afphoto~lock~

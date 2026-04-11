@@ -19,7 +19,9 @@ class MountainWatchfaceView extends WatchUi.WatchFace {
         var clockTime = System.getClockTime();
         var secondsMode = WatchfaceSettings.getSecondsMode();
         var showLeadingHourZero = WatchfaceSettings.getShowLeadingHourZero();
+        var backgroundMode = WatchfaceSettings.getBackgroundMode();
 
+        var backgroundImage = View.findDrawableById("BackgroundImage") as WatchUi.Bitmap;
         var hourLabel = View.findDrawableById("HourLabel") as WatchUi.Text;
         var minuteLabel = View.findDrawableById("MinuteLabel") as WatchUi.Text;
         var secondsLabel = View.findDrawableById("SecondsLabel") as WatchUi.Text;
@@ -38,6 +40,7 @@ class MountainWatchfaceView extends WatchUi.WatchFace {
         var minuteText = WatchfaceFormatting.formatMinute(clockTime);
         var secondsText = WatchfaceFormatting.formatSeconds(clockTime);
 
+        backgroundImage.setBitmap(BackgroundService.getBackgroundBitmap(backgroundMode, clockTime));
         hourLabel.setText(hourText);
         minuteLabel.setText(minuteText);
         secondsLabel.setText(secondsText);

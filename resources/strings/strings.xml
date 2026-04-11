@@ -5,6 +5,10 @@
     <string id="SecondsModeOn">On</string>
     <string id="SecondsModeWristTurn">Only On Wrist Turn</string>
     <string id="ShowLeadingHourZeroTitle">Leading Zero For Hours</string>
+    <string id="BackgroundModeTitle">Background</string>
+    <string id="BackgroundModeDay">Day</string>
+    <string id="BackgroundModeNight">Night</string>
+    <string id="BackgroundModeAuto">Auto</string>
     <string id="DataFieldBelowTimeTitle">Data Field Below Time</string>
     <string id="DataFieldBelowTimeDate">Date</string>
     <string id="InsetDataField1Title">Inset Data Field 1</string>

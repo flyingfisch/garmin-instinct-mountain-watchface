@@ -11,6 +11,14 @@
         <settingConfig type="boolean" />
     </setting>
 
+    <setting propertyKey="@Properties.BackgroundMode" title="@Strings.BackgroundModeTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.BackgroundModeDay</listEntry>
+            <listEntry value="1">@Strings.BackgroundModeNight</listEntry>
+            <listEntry value="2">@Strings.BackgroundModeAuto</listEntry>
+        </settingConfig>
+    </setting>
+
     <setting propertyKey="@Properties.DataFieldBelowTime" title="@Strings.DataFieldBelowTimeTitle">
         <settingConfig type="list">
             <listEntry value="0">@Strings.DataFieldBelowTimeDate</listEntry>

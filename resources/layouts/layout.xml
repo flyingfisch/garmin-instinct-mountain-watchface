@@ -1,5 +1,5 @@
 <layout id="WatchFace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
-    <bitmap id="BackgroundImage" x="center" y="center" filename="../../images/mountain-background-with-stars.png" />
+    <bitmap id="BackgroundImage" x="center" y="center" filename="../../images/mountain-background-day.png" />
 
     <bitmap id="InsetDataField1Icon" x="122" y="12" filename="../../images/icons/battery-full.png" />
     <label id="InsetDataField1Label" x="141" y="9" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_WHITE" text="" />
