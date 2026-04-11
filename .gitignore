@@ -2,6 +2,7 @@ bin/
 build/
 derived/
 tmp/
+output/connectiq
 *.iq
 *.prg
 *.dbg
