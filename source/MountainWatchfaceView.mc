@@ -5,6 +5,11 @@ import Toybox.System;
 import Toybox.WatchUi;
 
 class MountainWatchfaceView extends WatchUi.WatchFace {
+    const SECONDS_CLIP_X = 145;
+    const SECONDS_CLIP_Y = 88;
+    const SECONDS_CLIP_WIDTH = 20;
+    const SECONDS_CLIP_HEIGHT = 16;
+
     var isAwake = true;
 
     function initialize() {
@@ -58,6 +63,23 @@ class MountainWatchfaceView extends WatchUi.WatchFace {
 
         View.onUpdate(dc);
         drawSubtleBatteryIndicator(dc, systemStats, WatchfaceSettings.getShowSubtleBatteryIndicator());
+    }
+
+    function onPartialUpdate(dc) {
+        var secondsMode = WatchfaceSettings.getSecondsMode();
+        if (secondsMode != WatchfaceSettings.SECONDS_MODE_ON) {
+            return;
+        }
+
+        var clockTime = System.getClockTime();
+        var secondsLabel = View.findDrawableById("SecondsLabel") as WatchUi.Text;
+
+        secondsLabel.setText(WatchfaceFormatting.formatSeconds(clockTime));
+        secondsLabel.setVisible(true);
+
+        dc.setClip(SECONDS_CLIP_X, SECONDS_CLIP_Y, SECONDS_CLIP_WIDTH, SECONDS_CLIP_HEIGHT);
+        View.onUpdate(dc);
+        dc.setClip(0, 0, dc.getWidth(), dc.getHeight());
     }
 
     function onExitSleep() {
