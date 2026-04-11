@@ -1,5 +1,6 @@
 import Toybox.Activity;
 import Toybox.ActivityMonitor;
+import Toybox.Graphics;
 import Toybox.System;
 import Toybox.WatchUi;
 
@@ -16,6 +17,7 @@ class MountainWatchfaceView extends WatchUi.WatchFace {
 
     function onUpdate(dc) {
         var deviceSettings = System.getDeviceSettings();
+        var systemStats = System.getSystemStats();
         var clockTime = System.getClockTime();
         var secondsMode = WatchfaceSettings.getSecondsMode();
         var showLeadingHourZero = WatchfaceSettings.getShowLeadingHourZero();
@@ -53,6 +55,7 @@ class MountainWatchfaceView extends WatchUi.WatchFace {
         DataFieldService.updateInsetDataField(insetDataField2Icon, insetDataField2Label, WatchfaceSettings.getInsetDataField2(), deviceSettings, activityInfo, activityMonitorInfo);
 
         View.onUpdate(dc);
+        drawSubtleBatteryIndicator(dc, systemStats, WatchfaceSettings.getShowSubtleBatteryIndicator());
     }
 
     function onExitSleep() {
@@ -63,5 +66,27 @@ class MountainWatchfaceView extends WatchUi.WatchFace {
     function onEnterSleep() {
         isAwake = false;
         WatchUi.requestUpdate();
+    }
+
+    function drawSubtleBatteryIndicator(dc, systemStats, isVisible) {
+        if (!isVisible || (systemStats == null) || (systemStats.battery == null)) {
+            return;
+        }
+
+        var batteryPercent = systemStats.battery.toFloat();
+        var screenWidth = dc.getWidth();
+        var horizontalMargin = 26;
+        var maxIndicatorWidth = screenWidth - (horizontalMargin * 2);
+        var indicatorWidth = ((maxIndicatorWidth * batteryPercent) / 100.0).toNumber();
+        if (indicatorWidth <= 0) {
+            return;
+        }
+
+        var startX = ((screenWidth - indicatorWidth) / 2).toNumber();
+        var endX = startX + indicatorWidth - 1;
+        var indicatorY = 146;
+
+        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
+        dc.drawLine(startX, indicatorY, endX, indicatorY);
     }
 }

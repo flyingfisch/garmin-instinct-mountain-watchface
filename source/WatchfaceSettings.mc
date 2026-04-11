@@ -58,4 +58,10 @@ module WatchfaceSettings {
 
         return dataFieldBelowTime.toNumber();
     }
+
+    function getShowSubtleBatteryIndicator() {
+        var showSubtleBatteryIndicator = Application.Properties.getValue("ShowSubtleBatteryIndicator");
+
+        return showSubtleBatteryIndicator as Lang.Boolean;
+    }
 }
