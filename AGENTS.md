@@ -15,8 +15,8 @@ This repo contains a ConnectIQ Garmin watchface built with the Garmin SDK and Mo
 
 ### Build outputs
 
-- Debug/device build: `build/mountain-watchface.prg`
-- Store upload package: `build/mountain-watchface.iq`
+- Debug/device build: `bin/garmininstinctmountainwatchface.prg`
+- Store upload package: `bin/garmininstinctmountainwatchface.iq`
 
 ### Required local configuration
 
@@ -29,5 +29,5 @@ Local machine-specific paths are stored in an untracked file:
 Debug build:
 
 ```powershell
-& '<MONKEYC_BIN>' -f monkey.jungle -d instinct2 -o build\mountain-watchface.prg -y '<GARMIN_DEVELOPER_KEY>' -w
+& '<MONKEYC_BIN>' -f monkey.jungle -d instinct2 -o bin\garmininstinctmountainwatchface.prg -y '<GARMIN_DEVELOPER_KEY>' -w
 ```
