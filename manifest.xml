@@ -13,6 +13,8 @@
         <iq:languages>
             <iq:language>eng</iq:language>
         </iq:languages>
-        <iq:permissions/>
+        <iq:permissions>
+            <iq:uses-permission id="SensorHistory"/>
+        </iq:permissions>
     </iq:application>
 </iq:manifest>

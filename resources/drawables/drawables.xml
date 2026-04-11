@@ -3,4 +3,10 @@
     <bitmap id="MountainBackground" filename="../../images/mountain-background-with-stars.png" />
     <bitmap id="HeartIcon" filename="../../images/icons/heart.png" />
     <bitmap id="NotificationsIcon" filename="../../images/icons/notifications.png" />
+    <bitmap id="AltitudeIcon" filename="../../images/icons/altitude.png" />
+    <bitmap id="BatteryCriticalIcon" filename="../../images/icons/battery-critical.png" />
+    <bitmap id="BatteryFullIcon" filename="../../images/icons/battery-full.png" />
+    <bitmap id="BatteryHalfIcon" filename="../../images/icons/battery-half.png" />
+    <bitmap id="BatteryLowIcon" filename="../../images/icons/battery-low.png" />
+    <bitmap id="StepsIcon" filename="../../images/icons/steps.png" />
 </resources>

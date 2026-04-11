@@ -10,4 +10,24 @@
     <setting propertyKey="@Properties.ShowLeadingHourZero" title="@Strings.ShowLeadingHourZeroTitle">
         <settingConfig type="boolean" />
     </setting>
+
+    <setting propertyKey="@Properties.InsetDataField1" title="@Strings.InsetDataField1Title">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.InsetDataFieldAltitude</listEntry>
+            <listEntry value="1">@Strings.InsetDataFieldHeartRate</listEntry>
+            <listEntry value="2">@Strings.InsetDataFieldBattery</listEntry>
+            <listEntry value="3">@Strings.InsetDataFieldSteps</listEntry>
+            <listEntry value="4">@Strings.InsetDataFieldNotifications</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.InsetDataField2" title="@Strings.InsetDataField2Title">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.InsetDataFieldAltitude</listEntry>
+            <listEntry value="1">@Strings.InsetDataFieldHeartRate</listEntry>
+            <listEntry value="2">@Strings.InsetDataFieldBattery</listEntry>
+            <listEntry value="3">@Strings.InsetDataFieldSteps</listEntry>
+            <listEntry value="4">@Strings.InsetDataFieldNotifications</listEntry>
+        </settingConfig>
+    </setting>
 </settings>

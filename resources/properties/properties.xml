@@ -1,4 +1,6 @@
 <properties xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
     <property id="SecondsMode" type="number">2</property>
     <property id="ShowLeadingHourZero" type="boolean">true</property>
+    <property id="InsetDataField1" type="number">2</property>
+    <property id="InsetDataField2" type="number">1</property>
 </properties>

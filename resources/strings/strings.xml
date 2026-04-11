@@ -5,4 +5,11 @@
     <string id="SecondsModeOn">On</string>
     <string id="SecondsModeWristTurn">Only On Wrist Turn</string>
     <string id="ShowLeadingHourZeroTitle">Leading Zero For Hours</string>
+    <string id="InsetDataField1Title">Inset Data Field 1</string>
+    <string id="InsetDataField2Title">Inset Data Field 2</string>
+    <string id="InsetDataFieldAltitude">Altitude</string>
+    <string id="InsetDataFieldHeartRate">Heart Rate</string>
+    <string id="InsetDataFieldBattery">Battery</string>
+    <string id="InsetDataFieldSteps">Steps</string>
+    <string id="InsetDataFieldNotifications">Notifications</string>
 </resources>
