@@ -27,16 +27,20 @@ module DataFieldService {
         return formatBatteryDays();
     }
 
-    function updateDataFieldBelowTime(iconDrawable, textDrawable, fieldType, deviceSettings, activityInfo, activityMonitorInfo) {
+    function updateDataFieldBelowTime(iconDrawable, dataFieldTextDrawable, dateTextDrawable, fieldType, deviceSettings, activityInfo, activityMonitorInfo) {
         if (fieldType == WatchfaceSettings.BELOW_TIME_FIELD_DATE) {
             iconDrawable.setVisible(false);
-            textDrawable.setText(WatchfaceFormatting.buildDateText());
+            dataFieldTextDrawable.setVisible(false);
+            dateTextDrawable.setVisible(true);
+            dateTextDrawable.setText(WatchfaceFormatting.buildDateText());
             return;
         }
 
+        dateTextDrawable.setVisible(false);
         iconDrawable.setVisible(true);
         iconDrawable.setBitmap(getSharedDataFieldIcon(fieldType - 1));
-        textDrawable.setText(formatDataFieldBelowTime(fieldType, deviceSettings, activityInfo, activityMonitorInfo));
+        dataFieldTextDrawable.setVisible(true);
+        dataFieldTextDrawable.setText(formatDataFieldBelowTime(fieldType, deviceSettings, activityInfo, activityMonitorInfo));
     }
 
     function formatDataFieldBelowTime(fieldType, deviceSettings, activityInfo, activityMonitorInfo) {
