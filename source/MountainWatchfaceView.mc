@@ -23,6 +23,7 @@ class MountainWatchfaceView extends WatchUi.WatchFace {
         var hourLabel = View.findDrawableById("HourLabel") as WatchUi.Text;
         var minuteLabel = View.findDrawableById("MinuteLabel") as WatchUi.Text;
         var secondsLabel = View.findDrawableById("SecondsLabel") as WatchUi.Text;
+        var dataFieldBelowTimeIcon = View.findDrawableById("DataFieldBelowTimeIcon") as WatchUi.Bitmap;
         var dateLabel = View.findDrawableById("DateLabel") as WatchUi.Text;
         var weatherTemperatureLabel = View.findDrawableById("WeatherTemperatureLabel") as WatchUi.Text;
         var insetDataField1Icon = View.findDrawableById("InsetDataField1Icon") as WatchUi.Bitmap;
@@ -41,11 +42,11 @@ class MountainWatchfaceView extends WatchUi.WatchFace {
         secondsLabel.setText(secondsText);
         secondsLabel.setVisible(WatchfaceFormatting.shouldShowSeconds(secondsMode, isAwake));
 
-        dateLabel.setText(WatchfaceFormatting.buildDateText());
+        DataFieldService.updateDataFieldBelowTime(dataFieldBelowTimeIcon, dateLabel, WatchfaceSettings.getDataFieldBelowTime(), deviceSettings, activityInfo, activityMonitorInfo);
         weatherTemperatureLabel.setText(WatchfaceFormatting.getWeatherTemperatureText(deviceSettings));
 
-        InsetFieldService.updateInsetField(insetDataField1Icon, insetDataField1Label, WatchfaceSettings.getInsetDataField1(), deviceSettings, activityInfo, activityMonitorInfo);
-        InsetFieldService.updateInsetField(insetDataField2Icon, insetDataField2Label, WatchfaceSettings.getInsetDataField2(), deviceSettings, activityInfo, activityMonitorInfo);
+        DataFieldService.updateInsetDataField(insetDataField1Icon, insetDataField1Label, WatchfaceSettings.getInsetDataField1(), deviceSettings, activityInfo, activityMonitorInfo);
+        DataFieldService.updateInsetDataField(insetDataField2Icon, insetDataField2Label, WatchfaceSettings.getInsetDataField2(), deviceSettings, activityInfo, activityMonitorInfo);
 
         View.onUpdate(dc);
     }

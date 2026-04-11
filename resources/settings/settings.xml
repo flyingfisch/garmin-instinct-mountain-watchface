@@ -11,6 +11,17 @@
         <settingConfig type="boolean" />
     </setting>
 
+    <setting propertyKey="@Properties.DataFieldBelowTime" title="@Strings.DataFieldBelowTimeTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.DataFieldBelowTimeDate</listEntry>
+            <listEntry value="1">@Strings.InsetDataFieldAltitude</listEntry>
+            <listEntry value="2">@Strings.InsetDataFieldHeartRate</listEntry>
+            <listEntry value="3">@Strings.InsetDataFieldBattery</listEntry>
+            <listEntry value="4">@Strings.InsetDataFieldSteps</listEntry>
+            <listEntry value="5">@Strings.InsetDataFieldNotifications</listEntry>
+        </settingConfig>
+    </setting>
+
     <setting propertyKey="@Properties.InsetDataField1" title="@Strings.InsetDataField1Title">
         <settingConfig type="list">
             <listEntry value="0">@Strings.InsetDataFieldAltitude</listEntry>

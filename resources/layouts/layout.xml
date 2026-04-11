@@ -14,5 +14,6 @@
 
     <label id="WeatherTemperatureLabel" x="60" y="76" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_WHITE" text="" />
 
-    <label id="DateLabel" x="88" y="155" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" text="" />
+    <bitmap id="DataFieldBelowTimeIcon" x="51" y="147" filename="../../images/icons/heart.png" />
+    <label id="DateLabel" x="70" y="155" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" text="" />
 </layout>

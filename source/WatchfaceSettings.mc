@@ -6,6 +6,13 @@ module WatchfaceSettings {
     const SECONDS_MODE_ON = 1;
     const SECONDS_MODE_WRIST_TURN = 2;
 
+    const BELOW_TIME_FIELD_DATE = 0;
+    const BELOW_TIME_FIELD_ALTITUDE = 1;
+    const BELOW_TIME_FIELD_HEART_RATE = 2;
+    const BELOW_TIME_FIELD_BATTERY = 3;
+    const BELOW_TIME_FIELD_STEPS = 4;
+    const BELOW_TIME_FIELD_NOTIFICATIONS = 5;
+
     const INSET_DATA_FIELD_ALTITUDE = 0;
     const INSET_DATA_FIELD_HEART_RATE = 1;
     const INSET_DATA_FIELD_BATTERY = 2;
@@ -34,5 +41,11 @@ module WatchfaceSettings {
         var insetDataField2 = Application.Properties.getValue("InsetDataField2");
 
         return insetDataField2.toNumber();
+    }
+
+    function getDataFieldBelowTime() {
+        var dataFieldBelowTime = Application.Properties.getValue("DataFieldBelowTime");
+
+        return dataFieldBelowTime.toNumber();
     }
 }

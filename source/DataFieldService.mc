@@ -1,34 +1,86 @@
 import Toybox.SensorHistory;
 import Toybox.System;
 
-module InsetFieldService {
-    function updateInsetField(iconDrawable, textDrawable, fieldType, deviceSettings, activityInfo, activityMonitorInfo) {
+module DataFieldService {
+    function updateInsetDataField(iconDrawable, textDrawable, fieldType, deviceSettings, activityInfo, activityMonitorInfo) {
+        iconDrawable.setBitmap(getSharedDataFieldIcon(fieldType));
+        textDrawable.setText(formatInsetDataField(fieldType, deviceSettings, activityInfo, activityMonitorInfo));
+    }
+
+    function formatInsetDataField(fieldType, deviceSettings, activityInfo, activityMonitorInfo) {
         if (fieldType == WatchfaceSettings.INSET_DATA_FIELD_ALTITUDE) {
-            iconDrawable.setBitmap(Rez.Drawables.AltitudeIcon);
-            textDrawable.setText(formatAltitude(deviceSettings));
-            return;
+            return formatAltitude(deviceSettings);
         }
 
         if (fieldType == WatchfaceSettings.INSET_DATA_FIELD_HEART_RATE) {
-            iconDrawable.setBitmap(Rez.Drawables.HeartIcon);
-            textDrawable.setText(formatHeartRate(activityInfo));
-            return;
+            return formatHeartRate(activityInfo);
         }
 
         if (fieldType == WatchfaceSettings.INSET_DATA_FIELD_STEPS) {
-            iconDrawable.setBitmap(Rez.Drawables.StepsIcon);
-            textDrawable.setText(formatSteps(activityMonitorInfo));
-            return;
+            return formatSteps(activityMonitorInfo);
         }
 
         if (fieldType == WatchfaceSettings.INSET_DATA_FIELD_NOTIFICATIONS) {
-            iconDrawable.setBitmap(Rez.Drawables.NotificationsIcon);
-            textDrawable.setText(formatNotificationCount(deviceSettings));
+            return formatNotificationCount(deviceSettings);
+        }
+
+        return formatBatteryDays();
+    }
+
+    function updateDataFieldBelowTime(iconDrawable, textDrawable, fieldType, deviceSettings, activityInfo, activityMonitorInfo) {
+        if (fieldType == WatchfaceSettings.BELOW_TIME_FIELD_DATE) {
+            iconDrawable.setVisible(false);
+            textDrawable.setText(WatchfaceFormatting.buildDateText());
             return;
         }
 
-        iconDrawable.setBitmap(getBatteryIcon());
-        textDrawable.setText(formatBatteryDays());
+        iconDrawable.setVisible(true);
+        iconDrawable.setBitmap(getSharedDataFieldIcon(fieldType - 1));
+        textDrawable.setText(formatDataFieldBelowTime(fieldType, deviceSettings, activityInfo, activityMonitorInfo));
+    }
+
+    function formatDataFieldBelowTime(fieldType, deviceSettings, activityInfo, activityMonitorInfo) {
+        if (fieldType == WatchfaceSettings.BELOW_TIME_FIELD_ALTITUDE) {
+            return formatAltitude(deviceSettings);
+        }
+
+        if (fieldType == WatchfaceSettings.BELOW_TIME_FIELD_HEART_RATE) {
+            return formatHeartRate(activityInfo);
+        }
+
+        if (fieldType == WatchfaceSettings.BELOW_TIME_FIELD_BATTERY) {
+            return formatBatteryDays();
+        }
+
+        if (fieldType == WatchfaceSettings.BELOW_TIME_FIELD_STEPS) {
+            return formatSteps(activityMonitorInfo);
+        }
+
+        if (fieldType == WatchfaceSettings.BELOW_TIME_FIELD_NOTIFICATIONS) {
+            return formatNotificationCount(deviceSettings);
+        }
+
+        return WatchfaceFormatting.buildDateText();
+    }
+
+    function getSharedDataFieldIcon(fieldType) {
+        if (fieldType == WatchfaceSettings.INSET_DATA_FIELD_ALTITUDE) {
+            return Rez.Drawables.AltitudeIcon;
+        }
+
+        if (fieldType == WatchfaceSettings.INSET_DATA_FIELD_HEART_RATE) {
+            return Rez.Drawables.HeartIcon;
+        }
+
+        if (fieldType == WatchfaceSettings.INSET_DATA_FIELD_STEPS) {
+            return Rez.Drawables.StepsIcon;
+        }
+
+        if (fieldType == WatchfaceSettings.INSET_DATA_FIELD_NOTIFICATIONS) {
+            return Rez.Drawables.NotificationsIcon;
+        }
+
+        return getBatteryIcon();
     }
 
     function formatAltitude(deviceSettings) {
