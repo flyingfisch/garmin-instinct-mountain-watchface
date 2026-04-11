@@ -9,7 +9,15 @@ module Rez {
         (:initialized) var MountainBackground as ResourceId;
         (:initialized) var HeartIcon as ResourceId;
         (:initialized) var NotificationsIcon as ResourceId;
+        (:initialized) var AltitudeIcon as ResourceId;
+        (:initialized) var BatteryCriticalIcon as ResourceId;
+        (:initialized) var BatteryFullIcon as ResourceId;
+        (:initialized) var BatteryHalfIcon as ResourceId;
+        (:initialized) var BatteryLowIcon as ResourceId;
+        (:initialized) var StepsIcon as ResourceId;
         (:initialized) var BackgroundImage as ResourceId;
+        (:initialized) var InsetDataField1Icon as ResourceId;
+        (:initialized) var InsetDataField2Icon as ResourceId;
         (:initialized) var LauncherIcon as ResourceId;
     } // Drawables
 
@@ -23,15 +31,15 @@ module Rez {
             var rez_cmp_local_bitmap_BackgroundImage = new WatchUi.Bitmap({:identifier=>"BackgroundImage", :rezId=>$.Rez.Drawables.BackgroundImage, :locX=>WatchUi.LAYOUT_HALIGN_CENTER, :locY=>WatchUi.LAYOUT_VALIGN_CENTER});
             rez_cmp_local_bitmap_BackgroundImage.setLocation(((dc.getWidth() - rez_cmp_local_bitmap_BackgroundImage.width) * 0.5), ((dc.getHeight() - rez_cmp_local_bitmap_BackgroundImage.height) * 0.5));
 
-            var rez_cmp_local_bitmap_NotificationsIcon = new WatchUi.Bitmap({:identifier=>"NotificationsIcon", :rezId=>$.Rez.Drawables.NotificationsIcon, :locX=>122, :locY=>15});
+            var rez_cmp_local_bitmap_InsetDataField1Icon = new WatchUi.Bitmap({:identifier=>"InsetDataField1Icon", :rezId=>$.Rez.Drawables.InsetDataField1Icon, :locX=>122, :locY=>12});
 
-            var rez_cmp_local_text_NotificationCountLabel = new WatchUi.Text({:identifier=>"NotificationCountLabel", :color=>Graphics.COLOR_WHITE, :locX=>141, :locY=>9, :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_TINY});
+            var rez_cmp_local_text_InsetDataField1Label = new WatchUi.Text({:identifier=>"InsetDataField1Label", :color=>Graphics.COLOR_WHITE, :locX=>141, :locY=>9, :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_TINY});
 
-            var rez_cmp_local_bitmap_HeartIcon = new WatchUi.Bitmap({:identifier=>"HeartIcon", :rezId=>$.Rez.Drawables.HeartIcon, :locX=>122, :locY=>35});
+            var rez_cmp_local_bitmap_InsetDataField2Icon = new WatchUi.Bitmap({:identifier=>"InsetDataField2Icon", :rezId=>$.Rez.Drawables.InsetDataField2Icon, :locX=>122, :locY=>35});
 
-            var rez_cmp_local_text_HeartRateLabel = new WatchUi.Text({:identifier=>"HeartRateLabel", :color=>Graphics.COLOR_WHITE, :locX=>141, :locY=>32, :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_TINY});
+            var rez_cmp_local_text_InsetDataField2Label = new WatchUi.Text({:identifier=>"InsetDataField2Label", :color=>Graphics.COLOR_WHITE, :locX=>141, :locY=>32, :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_TINY});
 
-            var rez_cmp_local_text_HourLabel = new WatchUi.Text({:identifier=>"HourLabel", :color=>Graphics.COLOR_WHITE, :locX=>31, :locY=>121, :justification=>Graphics.TEXT_JUSTIFY_LEFT|Graphics.TEXT_JUSTIFY_VCENTER, :font=>local_Rez_Fonts_TimeDigits});
+            var rez_cmp_local_text_HourLabel = new WatchUi.Text({:identifier=>"HourLabel", :color=>Graphics.COLOR_WHITE, :locX=>80, :locY=>121, :justification=>Graphics.TEXT_JUSTIFY_RIGHT|Graphics.TEXT_JUSTIFY_VCENTER, :font=>local_Rez_Fonts_TimeDigits});
 
             var rez_cmp_local_text_ColonLabel = new WatchUi.Text({:identifier=>"ColonLabel", :color=>Graphics.COLOR_WHITE, :locX=>89, :locY=>121, :text=>":", :justification=>Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER, :font=>local_Rez_Fonts_TimeDigits});
 
@@ -43,12 +51,24 @@ module Rez {
 
             var rez_cmp_local_text_DateLabel = new WatchUi.Text({:identifier=>"DateLabel", :color=>Graphics.COLOR_WHITE, :locX=>88, :locY=>155, :justification=>Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER, :font=>Graphics.FONT_TINY});
 
-            return [rez_cmp_local_bitmap_BackgroundImage, rez_cmp_local_bitmap_NotificationsIcon, rez_cmp_local_text_NotificationCountLabel, rez_cmp_local_bitmap_HeartIcon, rez_cmp_local_text_HeartRateLabel, rez_cmp_local_text_HourLabel, rez_cmp_local_text_ColonLabel, rez_cmp_local_text_MinuteLabel, rez_cmp_local_text_SecondsLabel, rez_cmp_local_text_WeatherTemperatureLabel, rez_cmp_local_text_DateLabel] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_bitmap_BackgroundImage, rez_cmp_local_bitmap_InsetDataField1Icon, rez_cmp_local_text_InsetDataField1Label, rez_cmp_local_bitmap_InsetDataField2Icon, rez_cmp_local_text_InsetDataField2Label, rez_cmp_local_text_HourLabel, rez_cmp_local_text_ColonLabel, rez_cmp_local_text_MinuteLabel, rez_cmp_local_text_SecondsLabel, rez_cmp_local_text_WeatherTemperatureLabel, rez_cmp_local_text_DateLabel] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 
     module Strings {
+        (:initialized) var InsetDataField2Title as ResourceId;
+        (:initialized) var SecondsModeOff as ResourceId;
+        (:initialized) var SecondsModeWristTurn as ResourceId;
+        (:initialized) var InsetDataFieldAltitude as ResourceId;
         (:initialized) var AppName as ResourceId;
+        (:initialized) var InsetDataFieldBattery as ResourceId;
+        (:initialized) var InsetDataFieldHeartRate as ResourceId;
+        (:initialized) var SecondsModeOn as ResourceId;
+        (:initialized) var InsetDataFieldSteps as ResourceId;
+        (:initialized) var InsetDataFieldNotifications as ResourceId;
+        (:initialized) var SecondsModeTitle as ResourceId;
+        (:initialized) var InsetDataField1Title as ResourceId;
+        (:initialized) var ShowLeadingHourZeroTitle as ResourceId;
     } // Strings
 
     module Styles {

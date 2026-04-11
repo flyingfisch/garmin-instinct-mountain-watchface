@@ -4,186 +4,372 @@
 <pcToLineNum>
 <entry filename="c:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\output\\instinct2\\gen\\006-B3888-00\\source\\Rez.mcgen" id="1" lineNum="7" parent="globals/Rez" pc="268435457" symbol="&lt;init&gt;"/>
 <entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceApp.mc" id="2" lineNum="3" parent="globals/MountainWatchfaceApp" pc="268435481" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="3" lineNum="7" parent="globals/MountainWatchfaceView" pc="268435500" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="3" lineNum="10" parent="globals/MountainWatchfaceView" pc="268435500" symbol="&lt;init&gt;"/>
 <entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceApp.mc" id="4" lineNum="9" parent="globals/MountainWatchfaceApp" pc="268435519" symbol="getInitialView"/>
 <entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceApp.mc" id="4" lineNum="10" parent="globals/MountainWatchfaceApp" pc="268435521" symbol="getInitialView"/>
 <entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceApp.mc" id="5" lineNum="5" parent="globals/MountainWatchfaceApp" pc="268435558" symbol="initialize"/>
 <entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceApp.mc" id="5" lineNum="6" parent="globals/MountainWatchfaceApp" pc="268435560" symbol="initialize"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="6" lineNum="99" parent="globals/MountainWatchfaceView" pc="268435579" symbol="formatTemperature"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="6" lineNum="100" parent="globals/MountainWatchfaceView" pc="268435583" symbol="formatTemperature"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="6" lineNum="101" parent="globals/MountainWatchfaceView" pc="268435609" symbol="formatTemperature"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="7" lineNum="12" parent="globals/MountainWatchfaceView" pc="268435629" symbol="onLayout"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="7" lineNum="13" parent="globals/MountainWatchfaceView" pc="268435631" symbol="onLayout"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="8" lineNum="95" parent="globals/MountainWatchfaceView" pc="268435673" symbol="temperatureToFarenheit"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="8" lineNum="96" parent="globals/MountainWatchfaceView" pc="268435675" symbol="temperatureToFarenheit"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="9" lineNum="8" parent="globals/MountainWatchfaceView" pc="268435705" symbol="initialize"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="9" lineNum="9" parent="globals/MountainWatchfaceView" pc="268435707" symbol="initialize"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="16" parent="globals/MountainWatchfaceView" pc="268435726" symbol="onUpdate"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="17" parent="globals/MountainWatchfaceView" pc="268435730" symbol="onUpdate"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="19" parent="globals/MountainWatchfaceView" pc="268435747" symbol="onUpdate"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="20" parent="globals/MountainWatchfaceView" pc="268435764" symbol="onUpdate"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="21" parent="globals/MountainWatchfaceView" pc="268435774" symbol="onUpdate"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="22" parent="globals/MountainWatchfaceView" pc="268435784" symbol="onUpdate"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="24" parent="globals/MountainWatchfaceView" pc="268435794" symbol="onUpdate"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="25" parent="globals/MountainWatchfaceView" pc="268435822" symbol="onUpdate"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="26" parent="globals/MountainWatchfaceView" pc="268435850" symbol="onUpdate"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="27" parent="globals/MountainWatchfaceView" pc="268435878" symbol="onUpdate"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="28" parent="globals/MountainWatchfaceView" pc="268435906" symbol="onUpdate"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="29" parent="globals/MountainWatchfaceView" pc="268435934" symbol="onUpdate"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="30" parent="globals/MountainWatchfaceView" pc="268435962" symbol="onUpdate"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="32" parent="globals/MountainWatchfaceView" pc="268435990" symbol="onUpdate"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="33" parent="globals/MountainWatchfaceView" pc="268436002" symbol="onUpdate"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="35" parent="globals/MountainWatchfaceView" pc="268436012" symbol="onUpdate"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="36" parent="globals/MountainWatchfaceView" pc="268436023" symbol="onUpdate"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="40" parent="globals/MountainWatchfaceView" pc="268436030" symbol="onUpdate"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="41" parent="globals/MountainWatchfaceView" pc="268436043" symbol="onUpdate"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="42" parent="globals/MountainWatchfaceView" pc="268436054" symbol="onUpdate"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="45" parent="globals/MountainWatchfaceView" pc="268436064" symbol="onUpdate"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="46" parent="globals/MountainWatchfaceView" pc="268436077" symbol="onUpdate"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="47" parent="globals/MountainWatchfaceView" pc="268436088" symbol="onUpdate"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="50" parent="globals/MountainWatchfaceView" pc="268436098" symbol="onUpdate"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="51" parent="globals/MountainWatchfaceView" pc="268436111" symbol="onUpdate"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="52" parent="globals/MountainWatchfaceView" pc="268436122" symbol="onUpdate"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="55" parent="globals/MountainWatchfaceView" pc="268436132" symbol="onUpdate"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="56" parent="globals/MountainWatchfaceView" pc="268436169" symbol="onUpdate"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="57" parent="globals/MountainWatchfaceView" pc="268436199" symbol="onUpdate"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="58" parent="globals/MountainWatchfaceView" pc="268436218" symbol="onUpdate"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="60" parent="globals/MountainWatchfaceView" pc="268436231" symbol="onUpdate"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="61" parent="globals/MountainWatchfaceView" pc="268436248" symbol="onUpdate"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="63" parent="globals/MountainWatchfaceView" pc="268436288" symbol="onUpdate"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="65" parent="globals/MountainWatchfaceView" pc="268436307" symbol="onUpdate"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="66" parent="globals/MountainWatchfaceView" pc="268436324" symbol="onUpdate"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="67" parent="globals/MountainWatchfaceView" pc="268436373" symbol="onUpdate"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="69" parent="globals/MountainWatchfaceView" pc="268436409" symbol="onUpdate"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="70" parent="globals/MountainWatchfaceView" pc="268436423" symbol="onUpdate"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="71" parent="globals/MountainWatchfaceView" pc="268436437" symbol="onUpdate"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="73" parent="globals/MountainWatchfaceView" pc="268436451" symbol="onUpdate"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="75" parent="globals/MountainWatchfaceView" pc="268436465" symbol="onUpdate"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="77" parent="globals/MountainWatchfaceView" pc="268436479" symbol="onUpdate"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="78" parent="globals/MountainWatchfaceView" pc="268436493" symbol="onUpdate"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="80" parent="globals/MountainWatchfaceView" pc="268436507" symbol="onUpdate"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="11" lineNum="83" parent="globals/MountainWatchfaceView" pc="268436532" symbol="normalizeMonthCase"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="11" lineNum="84" parent="globals/MountainWatchfaceView" pc="268436534" symbol="normalizeMonthCase"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="11" lineNum="85" parent="globals/MountainWatchfaceView" pc="268436560" symbol="normalizeMonthCase"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="11" lineNum="88" parent="globals/MountainWatchfaceView" pc="268436566" symbol="normalizeMonthCase"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="11" lineNum="89" parent="globals/MountainWatchfaceView" pc="268436586" symbol="normalizeMonthCase"/>
-<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="11" lineNum="92" parent="globals/MountainWatchfaceView" pc="268436589" symbol="normalizeMonthCase"/>
-<entry filename="c:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\output\\instinct2\\gen\\006-B3888-00\\source\\Rez.mcgen" id="12" lineNum="21" parent="globals/Rez/Layouts" pc="268436657" symbol="WatchFace"/>
-<entry filename="c:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\output\\instinct2\\gen\\006-B3888-00\\source\\Rez.mcgen" id="12" lineNum="22" parent="globals/Rez/Layouts" pc="268436669" symbol="WatchFace"/>
-<entry filename="c:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\output\\instinct2\\gen\\006-B3888-00\\source\\Rez.mcgen" id="12" lineNum="23" parent="globals/Rez/Layouts" pc="268436710" symbol="WatchFace"/>
-<entry filename="c:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\output\\instinct2\\gen\\006-B3888-00\\source\\Rez.mcgen" id="12" lineNum="24" parent="globals/Rez/Layouts" pc="268436815" symbol="WatchFace"/>
-<entry filename="c:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\output\\instinct2\\gen\\006-B3888-00\\source\\Rez.mcgen" id="12" lineNum="26" parent="globals/Rez/Layouts" pc="268436879" symbol="WatchFace"/>
-<entry filename="c:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\output\\instinct2\\gen\\006-B3888-00\\source\\Rez.mcgen" id="12" lineNum="28" parent="globals/Rez/Layouts" pc="268436984" symbol="WatchFace"/>
-<entry filename="c:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\output\\instinct2\\gen\\006-B3888-00\\source\\Rez.mcgen" id="12" lineNum="30" parent="globals/Rez/Layouts" pc="268437096" symbol="WatchFace"/>
-<entry filename="c:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\output\\instinct2\\gen\\006-B3888-00\\source\\Rez.mcgen" id="12" lineNum="32" parent="globals/Rez/Layouts" pc="268437201" symbol="WatchFace"/>
-<entry filename="c:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\output\\instinct2\\gen\\006-B3888-00\\source\\Rez.mcgen" id="12" lineNum="34" parent="globals/Rez/Layouts" pc="268437313" symbol="WatchFace"/>
-<entry filename="c:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\output\\instinct2\\gen\\006-B3888-00\\source\\Rez.mcgen" id="12" lineNum="36" parent="globals/Rez/Layouts" pc="268437422" symbol="WatchFace"/>
-<entry filename="c:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\output\\instinct2\\gen\\006-B3888-00\\source\\Rez.mcgen" id="12" lineNum="38" parent="globals/Rez/Layouts" pc="268437544" symbol="WatchFace"/>
-<entry filename="c:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\output\\instinct2\\gen\\006-B3888-00\\source\\Rez.mcgen" id="12" lineNum="40" parent="globals/Rez/Layouts" pc="268437653" symbol="WatchFace"/>
-<entry filename="c:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\output\\instinct2\\gen\\006-B3888-00\\source\\Rez.mcgen" id="12" lineNum="42" parent="globals/Rez/Layouts" pc="268437765" symbol="WatchFace"/>
-<entry filename="c:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\output\\instinct2\\gen\\006-B3888-00\\source\\Rez.mcgen" id="12" lineNum="44" parent="globals/Rez/Layouts" pc="268437877" symbol="WatchFace"/>
-<entry filename="c:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\output\\instinct2\\gen\\006-B3888-00\\source\\Rez.mcgen" id="12" lineNum="46" parent="globals/Rez/Layouts" pc="268437989" symbol="WatchFace"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="6" lineNum="190" parent="globals/MountainWatchfaceView" pc="268435579" symbol="formatAltitude"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="6" lineNum="191" parent="globals/MountainWatchfaceView" pc="268435583" symbol="formatAltitude"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="6" lineNum="192" parent="globals/MountainWatchfaceView" pc="268435596" symbol="formatAltitude"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="6" lineNum="193" parent="globals/MountainWatchfaceView" pc="268435602" symbol="formatAltitude"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="6" lineNum="196" parent="globals/MountainWatchfaceView" pc="268435608" symbol="formatAltitude"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="6" lineNum="197" parent="globals/MountainWatchfaceView" pc="268435621" symbol="formatAltitude"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="6" lineNum="198" parent="globals/MountainWatchfaceView" pc="268435638" symbol="formatAltitude"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="6" lineNum="201" parent="globals/MountainWatchfaceView" pc="268435648" symbol="formatAltitude"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="7" lineNum="204" parent="globals/MountainWatchfaceView" pc="268435662" symbol="getLatestElevation"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="7" lineNum="205" parent="globals/MountainWatchfaceView" pc="268435666" symbol="getLatestElevation"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="7" lineNum="206" parent="globals/MountainWatchfaceView" pc="268435698" symbol="getLatestElevation"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="7" lineNum="209" parent="globals/MountainWatchfaceView" pc="268435700" symbol="getLatestElevation"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="7" lineNum="211" parent="globals/MountainWatchfaceView" pc="268435723" symbol="getLatestElevation"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="7" lineNum="212" parent="globals/MountainWatchfaceView" pc="268435736" symbol="getLatestElevation"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="7" lineNum="213" parent="globals/MountainWatchfaceView" pc="268435754" symbol="getLatestElevation"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="7" lineNum="216" parent="globals/MountainWatchfaceView" pc="268435756" symbol="getLatestElevation"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="8" lineNum="141" parent="globals/MountainWatchfaceView" pc="268435765" symbol="normalizeMonthCase"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="8" lineNum="142" parent="globals/MountainWatchfaceView" pc="268435767" symbol="normalizeMonthCase"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="8" lineNum="143" parent="globals/MountainWatchfaceView" pc="268435793" symbol="normalizeMonthCase"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="8" lineNum="146" parent="globals/MountainWatchfaceView" pc="268435799" symbol="normalizeMonthCase"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="8" lineNum="147" parent="globals/MountainWatchfaceView" pc="268435819" symbol="normalizeMonthCase"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="8" lineNum="150" parent="globals/MountainWatchfaceView" pc="268435822" symbol="normalizeMonthCase"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="9" lineNum="123" parent="globals/MountainWatchfaceView" pc="268435890" symbol="getInsetDataField2"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="9" lineNum="124" parent="globals/MountainWatchfaceView" pc="268435894" symbol="getInsetDataField2"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="9" lineNum="126" parent="globals/MountainWatchfaceView" pc="268435916" symbol="getInsetDataField2"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="227" parent="globals/MountainWatchfaceView" pc="268435928" symbol="formatCompactAltitude"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="228" parent="globals/MountainWatchfaceView" pc="268435932" symbol="formatCompactAltitude"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="229" parent="globals/MountainWatchfaceView" pc="268435945" symbol="formatCompactAltitude"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="230" parent="globals/MountainWatchfaceView" pc="268435956" symbol="formatCompactAltitude"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="233" parent="globals/MountainWatchfaceView" pc="268435963" symbol="formatCompactAltitude"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="234" parent="globals/MountainWatchfaceView" pc="268435974" symbol="formatCompactAltitude"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="237" parent="globals/MountainWatchfaceView" pc="268435991" symbol="formatCompactAltitude"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="10" lineNum="238" parent="globals/MountainWatchfaceView" pc="268436001" symbol="formatCompactAltitude"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="11" lineNum="117" parent="globals/MountainWatchfaceView" pc="268436024" symbol="getInsetDataField1"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="11" lineNum="118" parent="globals/MountainWatchfaceView" pc="268436028" symbol="getInsetDataField1"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="11" lineNum="120" parent="globals/MountainWatchfaceView" pc="268436050" symbol="getInsetDataField1"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="12" lineNum="269" parent="globals/MountainWatchfaceView" pc="268436062" symbol="formatNotificationCount"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="12" lineNum="270" parent="globals/MountainWatchfaceView" pc="268436064" symbol="formatNotificationCount"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="12" lineNum="271" parent="globals/MountainWatchfaceView" pc="268436082" symbol="formatNotificationCount"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="12" lineNum="274" parent="globals/MountainWatchfaceView" pc="268436088" symbol="formatNotificationCount"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="13" lineNum="111" parent="globals/MountainWatchfaceView" pc="268436106" symbol="getShowLeadingHourZero"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="13" lineNum="112" parent="globals/MountainWatchfaceView" pc="268436110" symbol="getShowLeadingHourZero"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="13" lineNum="114" parent="globals/MountainWatchfaceView" pc="268436132" symbol="getShowLeadingHourZero"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="14" lineNum="286" parent="globals/MountainWatchfaceView" pc="268436135" symbol="getBatteryIcon"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="14" lineNum="287" parent="globals/MountainWatchfaceView" pc="268436139" symbol="getBatteryIcon"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="14" lineNum="288" parent="globals/MountainWatchfaceView" pc="268436156" symbol="getBatteryIcon"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="14" lineNum="289" parent="globals/MountainWatchfaceView" pc="268436174" symbol="getBatteryIcon"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="14" lineNum="292" parent="globals/MountainWatchfaceView" pc="268436199" symbol="getBatteryIcon"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="14" lineNum="293" parent="globals/MountainWatchfaceView" pc="268436218" symbol="getBatteryIcon"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="14" lineNum="294" parent="globals/MountainWatchfaceView" pc="268436229" symbol="getBatteryIcon"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="14" lineNum="297" parent="globals/MountainWatchfaceView" pc="268436254" symbol="getBatteryIcon"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="14" lineNum="298" parent="globals/MountainWatchfaceView" pc="268436265" symbol="getBatteryIcon"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="14" lineNum="301" parent="globals/MountainWatchfaceView" pc="268436290" symbol="getBatteryIcon"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="14" lineNum="302" parent="globals/MountainWatchfaceView" pc="268436301" symbol="getBatteryIcon"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="14" lineNum="305" parent="globals/MountainWatchfaceView" pc="268436326" symbol="getBatteryIcon"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="15" lineNum="153" parent="globals/MountainWatchfaceView" pc="268436351" symbol="temperatureToFahrenheit"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="15" lineNum="154" parent="globals/MountainWatchfaceView" pc="268436353" symbol="temperatureToFahrenheit"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="16" lineNum="95" parent="globals/MountainWatchfaceView" pc="268436383" symbol="onExitSleep"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="16" lineNum="96" parent="globals/MountainWatchfaceView" pc="268436385" symbol="onExitSleep"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="16" lineNum="97" parent="globals/MountainWatchfaceView" pc="268436395" symbol="onExitSleep"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="17" lineNum="261" parent="globals/MountainWatchfaceView" pc="268436412" symbol="getStepCount"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="17" lineNum="262" parent="globals/MountainWatchfaceView" pc="268436414" symbol="getStepCount"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="17" lineNum="263" parent="globals/MountainWatchfaceView" pc="268436420" symbol="getStepCount"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="17" lineNum="266" parent="globals/MountainWatchfaceView" pc="268436422" symbol="getStepCount"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="18" lineNum="27" parent="globals/MountainWatchfaceView" pc="268436431" symbol="onLayout"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="18" lineNum="28" parent="globals/MountainWatchfaceView" pc="268436433" symbol="onLayout"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="19" lineNum="219" parent="globals/MountainWatchfaceView" pc="268436475" symbol="formatHeartRate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="19" lineNum="220" parent="globals/MountainWatchfaceView" pc="268436477" symbol="formatHeartRate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="19" lineNum="221" parent="globals/MountainWatchfaceView" pc="268436495" symbol="formatHeartRate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="19" lineNum="224" parent="globals/MountainWatchfaceView" pc="268436501" symbol="formatHeartRate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="20" lineNum="157" parent="globals/MountainWatchfaceView" pc="268436519" symbol="formatTemperature"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="20" lineNum="158" parent="globals/MountainWatchfaceView" pc="268436521" symbol="formatTemperature"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="21" lineNum="100" parent="globals/MountainWatchfaceView" pc="268436538" symbol="onEnterSleep"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="21" lineNum="101" parent="globals/MountainWatchfaceView" pc="268436540" symbol="onEnterSleep"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="21" lineNum="102" parent="globals/MountainWatchfaceView" pc="268436550" symbol="onEnterSleep"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="22" lineNum="241" parent="globals/MountainWatchfaceView" pc="268436567" symbol="formatSteps"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="22" lineNum="242" parent="globals/MountainWatchfaceView" pc="268436571" symbol="formatSteps"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="22" lineNum="243" parent="globals/MountainWatchfaceView" pc="268436586" symbol="formatSteps"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="22" lineNum="244" parent="globals/MountainWatchfaceView" pc="268436592" symbol="formatSteps"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="22" lineNum="247" parent="globals/MountainWatchfaceView" pc="268436598" symbol="formatSteps"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="22" lineNum="248" parent="globals/MountainWatchfaceView" pc="268436611" symbol="formatSteps"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="22" lineNum="249" parent="globals/MountainWatchfaceView" pc="268436622" symbol="formatSteps"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="22" lineNum="252" parent="globals/MountainWatchfaceView" pc="268436639" symbol="formatSteps"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="22" lineNum="253" parent="globals/MountainWatchfaceView" pc="268436649" symbol="formatSteps"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="22" lineNum="254" parent="globals/MountainWatchfaceView" pc="268436667" symbol="formatSteps"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="22" lineNum="255" parent="globals/MountainWatchfaceView" pc="268436715" symbol="formatSteps"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="22" lineNum="258" parent="globals/MountainWatchfaceView" pc="268436750" symbol="formatSteps"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="23" lineNum="129" parent="globals/MountainWatchfaceView" pc="268436759" symbol="shouldShowSeconds"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="23" lineNum="130" parent="globals/MountainWatchfaceView" pc="268436761" symbol="shouldShowSeconds"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="23" lineNum="131" parent="globals/MountainWatchfaceView" pc="268436772" symbol="shouldShowSeconds"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="23" lineNum="134" parent="globals/MountainWatchfaceView" pc="268436775" symbol="shouldShowSeconds"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="23" lineNum="135" parent="globals/MountainWatchfaceView" pc="268436786" symbol="shouldShowSeconds"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="23" lineNum="138" parent="globals/MountainWatchfaceView" pc="268436795" symbol="shouldShowSeconds"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="24" lineNum="23" parent="globals/MountainWatchfaceView" pc="268436798" symbol="initialize"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="24" lineNum="24" parent="globals/MountainWatchfaceView" pc="268436800" symbol="initialize"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="25" lineNum="161" parent="globals/MountainWatchfaceView" pc="268436819" symbol="updateInsetField"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="25" lineNum="162" parent="globals/MountainWatchfaceView" pc="268436821" symbol="updateInsetField"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="25" lineNum="163" parent="globals/MountainWatchfaceView" pc="268436832" symbol="updateInsetField"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="25" lineNum="164" parent="globals/MountainWatchfaceView" pc="268436868" symbol="updateInsetField"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="25" lineNum="165" parent="globals/MountainWatchfaceView" pc="268436893" symbol="updateInsetField"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="25" lineNum="168" parent="globals/MountainWatchfaceView" pc="268436894" symbol="updateInsetField"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="25" lineNum="169" parent="globals/MountainWatchfaceView" pc="268436905" symbol="updateInsetField"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="25" lineNum="170" parent="globals/MountainWatchfaceView" pc="268436941" symbol="updateInsetField"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="25" lineNum="171" parent="globals/MountainWatchfaceView" pc="268436966" symbol="updateInsetField"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="25" lineNum="174" parent="globals/MountainWatchfaceView" pc="268436967" symbol="updateInsetField"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="25" lineNum="175" parent="globals/MountainWatchfaceView" pc="268436978" symbol="updateInsetField"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="25" lineNum="176" parent="globals/MountainWatchfaceView" pc="268437014" symbol="updateInsetField"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="25" lineNum="177" parent="globals/MountainWatchfaceView" pc="268437039" symbol="updateInsetField"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="25" lineNum="180" parent="globals/MountainWatchfaceView" pc="268437040" symbol="updateInsetField"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="25" lineNum="181" parent="globals/MountainWatchfaceView" pc="268437051" symbol="updateInsetField"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="25" lineNum="182" parent="globals/MountainWatchfaceView" pc="268437087" symbol="updateInsetField"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="25" lineNum="183" parent="globals/MountainWatchfaceView" pc="268437112" symbol="updateInsetField"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="25" lineNum="186" parent="globals/MountainWatchfaceView" pc="268437113" symbol="updateInsetField"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="25" lineNum="187" parent="globals/MountainWatchfaceView" pc="268437136" symbol="updateInsetField"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="26" lineNum="105" parent="globals/MountainWatchfaceView" pc="268437160" symbol="getSecondsMode"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="26" lineNum="106" parent="globals/MountainWatchfaceView" pc="268437164" symbol="getSecondsMode"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="26" lineNum="108" parent="globals/MountainWatchfaceView" pc="268437186" symbol="getSecondsMode"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="27" lineNum="31" parent="globals/MountainWatchfaceView" pc="268437198" symbol="onUpdate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="27" lineNum="32" parent="globals/MountainWatchfaceView" pc="268437202" symbol="onUpdate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="27" lineNum="33" parent="globals/MountainWatchfaceView" pc="268437219" symbol="onUpdate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="27" lineNum="34" parent="globals/MountainWatchfaceView" pc="268437236" symbol="onUpdate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="27" lineNum="35" parent="globals/MountainWatchfaceView" pc="268437246" symbol="onUpdate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="27" lineNum="36" parent="globals/MountainWatchfaceView" pc="268437256" symbol="onUpdate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="27" lineNum="37" parent="globals/MountainWatchfaceView" pc="268437266" symbol="onUpdate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="27" lineNum="38" parent="globals/MountainWatchfaceView" pc="268437279" symbol="onUpdate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="27" lineNum="40" parent="globals/MountainWatchfaceView" pc="268437292" symbol="onUpdate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="27" lineNum="41" parent="globals/MountainWatchfaceView" pc="268437320" symbol="onUpdate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="27" lineNum="42" parent="globals/MountainWatchfaceView" pc="268437348" symbol="onUpdate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="27" lineNum="43" parent="globals/MountainWatchfaceView" pc="268437376" symbol="onUpdate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="27" lineNum="44" parent="globals/MountainWatchfaceView" pc="268437404" symbol="onUpdate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="27" lineNum="45" parent="globals/MountainWatchfaceView" pc="268437432" symbol="onUpdate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="27" lineNum="46" parent="globals/MountainWatchfaceView" pc="268437460" symbol="onUpdate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="27" lineNum="47" parent="globals/MountainWatchfaceView" pc="268437488" symbol="onUpdate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="27" lineNum="48" parent="globals/MountainWatchfaceView" pc="268437516" symbol="onUpdate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="27" lineNum="50" parent="globals/MountainWatchfaceView" pc="268437544" symbol="onUpdate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="27" lineNum="51" parent="globals/MountainWatchfaceView" pc="268437556" symbol="onUpdate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="27" lineNum="53" parent="globals/MountainWatchfaceView" pc="268437566" symbol="onUpdate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="27" lineNum="54" parent="globals/MountainWatchfaceView" pc="268437577" symbol="onUpdate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="27" lineNum="58" parent="globals/MountainWatchfaceView" pc="268437584" symbol="onUpdate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="27" lineNum="59" parent="globals/MountainWatchfaceView" pc="268437597" symbol="onUpdate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="27" lineNum="60" parent="globals/MountainWatchfaceView" pc="268437613" symbol="onUpdate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="27" lineNum="63" parent="globals/MountainWatchfaceView" pc="268437623" symbol="onUpdate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="27" lineNum="64" parent="globals/MountainWatchfaceView" pc="268437641" symbol="onUpdate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="27" lineNum="66" parent="globals/MountainWatchfaceView" pc="268437659" symbol="onUpdate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="27" lineNum="67" parent="globals/MountainWatchfaceView" pc="268437696" symbol="onUpdate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="27" lineNum="68" parent="globals/MountainWatchfaceView" pc="268437726" symbol="onUpdate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="27" lineNum="69" parent="globals/MountainWatchfaceView" pc="268437745" symbol="onUpdate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="27" lineNum="71" parent="globals/MountainWatchfaceView" pc="268437758" symbol="onUpdate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="27" lineNum="72" parent="globals/MountainWatchfaceView" pc="268437775" symbol="onUpdate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="27" lineNum="74" parent="globals/MountainWatchfaceView" pc="268437792" symbol="onUpdate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="27" lineNum="75" parent="globals/MountainWatchfaceView" pc="268437809" symbol="onUpdate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="27" lineNum="76" parent="globals/MountainWatchfaceView" pc="268437816" symbol="onUpdate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="27" lineNum="77" parent="globals/MountainWatchfaceView" pc="268437836" symbol="onUpdate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="27" lineNum="78" parent="globals/MountainWatchfaceView" pc="268437885" symbol="onUpdate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="27" lineNum="81" parent="globals/MountainWatchfaceView" pc="268437906" symbol="onUpdate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="27" lineNum="82" parent="globals/MountainWatchfaceView" pc="268437920" symbol="onUpdate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="27" lineNum="83" parent="globals/MountainWatchfaceView" pc="268437934" symbol="onUpdate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="27" lineNum="84" parent="globals/MountainWatchfaceView" pc="268437948" symbol="onUpdate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="27" lineNum="86" parent="globals/MountainWatchfaceView" pc="268437973" symbol="onUpdate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="27" lineNum="87" parent="globals/MountainWatchfaceView" pc="268437987" symbol="onUpdate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="27" lineNum="89" parent="globals/MountainWatchfaceView" pc="268438001" symbol="onUpdate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="27" lineNum="90" parent="globals/MountainWatchfaceView" pc="268438034" symbol="onUpdate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="27" lineNum="92" parent="globals/MountainWatchfaceView" pc="268438067" symbol="onUpdate"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="28" lineNum="277" parent="globals/MountainWatchfaceView" pc="268438092" symbol="formatBatteryDays"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="28" lineNum="278" parent="globals/MountainWatchfaceView" pc="268438096" symbol="formatBatteryDays"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="28" lineNum="279" parent="globals/MountainWatchfaceView" pc="268438113" symbol="formatBatteryDays"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="28" lineNum="280" parent="globals/MountainWatchfaceView" pc="268438131" symbol="formatBatteryDays"/>
+<entry filename="C:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\source\\MountainWatchfaceView.mc" id="28" lineNum="283" parent="globals/MountainWatchfaceView" pc="268438137" symbol="formatBatteryDays"/>
+<entry filename="c:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\output\\instinct2\\gen\\006-B3888-00\\source\\Rez.mcgen" id="29" lineNum="29" parent="globals/Rez/Layouts" pc="268438166" symbol="WatchFace"/>
+<entry filename="c:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\output\\instinct2\\gen\\006-B3888-00\\source\\Rez.mcgen" id="29" lineNum="30" parent="globals/Rez/Layouts" pc="268438178" symbol="WatchFace"/>
+<entry filename="c:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\output\\instinct2\\gen\\006-B3888-00\\source\\Rez.mcgen" id="29" lineNum="31" parent="globals/Rez/Layouts" pc="268438219" symbol="WatchFace"/>
+<entry filename="c:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\output\\instinct2\\gen\\006-B3888-00\\source\\Rez.mcgen" id="29" lineNum="32" parent="globals/Rez/Layouts" pc="268438324" symbol="WatchFace"/>
+<entry filename="c:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\output\\instinct2\\gen\\006-B3888-00\\source\\Rez.mcgen" id="29" lineNum="34" parent="globals/Rez/Layouts" pc="268438388" symbol="WatchFace"/>
+<entry filename="c:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\output\\instinct2\\gen\\006-B3888-00\\source\\Rez.mcgen" id="29" lineNum="36" parent="globals/Rez/Layouts" pc="268438493" symbol="WatchFace"/>
+<entry filename="c:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\output\\instinct2\\gen\\006-B3888-00\\source\\Rez.mcgen" id="29" lineNum="38" parent="globals/Rez/Layouts" pc="268438605" symbol="WatchFace"/>
+<entry filename="c:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\output\\instinct2\\gen\\006-B3888-00\\source\\Rez.mcgen" id="29" lineNum="40" parent="globals/Rez/Layouts" pc="268438710" symbol="WatchFace"/>
+<entry filename="c:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\output\\instinct2\\gen\\006-B3888-00\\source\\Rez.mcgen" id="29" lineNum="42" parent="globals/Rez/Layouts" pc="268438822" symbol="WatchFace"/>
+<entry filename="c:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\output\\instinct2\\gen\\006-B3888-00\\source\\Rez.mcgen" id="29" lineNum="44" parent="globals/Rez/Layouts" pc="268438931" symbol="WatchFace"/>
+<entry filename="c:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\output\\instinct2\\gen\\006-B3888-00\\source\\Rez.mcgen" id="29" lineNum="46" parent="globals/Rez/Layouts" pc="268439053" symbol="WatchFace"/>
+<entry filename="c:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\output\\instinct2\\gen\\006-B3888-00\\source\\Rez.mcgen" id="29" lineNum="48" parent="globals/Rez/Layouts" pc="268439162" symbol="WatchFace"/>
+<entry filename="c:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\output\\instinct2\\gen\\006-B3888-00\\source\\Rez.mcgen" id="29" lineNum="50" parent="globals/Rez/Layouts" pc="268439274" symbol="WatchFace"/>
+<entry filename="c:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\output\\instinct2\\gen\\006-B3888-00\\source\\Rez.mcgen" id="29" lineNum="52" parent="globals/Rez/Layouts" pc="268439386" symbol="WatchFace"/>
+<entry filename="c:\\Users\\flyin\\Documents\\GitHub\\garmin-instinct-mountain-watchface\\output\\instinct2\\gen\\006-B3888-00\\source\\Rez.mcgen" id="29" lineNum="54" parent="globals/Rez/Layouts" pc="268439498" symbol="WatchFace"/>
 </pcToLineNum>
 <symbolTable>
+<entry id="27" method="true" symbol="temperatureToFahrenheit"/>
 <entry id="8388639" module="true" symbol="Graphics"/>
 <entry id="8" object="true" symbol="MountainWatchfaceView"/>
 <entry field="true" id="8389346" symbol="text"/>
-<entry id="12" method="true" symbol="temperatureToFarenheit"/>
+<entry field="true" id="51" symbol="SecondsModeOff"/>
+<entry field="true" id="46" symbol="InsetDataFieldAltitude"/>
 <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+<entry id="17" method="true" symbol="getBatteryIcon"/>
+<entry field="true" id="32" symbol="BatteryFullIcon"/>
+<entry field="true" id="37" symbol="InsetDataField2Icon"/>
+<entry id="28" method="true" symbol="updateInsetField"/>
+<entry field="true" id="31" symbol="BatteryCriticalIcon"/>
+<entry field="true" id="50" symbol="InsetDataFieldSteps"/>
+<entry field="true" id="53" symbol="SecondsModeTitle"/>
+<entry field="true" id="44" symbol="InsetDataField1Title"/>
+<entry id="11" method="true" symbol="formatBatteryDays"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-<entry field="true" id="19" symbol="AppName"/>
+<entry field="true" id="43" symbol="AppName"/>
+<entry id="8388633" module="true" symbol="ActivityMonitor"/>
 <entry id="6" module="true" symbol="globals/Rez/Strings"/>
 <entry id="8388772" module="true" object="true" symbol="Fonts"/>
 <entry id="8389345" symbol="rezId"/>
+<entry field="true" id="24" symbol="isAwake"/>
 <entry id="8388631" module="true" symbol="Activity"/>
 <entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="13" method="true" symbol="formatHeartRate"/>
+<entry field="true" id="55" symbol="ShowLeadingHourZeroTitle"/>
 <entry id="2" module="true" symbol="globals/Rez"/>
+<entry field="true" id="34" symbol="BatteryLowIcon"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
 <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+<entry id="20" method="true" symbol="getLatestElevation"/>
 <entry field="true" id="8389065" symbol="locY"/>
 <entry field="true" id="8389064" symbol="locX"/>
+<entry id="12" method="true" symbol="formatCompactAltitude"/>
+<entry field="true" id="41" symbol="StepsIcon"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
 <entry id="8389348" symbol="font"/>
 <entry id="5" module="true" symbol="globals/Rez/Layouts"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
+<entry id="8389376" method="true" symbol="onEnterSleep"/>
+<entry id="10" method="true" symbol="formatAltitude"/>
+<entry field="true" id="36" symbol="InsetDataField1Icon"/>
 <entry field="true" id="8389063" symbol="identifier"/>
 <entry id="8389349" symbol="justification"/>
-<entry id="11" method="true" symbol="normalizeMonthCase"/>
+<entry id="25" method="true" symbol="normalizeMonthCase"/>
+<entry id="8389802" method="true" symbol="getElevationHistory"/>
+<entry id="23" method="true" symbol="getStepCount"/>
+<entry field="true" id="52" symbol="SecondsModeOn"/>
 <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
-<entry field="true" id="14" symbol="HeartIcon"/>
+<entry id="22" method="true" symbol="getShowLeadingHourZero"/>
+<entry id="26" method="true" symbol="shouldShowSeconds"/>
+<entry field="true" id="35" symbol="HeartIcon"/>
+<entry id="8389377" method="true" symbol="onExitSleep"/>
 <entry id="8388644" module="true" symbol="System"/>
-<entry field="true" id="18" symbol="TimeDigits"/>
+<entry field="true" id="42" symbol="TimeDigits"/>
 <entry id="8388645" module="true" symbol="Time"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
-<entry field="true" id="16" symbol="MountainBackground"/>
-<entry field="true" id="17" symbol="NotificationsIcon"/>
+<entry field="true" id="39" symbol="MountainBackground"/>
+<entry field="true" id="54" symbol="SecondsModeWristTurn"/>
+<entry field="true" id="40" symbol="NotificationsIcon"/>
 <entry id="8388640" module="true" symbol="Lang"/>
 <entry id="7" object="true" symbol="MountainWatchfaceApp"/>
-<entry field="true" id="15" symbol="LauncherIcon"/>
+<entry field="true" id="38" symbol="LauncherIcon"/>
 <entry id="8388610" symbol="statics"/>
 <entry id="8389350" module="true" symbol="globals"/>
+<entry field="true" id="45" symbol="InsetDataField2Title"/>
+<entry id="15" method="true" symbol="formatSteps"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry field="true" id="33" symbol="BatteryHalfIcon"/>
+<entry id="19" method="true" symbol="getInsetDataField2"/>
+<entry id="18" method="true" symbol="getInsetDataField1"/>
 <entry id="8388702" method="true" symbol="initialize"/>
-<entry field="true" id="13" symbol="BackgroundImage"/>
+<entry field="true" id="30" symbol="BackgroundImage"/>
+<entry field="true" id="47" symbol="InsetDataFieldBattery"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
 <entry field="true" id="8389347" symbol="color"/>
+<entry id="8389781" module="true" symbol="SensorHistory"/>
 <entry id="9" module="true" symbol="Layouts"/>
+<entry id="14" method="true" symbol="formatNotificationCount"/>
+<entry id="21" method="true" symbol="getSecondsMode"/>
 <entry id="4" module="true" symbol="globals/Rez/Fonts"/>
+<entry field="true" id="29" symbol="AltitudeIcon"/>
+<entry field="true" id="48" symbol="InsetDataFieldHeartRate"/>
 <entry id="8388635" module="true" symbol="Application"/>
-<entry id="10" method="true" symbol="formatTemperature"/>
+<entry id="16" method="true" symbol="formatTemperature"/>
+<entry field="true" id="49" symbol="InsetDataFieldNotifications"/>
 </symbolTable>
 <localVars>
-<entry arg="true" endPc="268435628" name="temperature" stackId="1" startPc="268435579"/>
-<entry arg="true" endPc="268435672" name="dc" stackId="1" startPc="268435629"/>
-<entry arg="true" endPc="268435704" name="temperatureC" stackId="1" startPc="268435673"/>
-<entry arg="true" endPc="268436531" name="dc" stackId="1" startPc="268435726"/>
-<entry endPc="268436530" name="deviceSettings" stackId="2" startPc="268435730"/>
-<entry endPc="268436530" name="clockTime" stackId="3" startPc="268435730"/>
-<entry endPc="268436530" name="displayHour" stackId="4" startPc="268435730"/>
-<entry endPc="268436530" name="displayMinute" stackId="5" startPc="268435730"/>
-<entry endPc="268436530" name="displaySeconds" stackId="6" startPc="268435730"/>
-<entry endPc="268436530" name="hourLabel" stackId="7" startPc="268435730"/>
-<entry endPc="268436530" name="minuteLabel" stackId="8" startPc="268435730"/>
-<entry endPc="268436530" name="secondsLabel" stackId="9" startPc="268435730"/>
-<entry endPc="268436530" name="dateLabel" stackId="10" startPc="268435730"/>
-<entry endPc="268436530" name="weatherTemperatureLabel" stackId="11" startPc="268435730"/>
-<entry endPc="268436530" name="heartRateLabel" stackId="12" startPc="268435730"/>
-<entry endPc="268436530" name="notificationCountLabel" stackId="13" startPc="268435730"/>
-<entry endPc="268436530" name="hourText" stackId="14" startPc="268435730"/>
-<entry endPc="268436530" name="minuteText" stackId="15" startPc="268435730"/>
-<entry endPc="268436530" name="secondsText" stackId="16" startPc="268435730"/>
-<entry endPc="268436530" name="currentDate" stackId="17" startPc="268435730"/>
-<entry endPc="268436530" name="monthText" stackId="18" startPc="268435730"/>
-<entry endPc="268436530" name="dayText" stackId="19" startPc="268435730"/>
-<entry endPc="268436530" name="dateText" stackId="20" startPc="268435730"/>
-<entry endPc="268436530" name="activityInfo" stackId="21" startPc="268435730"/>
-<entry endPc="268436530" name="heartRateText" stackId="22" startPc="268435730"/>
-<entry endPc="268436530" name="notificationCountText" stackId="23" startPc="268435730"/>
-<entry endPc="268436530" name="currentWeatherConditions" stackId="24" startPc="268435730"/>
-<entry endPc="268436530" name="localizedTemperatureValue" stackId="25" startPc="268435730"/>
-<entry endPc="268436530" name="weatherTemperatureText" stackId="26" startPc="268435730"/>
-<entry arg="true" endPc="268436656" name="monthText" stackId="1" startPc="268436532"/>
-<entry arg="true" endPc="268438105" name="dc" stackId="1" startPc="268436657"/>
+<entry arg="true" endPc="268435661" name="deviceSettings" stackId="1" startPc="268435579"/>
+<entry arg="true" endPc="268435889" name="monthText" stackId="1" startPc="268435765"/>
+<entry arg="true" endPc="268436023" name="altitude" stackId="1" startPc="268435928"/>
+<entry arg="true" endPc="268436105" name="deviceSettings" stackId="1" startPc="268436062"/>
+<entry arg="true" endPc="268436382" name="temperatureC" stackId="1" startPc="268436351"/>
+<entry arg="true" endPc="268436430" name="activityMonitorInfo" stackId="1" startPc="268436412"/>
+<entry arg="true" endPc="268436474" name="dc" stackId="1" startPc="268436431"/>
+<entry arg="true" endPc="268436518" name="activityInfo" stackId="1" startPc="268436475"/>
+<entry arg="true" endPc="268436537" name="temperature" stackId="1" startPc="268436519"/>
+<entry arg="true" endPc="268436758" name="activityMonitorInfo" stackId="1" startPc="268436567"/>
+<entry arg="true" endPc="268436797" name="secondsMode" stackId="1" startPc="268436759"/>
+<entry arg="true" endPc="268437159" name="iconDrawable" stackId="1" startPc="268436819"/>
+<entry arg="true" endPc="268437159" name="textDrawable" stackId="2" startPc="268436819"/>
+<entry arg="true" endPc="268437159" name="fieldType" stackId="3" startPc="268436819"/>
+<entry arg="true" endPc="268437159" name="deviceSettings" stackId="4" startPc="268436819"/>
+<entry arg="true" endPc="268437159" name="activityInfo" stackId="5" startPc="268436819"/>
+<entry arg="true" endPc="268437159" name="activityMonitorInfo" stackId="6" startPc="268436819"/>
+<entry arg="true" endPc="268438091" name="dc" stackId="1" startPc="268437198"/>
+<entry endPc="268438090" name="deviceSettings" stackId="2" startPc="268437202"/>
+<entry endPc="268438090" name="clockTime" stackId="3" startPc="268437202"/>
+<entry endPc="268438090" name="displayHour" stackId="4" startPc="268437202"/>
+<entry endPc="268438090" name="displayMinute" stackId="5" startPc="268437202"/>
+<entry endPc="268438090" name="displaySeconds" stackId="6" startPc="268437202"/>
+<entry endPc="268438090" name="secondsMode" stackId="7" startPc="268437202"/>
+<entry endPc="268438090" name="showLeadingHourZero" stackId="8" startPc="268437202"/>
+<entry endPc="268438090" name="hourLabel" stackId="9" startPc="268437202"/>
+<entry endPc="268438090" name="minuteLabel" stackId="10" startPc="268437202"/>
+<entry endPc="268438090" name="secondsLabel" stackId="11" startPc="268437202"/>
+<entry endPc="268438090" name="dateLabel" stackId="12" startPc="268437202"/>
+<entry endPc="268438090" name="weatherTemperatureLabel" stackId="13" startPc="268437202"/>
+<entry endPc="268438090" name="insetDataField1Icon" stackId="14" startPc="268437202"/>
+<entry endPc="268438090" name="insetDataField1Label" stackId="15" startPc="268437202"/>
+<entry endPc="268438090" name="insetDataField2Icon" stackId="16" startPc="268437202"/>
+<entry endPc="268438090" name="insetDataField2Label" stackId="17" startPc="268437202"/>
+<entry endPc="268438090" name="hourText" stackId="18" startPc="268437202"/>
+<entry endPc="268438090" name="minuteText" stackId="19" startPc="268437202"/>
+<entry endPc="268438090" name="secondsText" stackId="20" startPc="268437202"/>
+<entry endPc="268438090" name="currentDate" stackId="21" startPc="268437202"/>
+<entry endPc="268438090" name="monthText" stackId="22" startPc="268437202"/>
+<entry endPc="268438090" name="dayText" stackId="23" startPc="268437202"/>
+<entry endPc="268438090" name="dateText" stackId="24" startPc="268437202"/>
+<entry endPc="268438090" name="activityInfo" stackId="25" startPc="268437202"/>
+<entry endPc="268438090" name="activityMonitorInfo" stackId="26" startPc="268437202"/>
+<entry endPc="268438090" name="currentWeatherConditions" stackId="27" startPc="268437202"/>
+<entry endPc="268438090" name="weatherTemperatureText" stackId="28" startPc="268437202"/>
+<entry endPc="268437905" name="localizedTemperatureValue" stackId="29" startPc="268437836"/>
+<entry arg="true" endPc="268439614" name="dc" stackId="1" startPc="268438166"/>
 </localVars>
 <deviceInfo deviceVersion="8fc30743a4191ec19bcafa28e3ffcc2b5a958a17" partNumber="006-B3888-00"/>
 <annotations>
 <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
-<annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="TimeDigits"/>
-<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="BackgroundImage"/>
-<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="NotificationsIcon"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="InsetDataField1Icon"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="BatteryLowIcon"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="InsetDataFieldSteps"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="AltitudeIcon"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
-<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="HeartIcon"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="InsetDataField1Title"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="BatteryFullIcon"/>
 <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="MountainBackground"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="InsetDataFieldAltitude"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="InsetDataField2Icon"/>
+<annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="TimeDigits"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="NotificationsIcon"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="BatteryHalfIcon"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="SecondsModeTitle"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="HeartIcon"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="InsetDataFieldBattery"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="SecondsModeOn"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="BatteryCriticalIcon"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="SecondsModeOff"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="SecondsModeWristTurn"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="InsetDataFieldNotifications"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ShowLeadingHourZeroTitle"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="BackgroundImage"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="InsetDataFieldHeartRate"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="StepsIcon"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="InsetDataField2Title"/>
 </annotations>
 <dataEntryOffsetMappings>
 <dataEntry label="globals" offset="71" parentId="" symbolId="globals" type="module"/>
 <dataEntry label="globals/Rez" offset="134" parentId="globals" symbolId="Rez" type="module"/>
 <dataEntry label="globals/MountainWatchfaceApp" offset="197" parentId="globals" symbolId="MountainWatchfaceApp" type="class"/>
 <dataEntry label="globals/MountainWatchfaceView" offset="252" parentId="globals" symbolId="MountainWatchfaceView" type="class"/>
-<dataEntry label="globals/Rez/Drawables" offset="339" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry label="globals/Rez/Layouts" offset="410" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry label="globals/Rez/Fonts" offset="449" parentId="Rez" symbolId="Fonts" type="module"/>
-<dataEntry label="globals/Rez/Strings" offset="488" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/Rez/Drawables" offset="483" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="618" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Fonts" offset="657" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="696" parentId="Rez" symbolId="Strings" type="module"/>
 </dataEntryOffsetMappings>
 <functions>
 <functionEntry accessMode="public" endPc="268435480" name="&lt;init&gt;" parent="Rez" startPc="268435457">
@@ -213,30 +399,94 @@
 <functionEntry accessMode="public" endPc="268435578" name="initialize" parent="MountainWatchfaceApp" startPc="268435558">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435628" name="formatTemperature" parent="MountainWatchfaceView" startPc="268435579">
-<param id="temperature"/>
+<functionEntry accessMode="public" endPc="268435661" name="formatAltitude" parent="MountainWatchfaceView" startPc="268435579">
+<param id="deviceSettings"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435672" name="onLayout" parent="MountainWatchfaceView" startPc="268435629">
-<param id="dc"/>
+<functionEntry accessMode="public" endPc="268435764" name="getLatestElevation" parent="MountainWatchfaceView" startPc="268435662">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435704" name="temperatureToFarenheit" parent="MountainWatchfaceView" startPc="268435673">
-<param id="temperatureC"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268435725" name="initialize" parent="MountainWatchfaceView" startPc="268435705">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268436531" name="onUpdate" parent="MountainWatchfaceView" startPc="268435726">
-<param id="dc"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268436656" name="normalizeMonthCase" parent="MountainWatchfaceView" startPc="268436532">
+<functionEntry accessMode="public" endPc="268435889" name="normalizeMonthCase" parent="MountainWatchfaceView" startPc="268435765">
 <param id="monthText"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438105" name="WatchFace" parent="Layouts" startPc="268436657">
+<functionEntry accessMode="public" endPc="268435927" name="getInsetDataField2" parent="MountainWatchfaceView" startPc="268435890">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436023" name="formatCompactAltitude" parent="MountainWatchfaceView" startPc="268435928">
+<param id="altitude"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436061" name="getInsetDataField1" parent="MountainWatchfaceView" startPc="268436024">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436105" name="formatNotificationCount" parent="MountainWatchfaceView" startPc="268436062">
+<param id="deviceSettings"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436134" name="getShowLeadingHourZero" parent="MountainWatchfaceView" startPc="268436106">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436350" name="getBatteryIcon" parent="MountainWatchfaceView" startPc="268436135">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436382" name="temperatureToFahrenheit" parent="MountainWatchfaceView" startPc="268436351">
+<param id="temperatureC"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436411" name="onExitSleep" parent="MountainWatchfaceView" startPc="268436383">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436430" name="getStepCount" parent="MountainWatchfaceView" startPc="268436412">
+<param id="activityMonitorInfo"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436474" name="onLayout" parent="MountainWatchfaceView" startPc="268436431">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436518" name="formatHeartRate" parent="MountainWatchfaceView" startPc="268436475">
+<param id="activityInfo"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436537" name="formatTemperature" parent="MountainWatchfaceView" startPc="268436519">
+<param id="temperature"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436566" name="onEnterSleep" parent="MountainWatchfaceView" startPc="268436538">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436758" name="formatSteps" parent="MountainWatchfaceView" startPc="268436567">
+<param id="activityMonitorInfo"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436797" name="shouldShowSeconds" parent="MountainWatchfaceView" startPc="268436759">
+<param id="secondsMode"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436818" name="initialize" parent="MountainWatchfaceView" startPc="268436798">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437159" name="updateInsetField" parent="MountainWatchfaceView" startPc="268436819">
+<param id="iconDrawable"/>
+<param id="textDrawable"/>
+<param id="fieldType"/>
+<param id="deviceSettings"/>
+<param id="activityInfo"/>
+<param id="activityMonitorInfo"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437197" name="getSecondsMode" parent="MountainWatchfaceView" startPc="268437160">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438091" name="onUpdate" parent="MountainWatchfaceView" startPc="268437198">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268438165" name="formatBatteryDays" parent="MountainWatchfaceView" startPc="268438092">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439614" name="WatchFace" parent="Layouts" startPc="268438166">
 <param id="dc"/>
 <documentation/>
 </functionEntry>

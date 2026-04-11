@@ -263,11 +263,7 @@ class MountainWatchfaceView extends WatchUi.WatchFace {
             return null;
         }
 
-        if (activityMonitorInfo has :stepCount) {
-            return activityMonitorInfo.stepCount;
-        }
-
-        return null;
+        return activityMonitorInfo.steps;
     }
 
     function formatNotificationCount(deviceSettings) {
