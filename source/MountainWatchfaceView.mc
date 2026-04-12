@@ -13,6 +13,7 @@ class MountainWatchfaceView extends WatchUi.WatchFace {
     const SECONDS_TEXT_Y = 95;
 
     var isAwake = true;
+    var cachedSecondsMode = WatchfaceSettings.SECONDS_MODE_WRIST_TURN;
 
     function initialize() {
         WatchFace.initialize();
@@ -29,6 +30,8 @@ class MountainWatchfaceView extends WatchUi.WatchFace {
         var secondsMode = WatchfaceSettings.getSecondsMode();
         var showLeadingHourZero = WatchfaceSettings.getShowLeadingHourZero();
         var backgroundMode = WatchfaceSettings.getBackgroundMode();
+
+        cachedSecondsMode = secondsMode;
 
         var backgroundImage = View.findDrawableById("BackgroundImage") as WatchUi.Bitmap;
         var hourLabel = View.findDrawableById("HourLabel") as WatchUi.Text;
@@ -68,8 +71,7 @@ class MountainWatchfaceView extends WatchUi.WatchFace {
     }
 
     function onPartialUpdate(dc) {
-        var secondsMode = WatchfaceSettings.getSecondsMode();
-        if (secondsMode != WatchfaceSettings.SECONDS_MODE_ON) {
+        if (cachedSecondsMode != WatchfaceSettings.SECONDS_MODE_ON) {
             return;
         }
 

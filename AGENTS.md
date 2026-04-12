@@ -31,3 +31,8 @@ Debug build:
 ```powershell
 & '<MONKEYC_BIN>' -f monkey.jungle -d instinct2 -o bin\garmininstinctmountainwatchface.prg -y '<GARMIN_DEVELOPER_KEY>' -w
 ```
+
+### Partial update guidance
+
+- Avoid reading ConnectIQ settings/properties inside `onPartialUpdate()`.
+- Cache any settings needed by partial updates during normal `onUpdate()` work instead.
