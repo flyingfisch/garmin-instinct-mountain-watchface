@@ -1,1 +1,2 @@
 - Better optically align data field under time
+- Add option to hide temp

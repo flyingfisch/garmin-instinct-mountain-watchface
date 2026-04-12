@@ -9,6 +9,8 @@ class MountainWatchfaceView extends WatchUi.WatchFace {
     const SECONDS_CLIP_Y = 100;
     const SECONDS_CLIP_WIDTH = 20;
     const SECONDS_CLIP_HEIGHT = 16;
+    const SECONDS_TEXT_X = 161;
+    const SECONDS_TEXT_Y = 95;
 
     var isAwake = true;
 
@@ -72,14 +74,13 @@ class MountainWatchfaceView extends WatchUi.WatchFace {
         }
 
         var clockTime = System.getClockTime();
-        var secondsLabel = View.findDrawableById("SecondsLabel") as WatchUi.Text;
-
-        secondsLabel.setText(WatchfaceFormatting.formatSeconds(clockTime));
-        secondsLabel.setVisible(true);
+        var secondsText = WatchfaceFormatting.formatSeconds(clockTime);
 
         dc.setClip(SECONDS_CLIP_X, SECONDS_CLIP_Y, SECONDS_CLIP_WIDTH, SECONDS_CLIP_HEIGHT);
-        View.onUpdate(dc);
-        dc.setClip(0, 0, dc.getWidth(), dc.getHeight());
+        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
+        dc.clear();
+        dc.drawText(SECONDS_TEXT_X, SECONDS_TEXT_Y, Graphics.FONT_TINY, secondsText, Graphics.TEXT_JUSTIFY_RIGHT);
+        dc.clearClip();
     }
 
     function onExitSleep() {
