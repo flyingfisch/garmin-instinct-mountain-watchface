@@ -3,6 +3,7 @@
     <iq:application id="3f4a7c1e9b2d4f6a8c0e1a2b3d4f5c6e" type="watchface" name="@Strings.AppName" entry="MountainWatchfaceApp" launcherIcon="@Drawables.LauncherIcon" minApiLevel="3.4.0">
         <iq:products>
             <iq:product id="instinct2"/>
+            <iq:product id="instinct2s"/>
             <iq:product id="instinct3solar45mm"/>
         </iq:products>
         <iq:languages>

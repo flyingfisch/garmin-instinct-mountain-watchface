@@ -1,2 +1,3 @@
 - Better optically align data field under time
 - Add option to hide temp
+- Add support for Instinct 2S
