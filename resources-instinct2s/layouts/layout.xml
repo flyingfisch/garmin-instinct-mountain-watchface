@@ -1,11 +1,11 @@
 <layout id="WatchFace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
     <bitmap id="BackgroundImage" x="center" y="center" filename="../../images/mountain-background-day-instinct2s.png" />
 
-    <bitmap id="InsetDataField1Icon" x="115" y="9" filename="../../images/icons/battery-full.png" />
-    <label id="InsetDataField1Label" x="133" y="7" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_WHITE" text="" />
+    <bitmap id="InsetDataField1Icon" x="115" y="10" filename="../../images/icons/battery-full.png" />
+    <label id="InsetDataField1Label" x="133" y="8" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_WHITE" text="" />
 
-    <bitmap id="InsetDataField2Icon" x="115" y="28" filename="../../images/icons/heart.png" />
-    <label id="InsetDataField2Label" x="133" y="26" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_WHITE" text="" />
+    <bitmap id="InsetDataField2Icon" x="115" y="27" filename="../../images/icons/heart.png" />
+    <label id="InsetDataField2Label" x="133" y="25" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_WHITE" text="" />
 
     <bitmap id="SubtleNotificationsIcon" x="12" y="96" filename="../../images/icons/pine-tree-2.png" />
 
