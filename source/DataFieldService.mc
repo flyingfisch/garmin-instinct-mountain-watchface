@@ -146,11 +146,15 @@ module DataFieldService {
 
     function formatBatteryDays() {
         var systemStats = System.getSystemStats();
-        if ((systemStats == null) || (systemStats.batteryInDays == null)) {
-            return "--";
+        if ((systemStats has :batteryInDays) && (systemStats.batteryInDays != null)) {
+            return systemStats.batteryInDays.format("%i") + "d";
         }
 
-        return systemStats.batteryInDays.format("%i") + "d";
+        if ((systemStats has :battery) && (systemStats.battery != null)) {
+            return systemStats.battery.format("%i") + "%";
+        }
+
+        return "--";
     }
 
     function getBatteryIcon() {

@@ -32,6 +32,10 @@ Debug build:
 & '<MONKEYC_BIN>' -f monkey.jungle -d instinct2 -o bin\garmininstinctmountainwatchface.prg -y '<GARMIN_DEVELOPER_KEY>' -w
 ```
 
+### Documentation
+
+- Garmin Connect IQ API docs: `https://developer.garmin.com/connect-iq/api-docs/`
+
 ### Partial update guidance
 
 - Avoid reading ConnectIQ settings/properties inside `onPartialUpdate()`.

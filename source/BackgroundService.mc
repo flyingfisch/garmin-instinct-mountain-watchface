@@ -25,6 +25,10 @@ module BackgroundService {
             return isFallbackDaylight(clockTime);
         }
 
+        if (!(Weather has :getSunrise) || !(Weather has :getSunset)) {
+            return isFallbackDaylight(clockTime);
+        }
+
         var now = Time.now();
         var sunrise = Weather.getSunrise(positionInfo.position, now);
         var sunset = Weather.getSunset(positionInfo.position, now);
