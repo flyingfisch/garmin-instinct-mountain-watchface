@@ -7,7 +7,7 @@
     <bitmap id="InsetDataField2Icon" x="115" y="28" filename="../../images/icons/heart.png" />
     <label id="InsetDataField2Label" x="133" y="26" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_WHITE" text="" />
 
-    <bitmap id="SubtleNotificationsIcon" x="15" y="112" filename="../../images/icons/pine-tree-2.png" />
+    <bitmap id="SubtleNotificationsIcon" x="15" y="96" filename="../../images/icons/pine-tree-2.png" />
 
     <label id="HourLabel" x="76" y="107" font="@Fonts.TimeDigits" justification="Graphics.TEXT_JUSTIFY_RIGHT | Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" text="" />
     <label id="ColonLabel" x="82" y="107" font="@Fonts.TimeDigits" justification="Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" text=":" />
