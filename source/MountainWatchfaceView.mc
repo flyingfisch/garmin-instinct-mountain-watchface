@@ -12,6 +12,11 @@ class MountainWatchfaceView extends WatchUi.WatchFace {
     const SECONDS_TEXT_X = 161;
     const SECONDS_TEXT_Y = 95;
 
+    const BATTERY_DOT_COUNT = 4;
+    const BATTERY_DOT_SPACING = 2;
+    const BATTERY_DOT_Y = 169;
+    const BATTERY_DOT_Y_INSTINCT2S = 149;
+
     var isAwake = true;
     var cachedSecondsMode = WatchfaceSettings.SECONDS_MODE_WRIST_TURN;
 
@@ -106,21 +111,42 @@ class MountainWatchfaceView extends WatchUi.WatchFace {
         }
 
         var batteryPercent = systemStats.battery.toFloat();
-        var isInstinct2S = isInstinct2SDevice(deviceSettings);
-        var screenWidth = isInstinct2S ? 156 : dc.getWidth();
-        var horizontalMargin = 25;
-        var maxIndicatorWidth = screenWidth - (horizontalMargin * 2);
-        var indicatorWidth = ((maxIndicatorWidth * batteryPercent) / 100.0).toNumber();
-        if (indicatorWidth <= 0) {
+        var visibleDotCount = getFilledBatteryDotCount(batteryPercent);
+        if (visibleDotCount <= 0) {
             return;
         }
 
-        var startX = ((screenWidth - indicatorWidth) / 2).toNumber();
-        var endX = startX + indicatorWidth - 1;
-        var indicatorY = isInstinct2S ? 130 : 146;
+        var totalWidth = visibleDotCount + ((visibleDotCount - 1) * BATTERY_DOT_SPACING);
+        var isInstinct2S = isInstinct2SDevice(deviceSettings);
+        var screenWidth = isInstinct2S ? 156 : dc.getWidth();
+        var indicatorY = isInstinct2S ? BATTERY_DOT_Y_INSTINCT2S : BATTERY_DOT_Y;
+        var startX = ((screenWidth - totalWidth) / 2).toNumber();
 
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
-        dc.drawLine(startX, indicatorY, endX, indicatorY);
+        for (var i = 0; i < visibleDotCount; i += 1) {
+            var dotX = startX + (i * (BATTERY_DOT_SPACING + 1));
+            dc.drawPoint(dotX, indicatorY);
+        }
+    }
+
+    function getFilledBatteryDotCount(batteryPercent) {
+        if (batteryPercent <= 0.0) {
+            return 0;
+        }
+
+        if (batteryPercent > 75.0) {
+            return 4;
+        }
+
+        if (batteryPercent > 50.0) {
+            return 3;
+        }
+
+        if (batteryPercent > 25.0) {
+            return 2;
+        }
+
+        return 1;
     }
 
     function isInstinct2SDevice(deviceSettings) {
