@@ -1,3 +1,4 @@
 - Better optically align data field under time
-- Add option to hide temp
-- Add support for Instinct 2S
+- Add option to hide temp, or to make temp show measured temp
+- Add support for Instinct 2X
+- Come up with a better subtle battery indicator
