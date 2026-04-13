@@ -7,16 +7,16 @@
     <bitmap id="InsetDataField2Icon" x="115" y="28" filename="../../images/icons/heart.png" />
     <label id="InsetDataField2Label" x="133" y="26" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_WHITE" text="" />
 
-    <bitmap id="SubtleNotificationsIcon" x="15" y="96" filename="../../images/icons/pine-tree-2.png" />
+    <bitmap id="SubtleNotificationsIcon" x="12" y="96" filename="../../images/icons/pine-tree-2.png" />
 
-    <label id="HourLabel" x="76" y="107" font="@Fonts.TimeDigits" justification="Graphics.TEXT_JUSTIFY_RIGHT | Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" text="" />
-    <label id="ColonLabel" x="82" y="107" font="@Fonts.TimeDigits" justification="Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" text=":" />
-    <label id="MinuteLabel" x="136" y="107" font="@Fonts.TimeDigits" justification="Graphics.TEXT_JUSTIFY_RIGHT | Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" text="" />
-    <label id="SecondsLabel" x="149" y="81" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_RIGHT" color="Graphics.COLOR_WHITE" text="" />
+    <label id="HourLabel" x="72" y="107" font="@Fonts.TimeDigits" justification="Graphics.TEXT_JUSTIFY_RIGHT | Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" text="" />
+    <label id="ColonLabel" x="78" y="107" font="@Fonts.TimeDigits" justification="Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" text=":" />
+    <label id="MinuteLabel" x="132" y="107" font="@Fonts.TimeDigits" justification="Graphics.TEXT_JUSTIFY_RIGHT | Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" text="" />
+    <label id="SecondsLabel" x="145" y="81" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_RIGHT" color="Graphics.COLOR_WHITE" text="" />
 
-    <label id="WeatherTemperatureLabel" x="58" y="66" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_WHITE" text="" />
+    <label id="WeatherTemperatureLabel" x="54" y="66" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_WHITE" text="" />
 
-    <bitmap id="DataFieldBelowTimeIcon" x="62" y="129" filename="../../images/icons/heart.png" />
-    <label id="DataFieldBelowTimeLabel" x="82" y="136" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" text="" />
-    <label id="DateLabel" x="82" y="136" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" text="" />
+    <bitmap id="DataFieldBelowTimeIcon" x="58" y="129" filename="../../images/icons/heart.png" />
+    <label id="DataFieldBelowTimeLabel" x="78" y="136" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_LEFT | Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" text="" />
+    <label id="DateLabel" x="78" y="136" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" text="" />
 </layout>

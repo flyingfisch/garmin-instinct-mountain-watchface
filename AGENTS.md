@@ -50,3 +50,5 @@ Debug build:
   - `instinct2`: `176x176`
   - `instinct3solar45mm`: `176x176`
   - `instinct2s`: `163x156`
+- For layout work, treat the Instinct 2S main screen area as `156x156`.
+- The SDK reports Instinct 2S as `163x156` because the inset window in the upper-right extends `7px` farther to the right than the main screen area.

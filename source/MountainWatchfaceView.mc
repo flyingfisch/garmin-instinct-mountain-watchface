@@ -67,7 +67,7 @@ class MountainWatchfaceView extends WatchUi.WatchFace {
         DataFieldService.updateInsetDataField(insetDataField2Icon, insetDataField2Label, WatchfaceSettings.getInsetDataField2(), deviceSettings, activityInfo, activityMonitorInfo);
 
         View.onUpdate(dc);
-        drawSubtleBatteryIndicator(dc, systemStats, WatchfaceSettings.getShowSubtleBatteryIndicator());
+        drawSubtleBatteryIndicator(dc, deviceSettings, systemStats, WatchfaceSettings.getShowSubtleBatteryIndicator());
     }
 
     function onPartialUpdate(dc) {
@@ -100,16 +100,15 @@ class MountainWatchfaceView extends WatchUi.WatchFace {
             && (deviceSettings.notificationCount > 0);
     }
 
-    function drawSubtleBatteryIndicator(dc, systemStats, isVisible) {
+    function drawSubtleBatteryIndicator(dc, deviceSettings, systemStats, isVisible) {
         if (!isVisible || (systemStats == null) || (systemStats.battery == null)) {
             return;
         }
 
         var batteryPercent = systemStats.battery.toFloat();
-        var screenWidth = dc.getWidth();
-        var screenHeight = dc.getHeight();
-        var isInstinct2S = (screenHeight == 156);
-        var horizontalMargin = 26;
+        var isInstinct2S = isInstinct2SDevice(deviceSettings);
+        var screenWidth = isInstinct2S ? 156 : dc.getWidth();
+        var horizontalMargin = 25;
         var maxIndicatorWidth = screenWidth - (horizontalMargin * 2);
         var indicatorWidth = ((maxIndicatorWidth * batteryPercent) / 100.0).toNumber();
         if (indicatorWidth <= 0) {
@@ -122,5 +121,15 @@ class MountainWatchfaceView extends WatchUi.WatchFace {
 
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
         dc.drawLine(startX, indicatorY, endX, indicatorY);
+    }
+
+    function isInstinct2SDevice(deviceSettings) {
+        if (deviceSettings.partNumber == null) {
+            return false;
+        }
+
+        var partNumber = deviceSettings.partNumber;
+        return partNumber.equals("006-B3889-00")
+            || partNumber.equals("006-B4091-00");
     }
 }
