@@ -107,6 +107,8 @@ class MountainWatchfaceView extends WatchUi.WatchFace {
 
         var batteryPercent = systemStats.battery.toFloat();
         var screenWidth = dc.getWidth();
+        var screenHeight = dc.getHeight();
+        var isInstinct2S = (screenHeight == 156);
         var horizontalMargin = 26;
         var maxIndicatorWidth = screenWidth - (horizontalMargin * 2);
         var indicatorWidth = ((maxIndicatorWidth * batteryPercent) / 100.0).toNumber();
@@ -116,7 +118,7 @@ class MountainWatchfaceView extends WatchUi.WatchFace {
 
         var startX = ((screenWidth - indicatorWidth) / 2).toNumber();
         var endX = startX + indicatorWidth - 1;
-        var indicatorY = 146;
+        var indicatorY = isInstinct2S ? 130 : 146;
 
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
         dc.drawLine(startX, indicatorY, endX, indicatorY);
