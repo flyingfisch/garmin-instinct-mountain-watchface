@@ -1,0 +1,4 @@
+<resources>
+    <bitmap id="MountainBackgroundDay" filename="../../images/mountain-background-day-instinct2s.png" />
+    <bitmap id="MountainBackgroundNight" filename="../../images/mountain-background-night-instinct2s.png" />
+</resources>

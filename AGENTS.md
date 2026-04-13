@@ -36,3 +36,13 @@ Debug build:
 
 - Avoid reading ConnectIQ settings/properties inside `onPartialUpdate()`.
 - Cache any settings needed by partial updates during normal `onUpdate()` work instead.
+
+### Device-specific resources
+
+- Use device-specific resource folders for bespoke layouts and assets when screen sizes differ.
+- `resources-instinct2s/` is the dedicated override folder for Instinct 2S-specific layouts/backgrounds.
+- Garmin auto-detects device-specific folders like `resources-instinct2s`, so do not duplicate them with extra `*.resourcePath` entries in `monkey.jungle` unless there is a specific reason.
+- Connect IQ screen sizes currently in use here:
+  - `instinct2`: `176x176`
+  - `instinct3solar45mm`: `176x176`
+  - `instinct2s`: `163x156`
