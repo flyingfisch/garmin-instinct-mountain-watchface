@@ -2,9 +2,19 @@ import Toybox.SensorHistory;
 import Toybox.System;
 
 module DataFieldService {
-    function updateInsetDataField(iconDrawable, textDrawable, fieldType, deviceSettings, activityInfo, activityMonitorInfo) {
+    function updateInsetDataField(iconDrawable, textDrawable, compactTextDrawable, fieldType, deviceSettings, activityInfo, activityMonitorInfo) {
+        var fieldText = formatInsetDataField(fieldType, deviceSettings, activityInfo, activityMonitorInfo);
+        var shouldUseCompactFont = shouldUseCompactFont(fieldText);
+
         iconDrawable.setBitmap(getSharedDataFieldIcon(fieldType));
-        textDrawable.setText(formatInsetDataField(fieldType, deviceSettings, activityInfo, activityMonitorInfo));
+        textDrawable.setVisible(!shouldUseCompactFont);
+        compactTextDrawable.setVisible(shouldUseCompactFont);
+        textDrawable.setText(fieldText);
+        compactTextDrawable.setText(fieldText);
+    }
+
+    function shouldUseCompactFont(fieldText) {
+        return (fieldText != null) && (fieldText.find("k") != null);
     }
 
     function formatInsetDataField(fieldType, deviceSettings, activityInfo, activityMonitorInfo) {
@@ -31,20 +41,26 @@ module DataFieldService {
         return formatBatteryDays();
     }
 
-    function updateDataFieldBelowTime(iconDrawable, dataFieldTextDrawable, dateTextDrawable, fieldType, deviceSettings, activityInfo, activityMonitorInfo) {
+    function updateDataFieldBelowTime(iconDrawable, dataFieldTextDrawable, compactTextDrawable, dateTextDrawable, fieldType, deviceSettings, activityInfo, activityMonitorInfo) {
         if (fieldType == WatchfaceSettings.BELOW_TIME_FIELD_DATE) {
             iconDrawable.setVisible(false);
             dataFieldTextDrawable.setVisible(false);
+            compactTextDrawable.setVisible(false);
             dateTextDrawable.setVisible(true);
             dateTextDrawable.setText(WatchfaceFormatting.buildDateText());
             return;
         }
 
+        var fieldText = formatDataFieldBelowTime(fieldType, deviceSettings, activityInfo, activityMonitorInfo);
+        var shouldUseCompactText = shouldUseCompactFont(fieldText);
+
         dateTextDrawable.setVisible(false);
         iconDrawable.setVisible(true);
         iconDrawable.setBitmap(getSharedDataFieldIcon(fieldType - 1));
-        dataFieldTextDrawable.setVisible(true);
-        dataFieldTextDrawable.setText(formatDataFieldBelowTime(fieldType, deviceSettings, activityInfo, activityMonitorInfo));
+        dataFieldTextDrawable.setVisible(!shouldUseCompactText);
+        compactTextDrawable.setVisible(shouldUseCompactText);
+        dataFieldTextDrawable.setText(fieldText);
+        compactTextDrawable.setText(fieldText);
     }
 
     function formatDataFieldBelowTime(fieldType, deviceSettings, activityInfo, activityMonitorInfo) {

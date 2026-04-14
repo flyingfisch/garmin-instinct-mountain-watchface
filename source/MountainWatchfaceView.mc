@@ -49,12 +49,15 @@ class MountainWatchfaceView extends WatchUi.WatchFace {
         var subtleNotificationsIcon = View.findDrawableById("SubtleNotificationsIcon") as WatchUi.Bitmap;
         var dataFieldBelowTimeIcon = View.findDrawableById("DataFieldBelowTimeIcon") as WatchUi.Bitmap;
         var dataFieldBelowTimeLabel = View.findDrawableById("DataFieldBelowTimeLabel") as WatchUi.Text;
+        var dataFieldBelowTimeCompactLabel = View.findDrawableById("DataFieldBelowTimeCompactLabel") as WatchUi.Text;
         var dateLabel = View.findDrawableById("DateLabel") as WatchUi.Text;
         var weatherTemperatureLabel = View.findDrawableById("WeatherTemperatureLabel") as WatchUi.Text;
         var insetDataField1Icon = View.findDrawableById("InsetDataField1Icon") as WatchUi.Bitmap;
         var insetDataField1Label = View.findDrawableById("InsetDataField1Label") as WatchUi.Text;
+        var insetDataField1CompactLabel = View.findDrawableById("InsetDataField1CompactLabel") as WatchUi.Text;
         var insetDataField2Icon = View.findDrawableById("InsetDataField2Icon") as WatchUi.Bitmap;
         var insetDataField2Label = View.findDrawableById("InsetDataField2Label") as WatchUi.Text;
+        var insetDataField2CompactLabel = View.findDrawableById("InsetDataField2CompactLabel") as WatchUi.Text;
 
         var activityInfo = Activity.getActivityInfo();
         var activityMonitorInfo = ActivityMonitor.getInfo();
@@ -69,11 +72,11 @@ class MountainWatchfaceView extends WatchUi.WatchFace {
         secondsLabel.setVisible(WatchfaceFormatting.shouldShowSeconds(secondsMode, isAwake));
         subtleNotificationsIcon.setVisible(shouldShowSubtleNotificationsIcon(deviceSettings));
 
-        DataFieldService.updateDataFieldBelowTime(dataFieldBelowTimeIcon, dataFieldBelowTimeLabel, dateLabel, WatchfaceSettings.getDataFieldBelowTime(), deviceSettings, activityInfo, activityMonitorInfo);
+        DataFieldService.updateDataFieldBelowTime(dataFieldBelowTimeIcon, dataFieldBelowTimeLabel, dataFieldBelowTimeCompactLabel, dateLabel, WatchfaceSettings.getDataFieldBelowTime(), deviceSettings, activityInfo, activityMonitorInfo);
         weatherTemperatureLabel.setText(WatchfaceFormatting.getWeatherTemperatureText(deviceSettings));
 
-        DataFieldService.updateInsetDataField(insetDataField1Icon, insetDataField1Label, WatchfaceSettings.getInsetDataField1(), deviceSettings, activityInfo, activityMonitorInfo);
-        DataFieldService.updateInsetDataField(insetDataField2Icon, insetDataField2Label, WatchfaceSettings.getInsetDataField2(), deviceSettings, activityInfo, activityMonitorInfo);
+        DataFieldService.updateInsetDataField(insetDataField1Icon, insetDataField1Label, insetDataField1CompactLabel, WatchfaceSettings.getInsetDataField1(), deviceSettings, activityInfo, activityMonitorInfo);
+        DataFieldService.updateInsetDataField(insetDataField2Icon, insetDataField2Label, insetDataField2CompactLabel, WatchfaceSettings.getInsetDataField2(), deviceSettings, activityInfo, activityMonitorInfo);
 
         View.onUpdate(dc);
         drawSubtleBatteryIndicator(dc, deviceSettings, systemStats, WatchfaceSettings.getShowSubtleBatteryIndicator());
