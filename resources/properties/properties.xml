@@ -5,6 +5,7 @@
     <property id="DataFieldBelowTime" type="number">0</property>
     <property id="InsetDataField1" type="number">4</property>
     <property id="InsetDataField2" type="number">1</property>
+    <property id="InsetArcMetric" type="number">0</property>
     <property id="ShowSubtleBatteryIndicator" type="boolean">false</property>
     <property id="ShowSubtleNotificationsIndicator" type="boolean">false</property>
 </properties>

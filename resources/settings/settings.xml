@@ -57,4 +57,12 @@
             <listEntry value="4">@Strings.DataFieldOptionNotifications</listEntry>
         </settingConfig>
     </setting>
+
+    <setting propertyKey="@Properties.InsetArcMetric" title="@Strings.InsetArcMetricTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.InsetArcMetricNone</listEntry>
+            <listEntry value="1">@Strings.DataFieldOptionBatteryPercentage</listEntry>
+            <listEntry value="2">@Strings.DataFieldOptionIntensityMinutes</listEntry>
+        </settingConfig>
+    </setting>
 </settings>

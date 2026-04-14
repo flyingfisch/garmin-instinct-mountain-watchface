@@ -16,8 +16,12 @@
     <string id="DataFieldOptionAltitude">Altitude</string>
     <string id="DataFieldOptionHeartRate">Heart Rate</string>
     <string id="DataFieldOptionBattery">Battery</string>
+    <string id="DataFieldOptionBatteryPercentage">Battery Percentage</string>
     <string id="DataFieldOptionSteps">Steps</string>
+    <string id="DataFieldOptionIntensityMinutes">Intensity Minutes</string>
     <string id="DataFieldOptionNotifications">Notifications</string>
     <string id="InsetDataField1Title">Inset Data Field 1</string>
     <string id="InsetDataField2Title">Inset Data Field 2</string>
+    <string id="InsetArcMetricTitle">Inset Arc Metric</string>
+    <string id="InsetArcMetricNone">None</string>
 </resources>

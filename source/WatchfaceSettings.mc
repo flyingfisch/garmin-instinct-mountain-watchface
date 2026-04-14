@@ -23,6 +23,10 @@ module WatchfaceSettings {
     const INSET_DATA_FIELD_STEPS = 3;
     const INSET_DATA_FIELD_NOTIFICATIONS = 4;
 
+    const INSET_ARC_METRIC_NONE = 0;
+    const INSET_ARC_METRIC_BATTERY_PERCENTAGE = 1;
+    const INSET_ARC_METRIC_INTENSITY_MINUTES = 2;
+
     function getSecondsMode() {
         var secondsMode = Application.Properties.getValue("SecondsMode");
 
@@ -57,6 +61,12 @@ module WatchfaceSettings {
         var dataFieldBelowTime = Application.Properties.getValue("DataFieldBelowTime");
 
         return dataFieldBelowTime.toNumber();
+    }
+
+    function getInsetArcMetric() {
+        var insetArcMetric = Application.Properties.getValue("InsetArcMetric");
+
+        return insetArcMetric.toNumber();
     }
 
     function getShowSubtleBatteryIndicator() {
