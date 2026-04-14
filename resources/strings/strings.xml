@@ -18,6 +18,7 @@
     <string id="DataFieldOptionBattery">Battery</string>
     <string id="DataFieldOptionSteps">Steps</string>
     <string id="DataFieldOptionNotifications">Notifications</string>
+    <string id="DataFieldOptionCalories">Calories</string>
     <string id="InsetDataField1Title">Inset Data Field 1</string>
     <string id="InsetDataField2Title">Inset Data Field 2</string>
 </resources>

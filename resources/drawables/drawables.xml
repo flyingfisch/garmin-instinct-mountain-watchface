@@ -5,6 +5,7 @@
     <bitmap id="HeartIcon" filename="../../images/icons/heart.png" />
     <bitmap id="NotificationsIcon" filename="../../images/icons/notifications.png" />
     <bitmap id="AltitudeIcon" filename="../../images/icons/altitude.png" />
+    <bitmap id="CaloriesIcon" filename="../../images/icons/calories.png" />
     <bitmap id="BatteryCriticalIcon" filename="../../images/icons/battery-critical.png" />
     <bitmap id="BatteryFullIcon" filename="../../images/icons/battery-full.png" />
     <bitmap id="BatteryHalfIcon" filename="../../images/icons/battery-half.png" />

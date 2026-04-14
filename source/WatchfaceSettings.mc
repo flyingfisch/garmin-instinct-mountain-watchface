@@ -16,12 +16,14 @@ module WatchfaceSettings {
     const BELOW_TIME_FIELD_BATTERY = 3;
     const BELOW_TIME_FIELD_STEPS = 4;
     const BELOW_TIME_FIELD_NOTIFICATIONS = 5;
+    const BELOW_TIME_FIELD_CALORIES = 6;
 
     const INSET_DATA_FIELD_ALTITUDE = 0;
     const INSET_DATA_FIELD_HEART_RATE = 1;
     const INSET_DATA_FIELD_BATTERY = 2;
     const INSET_DATA_FIELD_STEPS = 3;
     const INSET_DATA_FIELD_NOTIFICATIONS = 4;
+    const INSET_DATA_FIELD_CALORIES = 5;
 
     function getSecondsMode() {
         var secondsMode = Application.Properties.getValue("SecondsMode");
