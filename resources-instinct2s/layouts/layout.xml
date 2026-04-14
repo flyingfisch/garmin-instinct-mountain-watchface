@@ -2,10 +2,10 @@
     <bitmap id="BackgroundImage" x="center" y="center" filename="../../images/mountain-background-day-instinct2s.png" />
 
     <bitmap id="InsetDataField1Icon" x="115" y="10" filename="../../images/icons/battery-full.png" />
-    <label id="InsetDataField1Label" x="133" y="8" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_WHITE" text="" />
+    <label id="InsetDataField1Label" x="145" y="18" font="@Fonts.GarminTiny11Clone" justification="Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" text="" />
 
     <bitmap id="InsetDataField2Icon" x="115" y="27" filename="../../images/icons/heart.png" />
-    <label id="InsetDataField2Label" x="133" y="25" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_WHITE" text="" />
+    <label id="InsetDataField2Label" x="145" y="35" font="@Fonts.GarminTiny11Clone" justification="Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" text="" />
 
     <bitmap id="SubtleNotificationsIcon" x="11" y="96" filename="../../images/icons/pine-tree-2.png" />
 

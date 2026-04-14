@@ -1,3 +1,5 @@
 <resources>
+    <font id="GarminTiny11Clone" filename="../../fonts/Garmin-Tiny-11-Clone/Garmin-Tiny-11-Clone.fnt" />
+    <font id="InsetDataCompact" filename="../../fonts/Inset-Narrow-9/Inset-Narrow-9.fnt" />
     <font id="TimeDigits" filename="../../fonts/Square-Deal-44-Modified/Square-Deal-44-Modified.fnt" />
 </resources>
