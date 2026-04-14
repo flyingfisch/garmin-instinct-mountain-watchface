@@ -24,6 +24,10 @@ module DataFieldService {
             return formatNotificationCount(deviceSettings);
         }
 
+        if (fieldType == WatchfaceSettings.INSET_DATA_FIELD_CALORIES) {
+            return formatCalories(activityMonitorInfo);
+        }
+
         return formatBatteryDays();
     }
 
@@ -64,6 +68,10 @@ module DataFieldService {
             return formatNotificationCount(deviceSettings);
         }
 
+        if (fieldType == WatchfaceSettings.BELOW_TIME_FIELD_CALORIES) {
+            return formatCalories(activityMonitorInfo);
+        }
+
         return WatchfaceFormatting.buildDateText();
     }
 
@@ -84,6 +92,10 @@ module DataFieldService {
             return Rez.Drawables.NotificationsIcon;
         }
 
+        if (fieldType == WatchfaceSettings.INSET_DATA_FIELD_CALORIES) {
+            return Rez.Drawables.CaloriesIcon;
+        }
+
         return getBatteryIcon();
     }
 
@@ -98,7 +110,7 @@ module DataFieldService {
             localizedElevation = localizedElevation * 3.28084;
         }
 
-        return WatchfaceFormatting.formatCompactAltitude(localizedElevation);
+        return WatchfaceFormatting.formatCompactNumber(localizedElevation);
     }
 
     function getLatestElevation() {
@@ -129,7 +141,7 @@ module DataFieldService {
             return "--";
         }
 
-        return WatchfaceFormatting.formatCompactSteps(steps);
+        return WatchfaceFormatting.formatCompactNumber(steps);
     }
 
     function getStepCount(activityMonitorInfo) {
@@ -142,6 +154,23 @@ module DataFieldService {
 
     function formatNotificationCount(deviceSettings) {
         return deviceSettings.notificationCount.toString();
+    }
+
+    function formatCalories(activityMonitorInfo) {
+        var calories = getCalories(activityMonitorInfo);
+        if (calories == null) {
+            return "--";
+        }
+
+        return WatchfaceFormatting.formatCompactNumber(calories);
+    }
+
+    function getCalories(activityMonitorInfo) {
+        if (activityMonitorInfo == null) {
+            return null;
+        }
+
+        return activityMonitorInfo.calories;
     }
 
     function formatBatteryDays() {

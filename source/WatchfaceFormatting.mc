@@ -83,28 +83,18 @@ module WatchfaceFormatting {
         return temperature.format("%i");
     }
 
-    function formatCompactAltitude(altitude) {
-        var altitudeValue = altitude.toFloat();
-        if (altitudeValue < 0.0) {
-            altitudeValue = 0.0;
+    function formatCompactNumber(value) {
+        var numericValue = value.toFloat();
+        if (numericValue < 0.0) {
+            numericValue = 0.0;
         }
 
-        if (altitudeValue < 1000.0) {
-            return altitudeValue.format("%i");
+        if (numericValue < 1000.0) {
+            return numericValue.format("%i");
         }
 
-        var altitudeInThousands = altitudeValue / 1000.0;
-        return altitudeInThousands.format("%i") + "k";
-    }
-
-    function formatCompactSteps(steps) {
-        var stepValue = steps.toFloat();
-        if (stepValue < 1000.0) {
-            return stepValue.format("%i");
-        }
-
-        var stepsInThousands = stepValue / 1000.0;
-        var formattedThousands = stepsInThousands.format("%.1f");
+        var valueInThousands = numericValue / 1000.0;
+        var formattedThousands = valueInThousands.format("%.1f");
         if (formattedThousands.substring(formattedThousands.length() - 2, formattedThousands.length()) == ".0") {
             formattedThousands = formattedThousands.substring(0, formattedThousands.length() - 2);
         }

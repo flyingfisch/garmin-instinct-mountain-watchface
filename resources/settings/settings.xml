@@ -35,6 +35,7 @@
             <listEntry value="3">@Strings.DataFieldOptionBattery</listEntry>
             <listEntry value="4">@Strings.DataFieldOptionSteps</listEntry>
             <listEntry value="5">@Strings.DataFieldOptionNotifications</listEntry>
+            <listEntry value="6">@Strings.DataFieldOptionCalories</listEntry>
         </settingConfig>
     </setting>
 
@@ -45,6 +46,7 @@
             <listEntry value="2">@Strings.DataFieldOptionBattery</listEntry>
             <listEntry value="3">@Strings.DataFieldOptionSteps</listEntry>
             <listEntry value="4">@Strings.DataFieldOptionNotifications</listEntry>
+            <listEntry value="5">@Strings.DataFieldOptionCalories</listEntry>
         </settingConfig>
     </setting>
 
@@ -55,6 +57,7 @@
             <listEntry value="2">@Strings.DataFieldOptionBattery</listEntry>
             <listEntry value="3">@Strings.DataFieldOptionSteps</listEntry>
             <listEntry value="4">@Strings.DataFieldOptionNotifications</listEntry>
+            <listEntry value="5">@Strings.DataFieldOptionCalories</listEntry>
         </settingConfig>
     </setting>
 </settings>
